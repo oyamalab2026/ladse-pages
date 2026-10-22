@@ -10,7 +10,7 @@ const lang = Astro.params.lang as Lang;
 const entries = (await getCollection('research',({data})=>data.lang===lang)).sort((a,b)=>a.data.order-b.data.order);
 ---
 <Layout lang={lang} title={tr(lang,'研究紹介','Research')}>
-  <PageIntro eyebrow="RESEARCH" title={tr(lang,'宇宙航空の課題に、向き合う。','Exploring aerospace questions.')} description={tr(lang,'大山研究室では、数値流体解析、風洞実験、設計最適化を通じて、火星航空機から流体制御まで幅広い研究に取り組んでいます。','Our research connects computational fluid dynamics, wind-tunnel experiments and design optimization, from Mars aircraft to flow control.')} />
+  <PageIntro eyebrow="RESEARCH" title={tr(lang,'研究紹介','Research')} description={tr(lang,'大山研究室では、数値流体解析、風洞実験、設計最適化を通じて、火星航空機から流体制御まで幅広い研究に取り組んでいます。','Our research connects computational fluid dynamics, wind-tunnel experiments and design optimization, from Mars aircraft to flow control.')} />
   <div class="container page-content"><div class="research-grid">{entries.map(entry=><ResearchCard entry={entry} lang={lang}/>)}</div></div>
   <JoinBand lang={lang}/>
 </Layout>

@@ -4,6 +4,7 @@ date: null
 datePrecision: unknown
 sourceOrder: 66
 image: null
+category: notice
 ---
 
 <article>

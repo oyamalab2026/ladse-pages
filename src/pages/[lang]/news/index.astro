@@ -2,13 +2,22 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import PageIntro from '../../../components/PageIntro.astro';
-import { languages, tr, route, newsOrder, dateLabel, type Lang } from '../../../lib/site';
-export function getStaticPaths(){return languages.map(lang=>({params:{lang}}));}
-const lang=Astro.params.lang as Lang;
-const news=(await getCollection('news')).sort(newsOrder);
-const years=[...new Set(news.map(x=>x.data.date?.getUTCFullYear()??0))];
+import NewsList from '../../../components/NewsList.astro';
+import { languages, tr, newsOrder, type Lang } from '../../../lib/site';
+export function getStaticPaths() { return languages.map(lang => ({ params: { lang } })); }
+const lang = Astro.params.lang as Lang;
+const news = (await getCollection('news')).sort(newsOrder);
+const years = [...new Set(news.map(item => item.data.date?.getUTCFullYear() ?? 0))].sort((a, b) => b - a);
 ---
-<Layout lang={lang} title={tr(lang,'ニュース','News')}>
-  <PageIntro eyebrow="NEWS & UPDATES" title={tr(lang,'研究室からのお知らせ。','News from the laboratory.')} description={tr(lang,'学会発表、受賞、研究室の活動の記録。過去の記事は掲載当時の内容・言語で保存しています。','Conference presentations, awards and laboratory activities. Historical articles retain their original content and language.')} />
-  <div class="container page-content"><nav class="tag-list" aria-label={tr(lang,'年別ニュース','News by year')} style="margin:0 0 35px">{years.map(year=><a class="tag" href={`#year-${year}`}>{year||tr(lang,'日付未記載','Undated')}</a>)}</nav>{years.map(year=><section class="people-group" id={`year-${year}`}><h2>{year||tr(lang,'日付未記載','Undated')}</h2><div class="news-list">{news.filter(x=>(x.data.date?.getUTCFullYear()??0)===year).map(item=><a class="news-row" href={route('ja',`news/${item.id}`)}><time class="news-date" datetime={item.data.date?.toISOString().slice(0,10)}>{dateLabel(item.data.date,item.data.datePrecision)}</time><div><h3 lang="ja">{item.data.title}</h3>{lang==='en' && <span class="news-language">ORIGINAL ARTICLE IN JAPANESE</span>}</div><span class="news-arrow" aria-hidden="true">↗</span></a>)}</div></section>)}</div>
+<Layout lang={lang} title={tr(lang, 'ニュース', 'News')}>
+  <PageIntro eyebrow="NEWS" title={tr(lang, 'ニュース', 'News')} description={tr(lang, '学会発表、受賞、研究室行事などの活動を掲載しています。', 'Conference presentations, awards and laboratory activities.')} />
+  <div class="container page-content">
+    <nav class="tag-list news-years" aria-label={tr(lang, '年別ニュース', 'News by year')}>
+      {years.map(year => <a class="tag" href={`#year-${year}`}>{year || tr(lang, '日付未記載', 'Undated')}</a>)}
+    </nav>
+    {years.map(year => <section class="people-group" id={`year-${year}`}>
+      <h2>{year || tr(lang, '日付未記載', 'Undated')}</h2>
+      <NewsList items={news.filter(item => (item.data.date?.getUTCFullYear() ?? 0) === year)} lang={lang}/>
+    </section>)}
+  </div>
 </Layout>

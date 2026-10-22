@@ -7,6 +7,6 @@ const lang=Astro.params.lang as Lang;
 const groups=[...new Set(alumni.map(m=>m.groupLabel))];
 ---
 <Layout lang={lang} title={tr(lang,'過去のメンバー','Former members')}>
-  <PageIntro eyebrow="ALUMNI" title={tr(lang,'研究室をつないできた人たち。','People who have shaped the laboratory.')} />
+  <PageIntro eyebrow="ALUMNI" title={tr(lang,'過去のメンバー','Former members')} />
   <div class="container page-content"><p class="notice">{tr(lang,'旧HPに掲載された在籍時の記録を引き継いでいます。所属・肩書き・進路の記述は掲載当時のもので、現在の情報を示すものではありません。','These profiles preserve records from the previous website. Affiliations, titles and subsequent positions reflect the original publication and are not a statement of current status. Original-language descriptions are retained.')}</p>{groups.map(group=><section class="people-group"><h2>{group}</h2><div class="people-grid alumni-grid">{alumni.filter(m=>m.groupLabel===group).map(member=><article class="person">{member.image?<div class="person-image"><img src={member.image} alt={member.name} width="180" height="180" loading="lazy"/></div>:<div/>}<div><h3>{member.name}</h3><p class="person-description">{member.description.replaceAll('現在は','旧HP掲載時の所属：').replaceAll('Currently','At the time of the original profile')}</p><p class="person-topic">{lang==='en' && member.topicEn?member.topicEn:member.topic}</p></div></article>)}</div></section>)}<a class="back-link" href={route(lang,'people')}>← {tr(lang,'現在のメンバーへ','Current members')}</a></div>
 </Layout>

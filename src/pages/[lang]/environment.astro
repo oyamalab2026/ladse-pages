@@ -7,7 +7,7 @@ export function getStaticPaths(){return languages.map(lang=>({params:{lang}}));}
 const lang=Astro.params.lang as Lang;
 ---
 <Layout lang={lang} title={tr(lang,'研究環境','Research environment')}>
-  <PageIntro eyebrow="RESEARCH ENVIRONMENT" title={tr(lang,'考える場所。確かめる場所。','A place to think. A place to test.')} description={tr(lang,'JAXA相模原キャンパスを拠点に、数値シミュレーションと実験の両方から研究に取り組む環境があります。','Based at the JAXA Sagamihara Campus, our research environment brings together numerical simulation and experimental work.')} />
+  <PageIntro eyebrow="RESEARCH ENVIRONMENT" title={tr(lang,'研究環境','Research environment')} description={tr(lang,'JAXA相模原キャンパスを拠点に、数値シミュレーションと実験の両方から研究に取り組む環境があります。','Based at the JAXA Sagamihara Campus, our research environment brings together numerical simulation and experimental work.')} />
   <div class="container page-content"><div class="content-two-column"><article class="prose">
     <h2>{tr(lang,'JAXA宇宙科学研究所で研究する','Research at JAXA / ISAS')}</h2><p>{tr(lang,'研究室は、神奈川県相模原市のJAXA宇宙科学研究所にあります。さまざまな分野の研究者が集まる環境で、宇宙科学・宇宙工学に関わる課題に取り組みます。','The laboratory is located at JAXA’s Institute of Space and Astronautical Science in Sagamihara, Kanagawa. Researchers from a range of disciplines work on questions in space science and engineering.')}</p>
     <h2>{tr(lang,'計算で流れと設計を探る','Explore flow and design through computation')}</h2><p>{tr(lang,'数値流体解析、進化計算、多目的設計最適化などの手法を用いて研究を行います。計算結果を可視化し、現象を理解して、次の解析や実験につなげます。計算資源や利用条件は、研究テーマに応じてご相談ください。','Our computational work includes fluid dynamics, evolutionary computation and multiobjective design optimization. We visualize results to understand physical phenomena and inform subsequent simulations and experiments. Available computing resources and access conditions depend on the research project.')}</p>

@@ -2,4 +2,4 @@
 import { route, tr, type Lang } from '../lib/site';
 const { lang } = Astro.props as { lang: Lang };
 ---
-<section class="join-band"><div class="container join-band-inner"><div><p class="eyebrow">YOUR NEXT CHAPTER</p><h2>{tr(lang, '宇宙への好奇心を、研究に。', 'Turn your curiosity into research.')}</h2><p>{tr(lang, '研究室見学や、配属・共同研究についてのご相談を受け付けています。', 'Get in touch to discuss a lab visit, graduate study or research collaboration.')}</p></div><a class="button button-light" href={route(lang, 'join')}>{tr(lang, '配属・見学について', 'Explore opportunities')}<span aria-hidden="true">↗</span></a></div></section>
+<section class="join-band"><div class="container join-band-inner"><div><p class="eyebrow">GRADUATE STUDY & VISITS</p><h2>{tr(lang, '配属・研究室見学', 'Graduate study and laboratory visits')}</h2><p>{tr(lang, '研究室見学や、配属・共同研究についてのご相談を受け付けています。', 'Get in touch to discuss a lab visit, graduate study or research collaboration.')}</p></div><a class="button button-light" href={route(lang, 'join')}>{tr(lang, '配属・見学案内', 'Graduate study and visits')}<span aria-hidden="true">↗</span></a></div></section>

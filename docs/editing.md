@@ -2,23 +2,37 @@
 
 ## ニュースを追加する
 
-`src/content/news/2026-11-01-example.md` のような、日付と固有の名前を持つファイルを作ります。
+[ニュース記事の保存先](https://github.com/oyamalab2026/ladse-pages/tree/main/src/content/news)を開き、**Add file → Create new file** で `2026-11-01-conference.md` のようなファイルを追加します。日付と記事名は、実際の内容に合わせて変更してください。
 
 ```markdown
 ---
 title: ニュースのタイトル
 date: '2026-11-01'
-datePrecision: day
-sourceOrder: -1
-image: null
+category: conference
 ---
 
 ニュース本文を記入します。
+発表者・学会名・発表題目、受賞者・賞の正式名称などを記載します。
 
-![内容を説明する代替テキスト](/media/example.webp)
+必要に応じて関連ページへのリンクや写真を追加します。
+
+![写真の説明](/media/example.webp)
 ```
 
-`sourceOrder` は小さい順に並びます。新しいニュースは既存の最小値より1小さくします。過去記事の元の順番を保つための仕組みです。実際の日付だけを記入し、月しか分からなければ `datePrecision: month`、年だけなら `year` とします。日付が全く不明なら `date: null` と `datePrecision: unknown` にします。過去記事は原文を保つため、日本語の記事は英語版一覧でも日本語記事と明記してリンクします。
+上記は記入例です。画像の行は実際に掲載する写真がある場合に使います。写真は `public/media/` に追加します。
+
+| category | 表示 | 内容の例 |
+|---|---|---|
+| `conference` | 学会発表 | 学会名・開催日・発表者・題目 |
+| `award` | 受賞 | 受賞日・受賞者・賞の正式名称・授与団体 |
+| `lab` | 研究室行事 | 新年度・新学期、メンバー加入、卒業・修了など |
+| `notice` | お知らせ | その他の研究室からのお知らせ |
+
+記事は日付の新しい順に表示され、トップページには最新6件が掲載されます。`sourceOrder` の指定は不要です。同じ日付の過去記事は、旧HPでの掲載順を保ちます。
+
+実際の日付だけを記入します。月しか分からなければ `datePrecision: month`、年だけなら `datePrecision: year` を追加します。日付が全く不明なら `date: null` と `datePrecision: unknown` にします。日付不明の記事は末尾に表示されます。
+
+日本語の記事は英語版一覧でも日本語の記事としてリンクします。記事を追加して `main` に反映すると、ニュース一覧・トップページ・記事ページが自動で更新されます。
 
 ## メンバーを更新する
 

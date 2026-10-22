@@ -1,0 +1,16 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { dateLabel, newsCategories, route, type Lang } from '../lib/site';
+interface Props { items: CollectionEntry<'news'>[]; lang: Lang; }
+const { items, lang } = Astro.props;
+---
+<div class="news-list">
+  {items.map(item => <a class="news-row" href={route('ja', `news/${item.id}`)}>
+    <div class="news-meta">
+      <time class="news-date" datetime={item.data.date?.toISOString().slice(0, 10)}>{dateLabel(item.data.date, item.data.datePrecision)}</time>
+      <span class="news-category">{newsCategories[item.data.category][lang]}</span>
+    </div>
+    <div><h3 lang="ja">{item.data.title}</h3>{lang === 'en' && <span class="news-language">ORIGINAL ARTICLE IN JAPANESE</span>}</div>
+    <span class="news-arrow" aria-hidden="true">↗</span>
+  </a>)}
+</div>

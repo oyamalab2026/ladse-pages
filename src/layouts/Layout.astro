@@ -2,13 +2,13 @@
 import '../styles/global.css';
 import { route, tr, type Lang, contactEmail } from '../lib/site';
 interface Props { lang: Lang; title: string; description?: string; alternateHref?: string; translated?: boolean; noindex?: boolean; }
-const { lang, title, description = tr(lang, 'JAXA宇宙科学研究所・大山研究室。火星航空機、空気力学、流体制御、多目的設計探査の研究と、学生・研究者の参加について紹介します。', 'Oyama Laboratory at JAXA / ISAS: Mars aircraft, aerodynamics, flow control and multiobjective design exploration. Explore our research and opportunities to join.'), translated = true, noindex = false } = Astro.props;
+const { lang, title, description = tr(lang, 'JAXA宇宙科学研究所・大山研究室。火星航空機、空気力学、流体制御、多目的設計探査の研究内容、メンバー、ニュース、研究業績、配属・見学案内を掲載しています。', 'Oyama Laboratory at JAXA / ISAS: Mars aircraft, aerodynamics, flow control and multiobjective design exploration. Research themes, members, news, publications and graduate study information.'), translated = true, noindex = false } = Astro.props;
 const current = Astro.url.pathname;
 const alternate = Astro.props.alternateHref || current.replace(/^\/(ja|en)\//, lang === 'ja' ? '/en/' : '/ja/');
 const canonical = new URL(current, Astro.site || 'https://ladse-pages.pages.dev');
 const isPreview = Boolean(import.meta.env.CF_PAGES_BRANCH && import.meta.env.CF_PAGES_BRANCH !== 'main');
 const nav = [
-  ['research', '研究', 'Research'], ['people', 'メンバー', 'People'], ['publications', '業績', 'Publications'],
+  ['research', '研究', 'Research'], ['people', 'メンバー', 'People'], ['news', 'ニュース', 'News'], ['publications', '業績', 'Publications'],
   ['environment', '研究環境', 'Environment'], ['contact', 'アクセス', 'Contact'],
 ];
 ---
@@ -51,7 +51,7 @@ const nav = [
       <div class="footer-top container">
         <div><a class="footer-brand" href={route(lang)}>Oyama Lab.</a><p>Laboratory of Aerodynamics and<br />Design in Space Engineering</p><p class="footer-institute">{tr(lang, '宇宙航空研究開発機構 宇宙科学研究所', 'Institute of Space and Astronautical Science, JAXA')}</p></div>
         <div class="footer-links"><a href={route(lang, 'research')}>{tr(lang, '研究紹介', 'Research')}</a><a href={route(lang, 'join')}>{tr(lang, '配属・見学案内', 'Join the lab')}</a><a href={route(lang, 'people')}>{tr(lang, 'メンバー', 'People')}</a><a href={route(lang, 'news')}>{tr(lang, 'ニュース', 'News')}</a><a href={route(lang, 'resources')}>{tr(lang, '過去資料・公開データ', 'Resources & archives')}</a><a href={route(lang, 'contact')}>{tr(lang, 'アクセス・お問い合わせ', 'Access & contact')}</a></div>
-        <div class="footer-contact"><span class="eyebrow">GET IN TOUCH</span><a href={`mailto:${contactEmail}`}>{contactEmail}<span aria-hidden="true">↗</span></a><p>3-1-1 Yoshinodai, Chuo-ku<br />Sagamihara, Kanagawa 252-5210, Japan</p></div>
+        <div class="footer-contact"><span class="eyebrow">CONTACT</span><a href={`mailto:${contactEmail}`}>{contactEmail}<span aria-hidden="true">↗</span></a><p>3-1-1 Yoshinodai, Chuo-ku<br />Sagamihara, Kanagawa 252-5210, Japan</p></div>
       </div>
       <div class="footer-bottom container"><span>© {new Date().getFullYear()} Oyama Laboratory</span><span><a href="https://www.isas.jaxa.jp/">ISAS</a><span aria-hidden="true"> / </span><a href="https://www.jaxa.jp/">JAXA</a></span></div>
     </footer>
