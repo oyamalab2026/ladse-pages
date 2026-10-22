@@ -2,6 +2,8 @@
 
 大山研究室の公開HP。Astroで静的HTMLを生成し、Cloudflare Pagesへ公開します。主要ページは日本語・英語、過去資料は原文のアーカイブです。
 
+公開サイト：[日本語](https://oyamalab2026.pages.dev/ja/) · [English](https://oyamalab2026.pages.dev/en/)
+
 ## ローカルで確認する
 
 Node.js 24を使用します。
@@ -42,13 +44,13 @@ npm run test:browser
 2. 研究室GitHubアカウントを認証し、`npm run publish:prepare` で専用リポジトリを作成・pushします。既存の別プロジェクトは上書きしません。
 3. ローカルに保持した旧資料を `npm run publish:assets` でGitHub Releasesへアップロードします。原本とのSHA-256照合を行い、同名の異なるファイルは上書きしません。
 4. `node scripts/verify-publication.mjs` で大型資料9件の公開を確認します。
-5. Cloudflareダッシュボードで **Workers & Pages → Create → Pages → Connect to Git** を開き、専用リポジトリを接続します。初回だけ、CloudflareのGitHubアプリに対象リポジトリへのアクセスを許可する必要があります。
+5. Cloudflareダッシュボードで **Workers & Pages → Create application** を開き、画面下部の **Looking to deploy Pages? → Get started → Import an existing Git repository** から専用リポジトリを接続します。Pages用の画面には **Build output directory** 欄があります。初回だけ、CloudflareのGitHubアプリに対象リポジトリへのアクセスを許可する必要があります。
 6. 本番ブランチを `main`、ビルドを `npm run build`、出力を `dist`、Node.jsを24に設定します。`SITE_URL` に実際の `https://プロジェクト名.pages.dev` を設定します。
 7. 発行されたURLで日英ページ・画像・ダウンロード・転送・404を確認します。作業ブランチはプレビュー、本番更新は `main` へのマージで行います。
 
 GitHub認証は `gh auth login` または環境変数 `GH_TOKEN` / `GITHUB_TOKEN` に対応しています。トークンをファイルやGitに保存しないでください。Cloudflareの設定は研究室管理アカウントで行います。
 
-**現在のコード内の `ladse-pages.pages.dev` は未公開時の仮のcanonical設定です。公開済みURLを示すものではありません。** 公開時に必ず実際のプロジェクトURLを `SITE_URL` に設定してください。独自ドメインへ切り替える場合もこの設定を更新します。
+現在の本番設定は `SITE_URL=https://oyamalab2026.pages.dev`、`NODE_VERSION=24` です。独自ドメインへ切り替える場合も `SITE_URL` を更新します。環境変数なしで使われる `ladse-pages.pages.dev` は初期制作時の仮設定なので、本番では必ず `SITE_URL` を設定してください。
 
 ## 旧資料の再取り込み
 
