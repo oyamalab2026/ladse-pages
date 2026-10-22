@@ -115,6 +115,16 @@ test('award archive includes selections, wins, restored dates and sourced additi
  const uncertain = page.locator('a.news-row[href="/ja/news/2024-02-03-016/"]');
  await expect(uncertain.locator('time')).toHaveAttribute('datetime','2024');
  await expect(uncertain.locator('.news-date-note')).toHaveText('選出月日未確認');
+ const sawada=page.locator('#year-2024 a.news-row[href="/ja/news/2024-01-10-sawada-cfd37-award/"]');
+ await expect(sawada.locator('.news-summary')).toContainText('澤田健さんが、2023年12月開催');
+ await expect(sawada.locator('.news-date-note')).toHaveText('受賞者一覧公開日');
+ await sawada.click();
+ await expect(page.getByRole('heading',{level:1})).toContainText('若手優秀講演表彰');
+ await expect(page.locator('.news-detail .prose')).toContainText('大気アシスト型観測ロケットの排気ノズルまわりの流れと噴流の干渉が推力へ与える影響について');
+ await expect(page.locator('.news-sources a').first()).toHaveAttribute('href','https://www.nagare.or.jp/prize/6403/7037.html');
+ await page.locator('.prose').getByRole('link',{name:'第37回数値流体力学シンポジウムの発表ニュース'}).click();
+ await expect(page).toHaveURL(/\/ja\/news\/2023-12-15-034\/$/);
+ await page.goto('/ja/news/category/award/');
  await page.locator('a.news-row[href="/ja/news/2026-04-onishi-jsass-award/"]').click();
  await expect(page.locator('.news-sources a').first()).toHaveAttribute('href','https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202601016892889400');
 });

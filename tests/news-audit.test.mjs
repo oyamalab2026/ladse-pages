@@ -101,3 +101,20 @@ test('Showcase coverage includes the old announcements and both additional resea
   assert.match(entries.get('2023-04-14-042').title, /学生優秀発表賞/);
   assert.match(entries.get('2024-03-21-028').title, /学生優秀講演賞/);
 });
+
+
+test('Sawada CFD37 award is retained separately from the 2023 presentation with its announcement date', () => {
+  const id = '2024-01-10-sawada-cfd37-award';
+  const award = entries.get(id);
+  assert.ok(audit.additions.some(record => record.id === id));
+  assert.ok(review.additionalAwardFollowup.some(record => record.id === id));
+  assert.equal(award.category, 'award');
+  assert.equal(award.date, '2024-01-10');
+  assert.equal(award.dateNote, '受賞者一覧公開日');
+  assert.match(award.summary, /澤田健さん.*2023年12月/);
+  assert.match(award.title, /第37回数値流体力学シンポジウムの若手優秀講演表彰/);
+  assert.match(award.body, /大気アシスト型観測ロケットの排気ノズルまわりの流れと噴流の干渉が推力へ与える影響について/);
+  assert.ok(award.sources.some(source => source.url === 'https://www.nagare.or.jp/prize/6403/7037.html'));
+  assert.match(award.body, /\/ja\/news\/2023-12-15-034\//);
+  assert.equal(entries.get('2023-12-15-034').category, 'conference');
+});

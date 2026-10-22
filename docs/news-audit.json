@@ -2,10 +2,10 @@
   "checkedOn": "2026-10-23",
   "sourceSnapshotDate": "2026-10-22",
   "sourceUrl": "https://ladse.eng.isas.jaxa.jp/",
-  "scope": "旧トップページの78記事・全見出しと本文、2018〜2026年度のJAXA受賞一覧、関連学会の受賞者一覧、研究者登録情報を照合。研究室の全活動の網羅を保証するものではない。",
+  "scope": "旧トップページの78記事・全見出しと本文、2018〜2026年度のJAXA受賞一覧、日本流体力学会の第37回・第39回数値流体力学シンポジウムを含む関連学会の受賞者一覧、研究者登録情報を照合。研究室の全活動の網羅を保証するものではない。",
   "sourceHtmlSha256": "0f2116691d45e3500f31e76d7f47ecd1029ab3bde9538affc2139f9866ed8671",
   "legacyCount": 78,
-  "addedCount": 7,
+  "addedCount": 8,
   "legacyAwards": 18,
   "records": [
     {
@@ -1582,6 +1582,26 @@
           "url": "https://doi.org/10.2514/6.2024-2866"
         }
       ]
+    },
+    {
+      "id": "2024-01-10-sawada-cfd37-award",
+      "title": "澤田健さんが第37回数値流体力学シンポジウムの若手優秀講演表彰を受賞",
+      "date": "2024-01-10",
+      "datePrecision": "day",
+      "sourceOrder": 1007,
+      "category": "award",
+      "summary": "澤田健さんが、2023年12月開催の第37回数値流体力学シンポジウムでの観測ロケットの排気ノズルと噴流干渉に関する発表により、若手優秀講演表彰を受賞しました。",
+      "sources": [
+        {
+          "title": "日本流体力学会 第37回数値流体力学シンポジウム 若手優秀講演表彰 受賞者一覧",
+          "url": "https://www.nagare.or.jp/prize/6403/7037.html"
+        },
+        {
+          "title": "日本流体力学会誌「ながれ」43巻2号（2024年）121頁 受賞者一覧",
+          "url": "https://www.nagare.or.jp/download/noauth.html?d=43-2_121_wakate.pdf&dir=92"
+        }
+      ],
+      "dateNote": "受賞者一覧公開日"
     }
   ],
   "unresolved": [

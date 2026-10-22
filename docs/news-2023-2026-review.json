@@ -652,5 +652,34 @@
       "doi": "10.2514/6.2026-1320",
       "reason": "澤田健さんの発表題目と一致する論文情報はあるが、Showcase選出の根拠は未確認。"
     }
+  ],
+  "additionalAwardFollowup": [
+    {
+      "id": "2024-01-10-sawada-cfd37-award",
+      "title": "澤田健さんが第37回数値流体力学シンポジウムの若手優秀講演表彰を受賞",
+      "date": "2024-01-10",
+      "datePrecision": "day",
+      "sourceOrder": 1007,
+      "category": "award",
+      "summary": "澤田健さんが、2023年12月開催の第37回数値流体力学シンポジウムでの観測ロケットの排気ノズルと噴流干渉に関する発表により、若手優秀講演表彰を受賞しました。",
+      "sources": [
+        {
+          "title": "日本流体力学会 第37回数値流体力学シンポジウム 若手優秀講演表彰 受賞者一覧",
+          "url": "https://www.nagare.or.jp/prize/6403/7037.html"
+        },
+        {
+          "title": "日本流体力学会誌「ながれ」43巻2号（2024年）121頁 受賞者一覧",
+          "url": "https://www.nagare.or.jp/download/noauth.html?d=43-2_121_wakate.pdf&dir=92"
+        }
+      ],
+      "dateNote": "受賞者一覧公開日",
+      "conferenceDates": "2023-12-15/2023-12-17",
+      "legacyPresentationId": "2023-12-15-034",
+      "verification": "氏名・発表題目を日本流体力学会の受賞者一覧と会誌の受賞者発表で照合。旧HPは学会発表記事のみで、個別の受賞記事はない。",
+      "sourceFilesSha256": {
+        "jsfm-cfd37-awards.html": "924a763e3f73689a495c5f9d32e1a5f36fc1f7ea04cd77614ddd2a7952d52bd3",
+        "jsfm-cfd37-awards.pdf": "daf6f9f9c68d0a5af25c809a6993cfb9ff89d05622cbff0cc05c22a668dd4758"
+      }
+    }
   ]
 }
