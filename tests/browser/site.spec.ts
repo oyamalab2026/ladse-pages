@@ -30,7 +30,7 @@ test('publication filters combine year, category and text; empty results recover
 });
 test('mobile menu is keyboard accessible and pages do not overflow',async({page})=>{
  await page.setViewportSize({width:375,height:812});
- for(const path of ['/ja/','/en/','/ja/people/','/ja/join/','/en/publications/','/ja/resources/']){
+ for(const path of ['/ja/','/en/','/ja/people/','/ja/join/','/en/publications/','/ja/resources/','/ja/news/','/ja/news/2026-08-03-000/']){
   await page.goto(path);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
  }
@@ -74,4 +74,22 @@ test('news navigation, chronological list, categories and article links', async 
  await page.getByRole('link',{name:'Switch to English'}).click();
  await expect(page).toHaveURL(/\/en\/news\/$/);
  await expect(page.getByRole('heading',{level:1})).toHaveText('News');
+});
+
+test('news summaries name presenters and imported articles render as prose', async ({page}) => {
+ await page.goto('/ja/news/');
+ const first = page.locator('a.news-row[href="/ja/news/2026-08-03-000/"]');
+ await expect(first.locator('.news-summary')).toHaveText('倉田昇祈さん(M2)が発表しました．');
+ const multiple = page.locator('a.news-row[href="/ja/news/2026-07-19-001/"]');
+ await expect(multiple.locator('.news-summary')).toContainText('大西龍汰郎さん(D2)');
+ await expect(multiple.locator('.news-summary')).toContainText('飯田悠生さん(M2)');
+ await first.click();
+ const prose = page.locator('.news-detail .prose');
+ await expect(prose).toContainText('第36回アストロダイナミクスシンポジウムで倉田昇祈さん(M2)が発表しました');
+ await expect(prose).toContainText('CubeSatクラス宇宙機');
+ await expect(prose.locator('pre code')).toHaveCount(0);
+ expect(await prose.innerText()).not.toMatch(/<\/?(?:div|p|article|br)\b/);
+ await page.goto('/ja/news/2021-06-18-050/');
+ await expect(page.locator('.news-detail .prose img')).toHaveAttribute('src','/archive/mabe2/fig3.jpg');
+ await expect(page.locator('.news-detail .prose pre code')).toHaveCount(0);
 });

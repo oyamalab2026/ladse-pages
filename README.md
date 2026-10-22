@@ -54,7 +54,7 @@ GitHub認証は `gh auth login` または環境変数 `GH_TOKEN` / `GITHUB_TOKEN
 
 ## 旧資料の再取り込み
 
-初回取り込み結果は [移行レポート](docs/migration-report.json) に記録しています。元のHTMLに存在した不達リンクは同レポートに保存し、アーカイブ内では不達のローカルリンクを無効化しています。
+初回取り込み結果は [移行レポート](docs/migration-report.json) に記録しています。 旧HPと新HPの違い・未反映事項は [比較調査](docs/legacy-content-comparison.md) にまとめています。元のHTMLに存在した不達リンクは同レポートに保存し、アーカイブ内では不達のローカルリンクを無効化しています。
 
 `scripts/import-legacy.py` は読み取り用スナップショットからコンテンツを再生成する初回移行ツールです。**日々の編集後に再実行すると、取り込んだデータや本文を再生成します。通常の更新には使わないでください。** 大型資料の原本はGit対象外の `.migration/source/` に保持しています。Releasesへの初回アップロード完了まで保管してください。
 

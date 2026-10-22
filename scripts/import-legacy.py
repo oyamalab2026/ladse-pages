@@ -12,6 +12,7 @@ from urllib.parse import quote, unquote, urljoin, urlsplit
 import yaml
 from bs4 import BeautifulSoup
 from PIL import Image, ImageOps
+from legacy_news import normalize_html_block, summary_from_html
 
 ROOT = Path(__file__).resolve().parents[1]
 LIMIT = 25 * 1024 * 1024
@@ -143,7 +144,7 @@ def main():
                 attrs = {'src': src, 'alt': tag.get('alt', ''), 'loading': 'lazy'}
             tag.attrs = attrs
         rendered = ''.join(str(x) for x in fragment.body.contents)
-        return '\n'.join(line.rstrip() for line in rendered.splitlines()).strip()
+        return normalize_html_block(rendered)
 
     archive = ROOT / 'public/archive'
     archive.mkdir(parents=True, exist_ok=True)
@@ -283,6 +284,7 @@ def main():
                 'image': photo(image.get('src')) if image else None}
         filename = f'{date or "undated"}-{i:03}.md'
         body = clean_fragment(clone, 'index.html')
+        meta['summary'] = summary_from_html(body)
         (newsdir / filename).write_text('---\n'+yaml.safe_dump(meta, allow_unicode=True, sort_keys=False)+'---\n\n'+body+'\n')
 
     groups = [

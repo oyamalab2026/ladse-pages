@@ -13,7 +13,7 @@ const research = defineCollection({
 const news = defineCollection({
   loader: glob({ base: './src/content/news', pattern: '*.md' }),
   schema: z.object({
-    title: z.string(), date: z.coerce.date().nullable(),
+    title: z.string(), summary: z.string().default(''), date: z.coerce.date().nullable(),
     datePrecision: z.enum(['day', 'month', 'year', 'unknown']).default('day'),
     sourceOrder: z.number().default(0), image: z.string().nullable().default(null),
     category: z.enum(['conference', 'award', 'lab', 'notice']).default('notice'),

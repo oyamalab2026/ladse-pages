@@ -10,7 +10,7 @@ const { items, lang } = Astro.props;
       <time class="news-date" datetime={item.data.date?.toISOString().slice(0, 10)}>{dateLabel(item.data.date, item.data.datePrecision)}</time>
       <span class="news-category">{newsCategories[item.data.category][lang]}</span>
     </div>
-    <div><h3 lang="ja">{item.data.title}</h3>{lang === 'en' && <span class="news-language">ORIGINAL ARTICLE IN JAPANESE</span>}</div>
+    <div><h3 lang="ja">{item.data.title}</h3>{item.data.summary && <p class="news-summary" lang="ja">{item.data.summary}</p>}{lang === 'en' && <span class="news-language">ORIGINAL ARTICLE IN JAPANESE</span>}</div>
     <span class="news-arrow" aria-hidden="true">↗</span>
   </a>)}
 </div>
