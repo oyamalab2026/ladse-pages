@@ -1,0 +1,9 @@
+---
+import { asset, route, tr, type Lang } from '../lib/site';
+import type { CollectionEntry } from 'astro:content';
+const { entry, lang } = Astro.props as { entry: CollectionEntry<'research'>; lang: Lang };
+---
+<a class="research-card" href={route(lang, `research/${entry.data.topicSlug}`)}>
+  <div class="research-image"><img src={asset(entry.data.image)} alt={entry.data.imageAlt} loading="lazy" width="600" height="420" /><span class="image-index">0{entry.data.order}</span></div>
+  <div class="research-card-body"><p class="eyebrow">{entry.data.titleEn}</p><h3>{entry.data.title}<span aria-hidden="true">↗</span></h3><p>{entry.data.summary}</p><span class="text-link">{tr(lang, '研究を詳しく見る', 'Explore this research')}<span aria-hidden="true">→</span></span></div>
+</a>

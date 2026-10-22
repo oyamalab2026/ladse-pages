@@ -1,0 +1,12 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import PageIntro from '../../../components/PageIntro.astro';
+import { dateLabel } from '../../../lib/site';
+export async function getStaticPaths(){return (await getCollection('news')).map(entry=>({params:{id:entry.id},props:{entry}}));}
+const {entry}=Astro.props as {entry:CollectionEntry<'news'>};
+const {Content}=await render(entry);
+---
+<Layout lang="ja" title={entry.data.title} alternateHref="/en/news/" translated={false}>
+  <div class="container page-content"><article class="news-detail"><PageIntro eyebrow={`NEWS / ${dateLabel(entry.data.date,entry.data.datePrecision)}`} title={entry.data.title}/><div class="prose"><Content/></div><a class="back-link" href="/ja/news/">← ニュース一覧へ</a></article></div>
+</Layout>

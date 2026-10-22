@@ -1,0 +1,2 @@
+# Keep archival formatting intact when checking newly authored source.
+public/archive/** -whitespace

@@ -1,0 +1,178 @@
+{
+  "groups": [
+    {
+      "id": "benchmarks",
+      "title": {
+        "ja": "設計最適化ベンチマーク",
+        "en": "Design optimization benchmarks"
+      },
+      "path": "/archive/benchmark/index.html",
+      "description": {
+        "ja": "車両構造・空力設計のベンチマーク問題と配布データ。",
+        "en": "Benchmark problems and datasets for structural and aerodynamic design."
+      }
+    },
+    {
+      "id": "space-benchmarks",
+      "title": {
+        "ja": "宇宙工学の最適化問題",
+        "en": "Aerospace optimization problems"
+      },
+      "path": "/archive/benchmark_space/index.html",
+      "description": {
+        "ja": "宇宙工学に関連する最適化問題・参考資料。",
+        "en": "Optimization problems and reference materials in aerospace engineering."
+      }
+    },
+    {
+      "id": "lectures",
+      "title": {
+        "ja": "講義資料",
+        "en": "Lecture materials"
+      },
+      "path": "/ja/resources/#lectures",
+      "description": {
+        "ja": "公開済みの講義スライド・参考資料。原文のまま保存しています。",
+        "en": "Previously published lecture slides and reference materials, preserved in their original language."
+      }
+    },
+    {
+      "id": "mabe",
+      "title": {
+        "ja": "火星飛行機の飛行試験 MABE",
+        "en": "Mars Airplane Balloon Experiment"
+      },
+      "path": "/archive/mabe2/2023MABE2.html",
+      "description": {
+        "ja": "高高度気球を用いた火星飛行機の飛行試験の記録。",
+        "en": "Records of high-altitude flight experiments using a balloon."
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "path": "lecture/cfd2019/errata1.pdf",
+      "url": "/archive/lecture/cfd2019/errata1.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/errata2.pdf",
+      "url": "/archive/lecture/cfd2019/errata2.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/index.html",
+      "url": "/archive/lecture/cfd2019/index.html"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_01.pdf",
+      "url": "https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/lecture__cfd2019__materials__cfd2019_01.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_02.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_02.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_03.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_03.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_04.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_04.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_05.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_05.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_06.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_06.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_07.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_07.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_08.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_08.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_09.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_09.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_10.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_10.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_11a.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_11a.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_11b.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_11b.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_report1_jpn.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_report1_jpn.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_report2_eng.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_report2_eng.pdf"
+    },
+    {
+      "path": "lecture/cfd2019/materials/cfd2019_report2_jpn.pdf",
+      "url": "/archive/lecture/cfd2019/materials/cfd2019_report2_jpn.pdf"
+    },
+    {
+      "path": "lecture/design2018/index.html",
+      "url": "/archive/lecture/design2018/index.html"
+    },
+    {
+      "path": "lecture/design2018/materials/optimization01.pdf",
+      "url": "/archive/lecture/design2018/materials/optimization01.pdf"
+    },
+    {
+      "path": "lecture/design2018/materials/optimization02.pdf",
+      "url": "/archive/lecture/design2018/materials/optimization02.pdf"
+    },
+    {
+      "path": "lecture/design2018/materials/optimization03.pdf",
+      "url": "/archive/lecture/design2018/materials/optimization03.pdf"
+    },
+    {
+      "path": "lecture/design2018/materials/optimization04.pdf",
+      "url": "/archive/lecture/design2018/materials/optimization04.pdf"
+    },
+    {
+      "path": "lecture/design2018/materials/optimization05.pdf",
+      "url": "/archive/lecture/design2018/materials/optimization05.pdf"
+    },
+    {
+      "path": "lecture/design2018/materials/optimization07.pdf",
+      "url": "/archive/lecture/design2018/materials/optimization07.pdf"
+    },
+    {
+      "path": "lecture/design2018/materials/optimization08.pdf",
+      "url": "/archive/lecture/design2018/materials/optimization08.pdf"
+    },
+    {
+      "path": "lecture/design2018/materials/optimization10.pdf",
+      "url": "/archive/lecture/design2018/materials/optimization10.pdf"
+    },
+    {
+      "path": "lecture/design2018/materials/report1.pdf",
+      "url": "/archive/lecture/design2018/materials/report1.pdf"
+    },
+    {
+      "path": "lecture/design2018/materials/report2.pdf",
+      "url": "/archive/lecture/design2018/materials/report2.pdf"
+    },
+    {
+      "path": "lecture/special2019/index.html",
+      "url": "/archive/lecture/special2019/index.html"
+    },
+    {
+      "path": "lecture/special2019/materials/mars_airplane_2019.pdf",
+      "url": "https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/lecture__special2019__materials__mars_airplane_2019.pdf"
+    }
+  ]
+}

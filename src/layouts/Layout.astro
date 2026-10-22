@@ -1,0 +1,68 @@
+---
+import '../styles/global.css';
+import { route, tr, type Lang, contactEmail } from '../lib/site';
+interface Props { lang: Lang; title: string; description?: string; alternateHref?: string; translated?: boolean; noindex?: boolean; }
+const { lang, title, description = tr(lang, 'JAXA宇宙科学研究所・大山研究室。火星航空機、空気力学、流体制御、多目的設計探査の研究と、学生・研究者の参加について紹介します。', 'Oyama Laboratory at JAXA / ISAS: Mars aircraft, aerodynamics, flow control and multiobjective design exploration. Explore our research and opportunities to join.'), translated = true, noindex = false } = Astro.props;
+const current = Astro.url.pathname;
+const alternate = Astro.props.alternateHref || current.replace(/^\/(ja|en)\//, lang === 'ja' ? '/en/' : '/ja/');
+const canonical = new URL(current, Astro.site || 'https://ladse-pages.pages.dev');
+const isPreview = Boolean(import.meta.env.CF_PAGES_BRANCH && import.meta.env.CF_PAGES_BRANCH !== 'main');
+const nav = [
+  ['research', '研究', 'Research'], ['people', 'メンバー', 'People'], ['publications', '業績', 'Publications'],
+  ['environment', '研究環境', 'Environment'], ['contact', 'アクセス', 'Contact'],
+];
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | Oyama Lab · JAXA / ISAS</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#102b3d" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonical} />
+    {translated && <><link rel="alternate" hreflang={lang} href={canonical} /><link rel="alternate" hreflang={lang === 'ja' ? 'en' : 'ja'} href={new URL(alternate, canonical)} /></>}
+    {(noindex || isPreview) && <meta name="robots" content="noindex,follow" />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Oyama Lab — LADSE" />
+    <meta property="og:title" content={title + ' | Oyama Lab'} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL('/og-image.png', canonical)} />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{tr(lang, '本文へ移動', 'Skip to content')}</a>
+    <header class="site-header">
+      <a class="wordmark" href={route(lang)} aria-label={tr(lang, '大山研究室 トップ', 'Oyama Laboratory home')}>
+        <svg class="brand-symbol" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M4 34 41 8 28 39 23 26 4 34Z" stroke="currentColor" stroke-width="1.8"/><path d="m23 26 18-18M8 40h14" stroke="currentColor" stroke-width="1.5"/><circle cx="9" cy="14" r="3" fill="#00a2ae"/></svg>
+        <span><strong>Oyama Lab<span class="wordmark-dot">.</span></strong><small>JAXA / ISAS · LADSE</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span class="sr-only">{tr(lang, 'メニュー', 'Menu')}</span></button>
+      <nav id="main-nav" class="main-nav" aria-label={tr(lang, 'メインメニュー', 'Main navigation')}>
+        {nav.map(([slug, ja, en]) => <a href={route(lang, slug)} aria-current={current.startsWith(route(lang, slug)) ? 'page' : undefined}>{tr(lang, ja, en)}</a>)}
+        <a class="nav-join" href={route(lang, 'join')}>{tr(lang, '研究室に参加する', 'Join us')}<span aria-hidden="true">↗</span></a>
+        {(translated || Astro.props.alternateHref) && <a class="language-switch" href={alternate} lang={lang === 'ja' ? 'en' : 'ja'} aria-label={tr(lang, 'Switch to English', '日本語に切り替える')}><span class:list={{ selected: lang === 'ja' }}>JA</span><span class="language-divider">/</span><span class:list={{ selected: lang === 'en' }}>EN</span></a>}
+      </nav>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer">
+      <div class="footer-top container">
+        <div><a class="footer-brand" href={route(lang)}>Oyama Lab.</a><p>Laboratory of Aerodynamics and<br />Design in Space Engineering</p><p class="footer-institute">{tr(lang, '宇宙航空研究開発機構 宇宙科学研究所', 'Institute of Space and Astronautical Science, JAXA')}</p></div>
+        <div class="footer-links"><a href={route(lang, 'research')}>{tr(lang, '研究紹介', 'Research')}</a><a href={route(lang, 'join')}>{tr(lang, '配属・見学案内', 'Join the lab')}</a><a href={route(lang, 'people')}>{tr(lang, 'メンバー', 'People')}</a><a href={route(lang, 'news')}>{tr(lang, 'ニュース', 'News')}</a><a href={route(lang, 'resources')}>{tr(lang, '過去資料・公開データ', 'Resources & archives')}</a><a href={route(lang, 'contact')}>{tr(lang, 'アクセス・お問い合わせ', 'Access & contact')}</a></div>
+        <div class="footer-contact"><span class="eyebrow">GET IN TOUCH</span><a href={`mailto:${contactEmail}`}>{contactEmail}<span aria-hidden="true">↗</span></a><p>3-1-1 Yoshinodai, Chuo-ku<br />Sagamihara, Kanagawa 252-5210, Japan</p></div>
+      </div>
+      <div class="footer-bottom container"><span>© {new Date().getFullYear()} Oyama Laboratory</span><span><a href="https://www.isas.jaxa.jp/">ISAS</a><span aria-hidden="true"> / </span><a href="https://www.jaxa.jp/">JAXA</a></span></div>
+    </footer>
+    <script>
+      const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+      const nav = document.querySelector<HTMLElement>('.main-nav');
+      if (toggle && nav) {
+        nav.dataset.enhanced = 'true';
+        toggle.addEventListener('click', () => { const open = toggle.getAttribute('aria-expanded') !== 'true'; toggle.setAttribute('aria-expanded', String(open)); nav.dataset.open = String(open); });
+        document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { toggle.setAttribute('aria-expanded', 'false'); nav.dataset.open = 'false'; toggle.focus(); } });
+      }
+    </script>
+  </body>
+</html>

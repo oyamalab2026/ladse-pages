@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+<meta content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows" name="GENERATOR"/>
+
+<title>Mazda/JAXA/TUS Simultaneous Car Structure Design Problem</title>
+<link href="/archive/benchmark/jpn/mbp.ico" rel="shortcut icon"/>
+<meta content="noindex,follow" name="robots"/></head>
+<body alink="#ffffff" link="#ffffff" style="background-color: rgb(255, 124, 124);" vlink="#ffffff"><div style="padding:16px;background:#0c273b;color:#fff;font:15px system-ui;position:relative;z-index:99999">旧サイトの記録 / Archived content — <a href="/ja/" style="color:#fff;text-decoration:underline">新しい研究室HPへ / Visit the new site</a></div>
+
+<br/>
+<p align="right"><a href="/archive/benchmark/index.html" style="text-decoration:none;">English 英語版はこちら</a><br/></p>
+<p align="center" class="MsoNormal" style="text-align: center;">
+<b><font size="+2">応答曲面法を用いた複数車種の同時最適化ベンチマーク問題</font></b><br/>
+<br/>
+</p>
+<p align="right" class="MsoNormal" style="text-align: right;">2017年4月3日公開<br/>
+</p><p align="right" class="MsoNormal" style="text-align: right;">2018年8月1日更新<br/>
+</p><p align="justify">
+実社会における設計問題は多数の制約条件を持つことが多く，そのような問題で良質なパレート最適解を効率的に得ることが
+できる設計最適化手法が必要とされています．設計最適化問題の最適解（多目的最適化問題の場合は非劣解）を効率的に
+得ることが可能な進化計算アルゴリズムの研究開発も盛んに行われていますが，制約条件つきベンチマーク問題として
+頻繁に利用されているCDTLZ問題や実問題を簡単な解析式でモデル化した問題は，簡単に実行可能解を得ることができる，
+複数の制約条件を同時に違反する解が現れる頻度が少ないなどの問題をもっていることが明らかになりました[1]．<br/>
+<br/>
+このことから，マツダ（株），宇宙航空研究開発，東京理科大学の共同研究の成果として，複数車種の同時最適化問題を
+ベンチマーク問題として提供することといたしました．この問題は複数車種の構造設計の多目的同時最適化問題として
+「京」コンピュータ上で実施されたものです[2]．この研究開発の背景については参考文献[3-10]をご覧ください．
+設計変数は各構造部品の板厚で222個あります．制約条件は衝突安全性能等合計54個です．
+単目的の設計最適化ベンチマーク問題（重量最小化問題）および多目的の設計最適化ベンチマーク問題
+（重量最小化と共通部品点数最大化）として利用することができます．京コンピュータ上で行った最適化計算では
+衝突安全性に関わる制約条件の評価に構造シミュレーションを利用しておりましたが，ベンチマーク問題化するにあたり，
+京コンピュータ上で実施された多目的設計最適化の過程で得られたすべてのサンプル点を使い，これらの制約条件を
+応答曲面関数でモデル化しています．この問題のベンチマーク化についての詳細は参考文献[11]をご覧ください．<br/>
+<br/>
+本ウェブサイトでは上述の複数車種の同時最適化ベンチマーク問題を提供いたします．C++ソースコードとして公開いたしますので
+どのようなOSでも動くはずです．各自の環境でコンパイルしてご利用ください．なお，配布物にはソースコードとあわせて
+windows 10(64ビット版, Visual Studo2015/2017）で動作確認を行った実行ファイルも含まれています．<br/>
+<br/>
+提案したベンチマーク問題をもとに，産業界が取り扱う多種多様な設計問題に対して，ロバストで効率的な多目的設計最適化
+アルゴリズムの研究・開発が進むことを期待しています．<br/>
+<br/>
+なお，2018年8月1日より海外の研究者に向けても本ベンチマーク問題を公開いたしました．<br/>
+<br/>
+<b>参考文献</b><br/>
+[1] <a href="/archive/benchmark/jpn/ECSymp2016_tanabe.pdf" rel="noopener noreferrer" target="blank">田邊遼司，大山 聖，制約付き多目的最適化ベンチマーク問題の問題点 ，
+P3-10，進化計算シンポジウム2016，2016年12月10-11日．</a><br/>
+[2] <a href="/archive/benchmark/jpn/CMD2016_kohira.pdf" rel="noopener noreferrer" target="blank">小平剛央，大山聖，立川智章，渡辺毅，釼持寛正，大規模並列計算を用いた複数車体構造の同時設計最適化，
+日本機械学会第29回計算力学講演会(CMD2016)，愛知県名古屋市，2016年9月22-24日．</a><br/>
+[3] <a href="http://www.mazda.com/contentassets/74054dc43aaa4380ac6d61d2103741f0/files/mazdaar08_j.zip" rel="noopener noreferrer" target="blank">特集-マツダの構造改革とブランド価値向上に向けた取り組み，マツダアニュアルレポート2008, pp16-29, 2008.</a><br/>
+[4] <a href="http://www.mazda.com/ja/innovation/technology/gihou/2011/" rel="noopener noreferrer" target="blank">特集 SKYACTIV TECNOLOGY　 SKYACTIV-ボディ，2011年マツダ技報，2011.</a><br/>
+[5] <a href="http://www.mazda.com/ja/innovation/technology/gihou/2012/" rel="noopener noreferrer" target="blank">特集　CX-5　CX-5 SKYACTIV-BODY ストラクチャの開発，2012年マツダ技報，2012.</a><br/>
+[6] <a href="http://www.mazda.com/ja/innovation/technology/gihou/2012/" rel="noopener noreferrer" target="blank">特集　アテンザ　新型アテンザ　ボデーシェル開発，2012年マツダ技報，2012.</a><br/>
+[7] <a href="http://www.mazda.com/ja/innovation/technology/gihou/2013/" rel="noopener noreferrer" target="blank">特集　アクセラ　新型アクセラの軽量ボデーシェル開発～SKYACTIV-BODYの更なる進化～，2013年マツダ技報，2013.</a><br/>
+[8] <a href="http://www.mazda.com/ja/innovation/technology/gihou/2015/" rel="noopener noreferrer" target="blank">特集　新型デミオ　新型デミオ・CX-3の軽量ボデーシェル開発，2015年マツダ技報，2015.</a><br/>
+[9] <a href="https://www.jstage.jst.go.jp/article/amr/12/9/12_120901/_pdf" rel="noopener noreferrer" target="blank">目代武史，新たな車両開発アプローチの模索　- VW MQB，日産CMF，マツダCA，トヨタTNGA -，赤門マネジメント・レビュー，12巻9号，2013.</a><br/>
+[10] <a href="https://waseda.repo.nii.ac.jp/index.php?active_action=repository_view_main_item_detail&amp;page_id=13&amp;block_id=21&amp;item_id=15001&amp;item_no=1" rel="noopener noreferrer" target="blank">梅原智栄，齋藤沙織，モジュール化に伴う自動車業界の経営戦略，早稲田社会科学総合研究別冊「2014年度学生論文集」，2015.</a><br/>
+[11] <a href="https://www.jstage.jst.go.jp/article/tjpnsec/8/1/8_11/_article/-char/ja/" rel="noopener noreferrer" target="blank">小平剛央，釼持寛正，大山聖，立川智章，応答曲面法を用いた複数車種の同時最適化ベンチマーク問題の提案，進化計算学会論文誌，8巻1号，2017.</a><br/>
+<br/>
+</p><hr/>
+<br/>
+<b><font size="+2">ベンチマーク問題の利用申請方法</font></b><br/>
+<br/>
+これまでは，利用にあたっては利用申請書を提出いただいておりましたが，国際的に公開することになりましたため，今後は利用申請は不要になります．<br/>
+ご自由にお使いください．<br/>
+<br/>
+<hr/>
+<br/>
+<b><font size="+2">成果発表をする場合</font></b><br/>
+<br/>
+成果発表につきましても，今後は申請書等の提出は不要になります．<br/>
+<br/>
+発表する論文等には下記のいずれかを参考文献として引用いただきますようお願いします．<br/>
+小平剛央，釼持寛正，大山聖，立川智章，応答曲面法を用いた複数車種の同時最適化ベンチマーク問題の提案，
+進化計算学会論文誌，８巻１号、pp.11-21，2017.<br/>
+Takehisa Kohira, Hiromasa Kemmotsu, Akira Oyama, and Tomoaki Tatsukawa, "Proposal of Benchmark Problem Based on Real-World Car Structure Design Optimization," The Genetic and Evolutionary Computation Conference (GECCO) 2018, 2018. <br/>
+<br/>
+また，可能でしたら論文等の発行後には原稿のコピー（PDF形式）を下記までお送りください．<br/>
+benchmark@flab.isas.jaxa.jp<br/>
+<br/>
+<hr/>
+<br/>
+<b><font size="+2">ダウンロード</font></b><br/>
+<br/>
+ベンチマーク問題および計算例については<a href="https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__Mazda_CdMOBP.zip" style="text-decoration:none;">ここ</a>からダウンロードしてください<br/>
+2018年7月31日まで公開していたベンチマーク問題とパッケージ構成は変わっておりますが，応答曲面などのプログラムには変更なく計算結果には違いがありません．
+なお，３車種同時最適化問題に加えて，２車種同時最適化問題も実施可能になっていること，英語表記になっていることが相違点です．<br/>
+<!--ベンチマーク問題一式     <a href="mazda_bench_20170403.zip">2017/04/03版</a><BR>-->
+<!--ベンチマーク問題の計算例 <a href="cheetah_result_20170404.zip">2017/04/04版</a><BR>-->
+<br/>
+<hr/>
+<br/>
+<b><font size="+2">これまで受けたご質問への回答</font></b><br/>
+<br/>
+<b>(1) ダウンロードファイルには何が含まれていますか？</b><br/>
+下記が含まれています．<br/>
+- explanation of design problem			/Info_Mazda_CdMOBP.xlsx<br/>
+- executable file for windows (64bit) 	/Mazda_CdMOBP/bin/win64<br/>
+- executable file for linux(64bit)		/Mazda_CdMOBP/bin/Linux<br/>
+- R script for post-processing			/Mazda_CdMOBP/post<br/>
+- sample input/output files				/Mazda_CdMOBP/sample<br/>
+- source code (C++)						/Mazda_CdMOBP/src<br/>
+- sample optimization result			/Calculation_sample_Mazda_CdMOBP<br/>
+<b>(2) 設計問題の詳細について理解するにはどうしたらよいですか？</b><br/>
+参考文献をご覧ください．<br/>
+<b>(3) 設計変数は連続変数として取り扱うべきですか？それとも離散変数として取り扱うべきですか？</b><br/>
+もともとの設計問題は離散変数最適化問題なので離散変数として取り扱うことを推奨します．
+離散化については Info_Mazda_CdMOBP.xlsxのシート Explain_DV_and_Const のH列を参照してください．
+連続変数として取り扱っていただいてもかまいません．
+ただし，設計変数を離散変数として取り扱うか，連続変数として取り扱うかで最適化結果は変わってきますので，
+成果発表する際はどちらとして設計変数を取り扱ったのかを明記するようにしてください．<br/>
+<b>(4) 設計変数同士の制約条件はありませんか？</b><br/>
+あります．予稿集に，設計変数Aー設計変数B≧0の形で表現記載されています<br/>
+<b>(5) それぞれの制約条件について，関係する設計変数が違っていることはありませんか？ <br/></b>
+３車種の構造の同時最適化問題ですが，車種Aの制約関数には車種Aの設計変数しか効きません．また，車種Aのそれぞれの制約条件についても
+車種Aのすべての設計変数が関係しているわけでもありません．具体的には，各車種の74変数中，前突で3変数，側突で6変数，後突で3変数は
+制約条件に関係していません．それ以外の性能は74変数すべてを使っております。 <br/>
+<b>(6) 集団サイズ・世代数はどのくらいにするのがよいでしょうか？</b><br/>
+スーパーコンピュータ京での計算では，集団サイズ約50で京全体システムの約10%を使っていました．システム全体を使うと仮定すると集団サイズは500まで増やすことができました．
+2020年頃に稼働予定のポスト京マシンでは約20倍の性能が予定されていますので，集団サイズは最大で10,000になります．
+一方，１世代の計算に京コンピュータで約１週間の時間がかかっています．
+３０世代の計算に約３０週間（半年以上！）です．
+ポスト京コンピュータもノード数・コア数は京と比べて大幅に増加する予定ですが，各コアの計算速度は京とそれほど違わないと予想されます．
+よって，ポスト京マシンを使っても数十世代，せいぜい100世代くらいまでしかとることができません．
+以上まとめますと，世代数は30～100世代，集団サイズは300～1000が妥当な線かと思います．
+なお，下に示すランキングでは，推奨評価回数を30,000回としています．<br/>
+<b>(7) 設計変数の探査範囲の上下限値はどう設定したらよいでしょうか？</b><br/>
+上下限値はInfo_Mazda_CdMOBP.xlsxのシート"Explain_DV_and_Const"のE列F列を参照してください．<br/>
+<b>(8) 応答曲面を作成するために使ったデータを（正規化等してもよいので）いただけないか？</b><br/>
+サンプル点のデータ（機密情報）は，誓約書第1条で禁止している本件作業（最適化手法の開発）の目的外に利用される恐れがあるため，提供できません．
+また，正規化等を行ってもデータの特徴（機密性）をなくすことはできませんので，ご理解ください．<br/>
+<br/>
+<hr/>
+<br/>
+<b><font size="+2">ランキング</font></b><br/>
+<br/>
+もし可能でしたら計算結果についてお送りください．結果がある程度集まったらランキングの形で結果を公開したいと思います．<br/>
+（ないとは思いますが，一度に多数送られてきた場合は更新が追いつかない場合もあります．ご了承ください）<br/>
+<br/>
+[送っていただきたいデータ（すべて<b>英文</b>で記載をお願いします）]<br/>
+実行者名<br/>
+実行者所属<br/>
+利用したアルゴリズム名と各種パラメータ値<br/>
+評価回数（推奨評価回数は30,000回）<br/>
+英文（または和文）参考文献の情報（著者名，タイトル，会議名（雑誌名）発行年，等）<br/>
+単目的最適化の場合：<br/>
+(1) 最適解の目的関数値，制約条件値，設計変数値が記載されたCSVファイル（1行に記載してください）<br/>
+多目的最適化の場合：<br/>
+(1) すべての非劣解の目的関数値，制約条件値，設計変数値が記載されたCSVファイル（各解のデータを各行に記載してください）<br/>
+(2) ハイパーボリューム値（目的関数は下記の式を使って正規化した上，参照点を（1.1, 0）として計算してください）<br/>
+質量　　　　　f<sub>1,HV</sub> = (f<sub>1</sub>-2.0)/(3.0-2.0)= f<sub>1</sub>-2.0<br/>
+共通部品点数　f<sub>2,HV</sub> = (f<sub>2</sub>-0)/(74-0)     = f<sub>2</sub>/74<br/>
+※最適解（多目的の場合は非劣解）については，最終世代の最適解・非劣解ではなく，すべての世代の解から改めて最適解
+・非劣解を抽出したデータをお送りください．また，いただいたデータはこのサイトで公開させていただくことを前提としておりますので
+ご了承ください．<br/>
+<br/>
+<!--タグはここから-->
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td align="center">
+<a href="http://www.rays-counter.com/">
+<img alt="アクセスカウンター" border="0"/>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img border="0"/>
+<img border="0"/>
+<img border="0"/>
+<img border="0"/>
+<img border="0"/>
+</td>
+</tr>
+</tbody></table>
+<!--ここまで-->
+
+
+</body></html>

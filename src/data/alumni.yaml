@@ -1,0 +1,591 @@
+- id: alumni-0-0
+  group: students
+  groupLabel: ポスドク Postdoctors
+  name: 藤田昂志
+  nameEn: ''
+  role: ''
+  description: 藤田昂志 宇宙科学研究所宇宙飛翔工学研究系 学振特別研究員PD Koji Fujita, JSPS Postdoc, Department of Space Flight Systems, Institute
+    of Space and Astronautical Science 現在は金沢工業大学講師
+  topic: 火星飛行機の設計，飛行試験，空中変形時の運動シミュレーション
+  topicEn: Design, Flight Test, and Motion Simulation during Aerial Deformation of Mars Airplane
+  image: /media/a757311c10.webp
+- id: alumni-0-1
+  group: students
+  groupLabel: ポスドク Postdoctors
+  name: 佐藤允
+  nameEn: ''
+  role: ''
+  description: 佐藤允 招聘研究員 Makoto Sato, Researcher 現在は工学院大学准教授
+  topic: 在籍時の研究テーマ：マイクロデバイスを用いた流体制御シミュレーション
+  topicEn: ''
+  image: /media/5d7bfab8a8.webp
+- id: alumni-0-2
+  group: students
+  groupLabel: ポスドク Postdoctors
+  name: 田邊遼司
+  nameEn: ''
+  role: ''
+  description: 田邊遼司 招聘研究員 Ryoji Tanabe, Researcher 現在は 南方科技大学 研究助理教授 Currently, Southern University of Science and
+    Technology, China
+  topic: 在籍時の研究テーマ：多目的設計最適化手法の開発
+  topicEn: ''
+  image: null
+- id: alumni-0-3
+  group: students
+  groupLabel: ポスドク Postdoctors
+  name: 福本浩章
+  nameEn: ''
+  role: ''
+  description: 福本浩章 宇宙科学研究所宇宙飛翔工学研究系 研究開発員
+  topic: 多目的設計最適化手法の開発
+  topicEn: ''
+  image: /media/ca05b49f2d.webp
+- id: alumni-1-0
+  group: students
+  groupLabel: 学生 Students
+  name: カラム
+  nameEn: ''
+  role: ''
+  description: カラム Karam Hashem 2026年9月修士
+  topic: ''
+  topicEn: ''
+  image: /media/d7920c4f0b.webp
+- id: alumni-1-1
+  group: students
+  groupLabel: 学生 Students
+  name: 清水健二
+  nameEn: ''
+  role: ''
+  description: 清水健二 2026年3月修士
+  topic: 修士論文題目：超小型火星飛行機の空力特性に関する研究
+  topicEn: ''
+  image: /media/b533977cae.webp
+- id: alumni-1-2
+  group: students
+  groupLabel: 学生 Students
+  name: 吉岡諒
+  nameEn: ''
+  role: ''
+  description: 吉岡諒 2026年3月修士
+  topic: 修士論文題目：後縁プラズマアクチュエータによる前縁渦の能動制御を通じたピッチング翼の非定常揚力強化
+  topicEn: ''
+  image: /media/aca170ca0d.webp
+- id: alumni-1-3
+  group: students
+  groupLabel: 学生 Students
+  name: 桃井蓮
+  nameEn: ''
+  role: ''
+  description: 桃井蓮 2026年3月修士
+  topic: 修士論文題目：亜音速領域における薄殻エアロシェルの振動減衰メカニズム
+  topicEn: ''
+  image: null
+- id: alumni-1-4
+  group: students
+  groupLabel: 学生 Students
+  name: 有馬可奈
+  nameEn: ''
+  role: ''
+  description: 有馬可奈
+  topic: リブレットに関する研究
+  topicEn: ''
+  image: /media/cfccd68b9f.webp
+- id: alumni-1-5
+  group: students
+  groupLabel: 学生 Students
+  name: ウォルター
+  nameEn: ''
+  role: ''
+  description: ウォルター Walter Gemassmer
+  topic: 火星エアロシェルに関する研究
+  topicEn: ''
+  image: /media/08daa43db5.webp
+- id: alumni-1-6
+  group: students
+  groupLabel: 学生 Students
+  name: 金子賢人
+  nameEn: ''
+  role: ''
+  description: 金子賢人 2025年3月博士
+  topic: 博士論文題目：航空機での実用化に向けたリブレットの空力特性の関する研究
+  topicEn: ''
+  image: /media/758679c866.webp
+- id: alumni-1-7
+  group: students
+  groupLabel: 学生 Students
+  name: 佐佐木将之
+  nameEn: ''
+  role: ''
+  description: 佐佐木将之 2025年3月修士
+  topic: ''
+  topicEn: ''
+  image: /media/42df1b8b78.webp
+- id: alumni-1-8
+  group: students
+  groupLabel: 学生 Students
+  name: 太田就
+  nameEn: ''
+  role: ''
+  description: 太田就 2025年3月修士
+  topic: ''
+  topicEn: ''
+  image: null
+- id: alumni-1-9
+  group: students
+  groupLabel: 学生 Students
+  name: 白土百合子
+  nameEn: ''
+  role: ''
+  description: 白土百合子 2025年3月修士
+  topic: 修士論文題目：火星サンプルリターンロケットの空力特性におけるレイノルズ数およびマッハ数依存性
+  topicEn: ''
+  image: /media/bf76caac36.webp
+- id: alumni-1-10
+  group: students
+  groupLabel: 学生 Students
+  name: 吉本隆之介
+  nameEn: ''
+  role: ''
+  description: 吉本隆之介 2025年3月学士
+  topic: 学士論文題目：火星マルチコプタカウンタウェイトが飛行性能に及ぼす影響の実験的研究
+  topicEn: ''
+  image: /media/4ace8860bc.webp
+- id: alumni-1-11
+  group: students
+  groupLabel: 学生 Students
+  name: 二村成彦
+  nameEn: ''
+  role: ''
+  description: 二村成彦 2024年3月博士
+  topic: 博士論文題目：高自由度多目的空力設計最適化手法の開発とその翼設計への適用
+  topicEn: ''
+  image: /media/d649238673.webp
+- id: alumni-1-12
+  group: students
+  groupLabel: 学生 Students
+  name: 角田有紀人
+  nameEn: ''
+  role: ''
+  description: 角田有紀人 2023年9月博士
+  topic: 博士論文題目：
+  topicEn: ''
+  image: /media/c0c2d3e32b.webp
+- id: alumni-1-13
+  group: students
+  groupLabel: 学生 Students
+  name: 谷口翔太
+  nameEn: ''
+  role: ''
+  description: 谷口翔太 2023年3月博士
+  topic: 博士論文題目：回転翼が主翼周りの流れ場に及ぼす影響
+  topicEn: ''
+  image: /media/d70a933ab4.webp
+- id: alumni-1-14
+  group: students
+  groupLabel: 学生 Students
+  name: Srikanth
+  nameEn: ''
+  role: ''
+  description: Srikanth Surendranath 2021年3月博士
+  topic: 博士論文題目：ビルディングキューブメソッドの高精度化
+  topicEn: Improvement of Accuracy of Building Cube Method
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-15
+  group: students
+  groupLabel: 学生 Students
+  name: 河合成孝
+  nameEn: ''
+  role: ''
+  description: 河合成孝 2021年3月博士
+  topic: 博士論文題目：数値流体力学における不確実性解析に関する研究
+  topicEn: ''
+  image: /media/2cb9f7d303.webp
+- id: alumni-1-16
+  group: students
+  groupLabel: 学生 Students
+  name: 下村怜
+  nameEn: ''
+  role: ''
+  description: 下村怜 2021年3月博士
+  topic: 博士論文題目：プラズマアクチュエータを用いたフィードバック流体制御
+  topicEn: ''
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-17
+  group: students
+  groupLabel: 学生 Students
+  name: Yohanes
+  nameEn: ''
+  role: ''
+  description: Yohanes Bimo Dwianto 2021年3月博士
+  topic: 博士論文題目：Development of Constraint Handling Technique for Solving Severly Constrained Engineering Design
+    Optimization Problems
+  topicEn: ''
+  image: /media/9f3b282681.webp
+- id: alumni-1-18
+  group: students
+  groupLabel: 学生 Students
+  name: 遠藤桜
+  nameEn: ''
+  role: ''
+  description: 遠藤桜 2024年3月修士
+  topic: 修士論文題目：亜音速における鈍頭再突入カプセルの動的不安定性に関する数値解析
+  topicEn: ''
+  image: /media/7f8abe7c25.webp
+- id: alumni-1-19
+  group: students
+  groupLabel: 学生 Students
+  name: 篠塚温志
+  nameEn: ''
+  role: ''
+  description: 篠塚温志 2024年3月修士
+  topic: 修士論文題目：タンデムティルトウイングeVTOL機の空力解析
+  topicEn: ''
+  image: /media/f0285a2e52.webp
+- id: alumni-1-20
+  group: students
+  groupLabel: 学生 Students
+  name: 門馬圭吾
+  nameEn: ''
+  role: ''
+  description: 門馬圭吾 2024年3月修士
+  topic: 修士論文題目：設計変数空間での非劣解の多様性を考慮した交叉の開発
+  topicEn: ''
+  image: /media/6c607f9f8d.webp
+- id: alumni-1-21
+  group: students
+  groupLabel: 学生 Students
+  name: 吉川昂汰
+  nameEn: ''
+  role: ''
+  description: 吉川昂汰 2024年3月修士
+  topic: 修士論文題目：火星ヘリコプタ用ロータの低レイノルズ数圧縮性効果に関する研究
+  topicEn: ''
+  image: /media/b6ac23fb6c.webp
+- id: alumni-1-22
+  group: students
+  groupLabel: 学生 Students
+  name: Matthew
+  nameEn: ''
+  role: ''
+  description: Matthew Imrich 2023年9月修士
+  topic: 修士論文題目：Measuring the Aerodynamic Interaction of Drone Rotors with a Wall
+  topicEn: ''
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-23
+  group: students
+  groupLabel: 学生 Students
+  name: 稲塚遥香
+  nameEn: ''
+  role: ''
+  description: 稲塚遥香 2023年3月修士
+  topic: 修士論文題目：DESTINY+に関する多目的最適化
+  topicEn: ''
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-24
+  group: students
+  groupLabel: 学生 Students
+  name: 都甲慶
+  nameEn: ''
+  role: ''
+  description: 都甲慶 2023年3月修士
+  topic: 修士論文題目：エアロスパイクノズルの形状最適化
+  topicEn: ''
+  image: /media/efcc8298d9.webp
+- id: alumni-1-25
+  group: students
+  groupLabel: 学生 Students
+  name: 森穂高
+  nameEn: ''
+  role: ''
+  description: 森穂高 2023年3月修士
+  topic: 修士論文題目：アーカイブベース多目的進化アルゴリズム
+  topicEn: ''
+  image: /media/66de880ab8.webp
+- id: alumni-1-26
+  group: students
+  groupLabel: 学生 Students
+  name: 佐藤元紀
+  nameEn: ''
+  role: ''
+  description: 佐藤元紀 2022年3月修士
+  topic: 修士論文題目：火星ヘリ用ブレードの断面形状の空力設計最適化
+  topicEn: ''
+  image: /media/8445332c23.webp
+- id: alumni-1-27
+  group: students
+  groupLabel: 学生 Students
+  name: 西田涼馬
+  nameEn: ''
+  role: ''
+  description: 西田涼馬 2022年3月修士
+  topic: 修士論文題目：BOX翼を用いたマルチコプタの実験評価
+  topicEn: ''
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-28
+  group: students
+  groupLabel: 学生 Students
+  name: 福嶋勇揮
+  nameEn: ''
+  role: ''
+  description: 福嶋勇揮 2022年3月修士
+  topic: 修士論文題目：火星の縦孔探査火星ヘリコプター実現に向けたローター同士の空力干渉の評価
+  topicEn: ''
+  image: /media/fac5f97797.webp
+- id: alumni-1-29
+  group: students
+  groupLabel: 学生 Students
+  name: 皆島拓真
+  nameEn: ''
+  role: ''
+  description: 皆島拓真 2022年3月修士
+  topic: 修士論文題目：火星の縦孔探査火星ヘリコプター実現に向けたローター同士の空力干渉の評価
+  topicEn: ''
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-30
+  group: students
+  groupLabel: 学生 Students
+  name: 小笠原大地
+  nameEn: ''
+  role: ''
+  description: 小笠原大地 2021年3月修士
+  topic: 修士論文題目：火星ヘリコプタ用ローターに関する数値解析
+  topicEn: ''
+  image: /media/9f0c36d33f.webp
+- id: alumni-1-31
+  group: students
+  groupLabel: 学生 Students
+  name: 斉藤巧真
+  nameEn: ''
+  role: ''
+  description: 斉藤巧真 2021年3月修士
+  topic: 修士論文題目：多目的設計最適化
+  topicEn: ''
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-32
+  group: students
+  groupLabel: 学生 Students
+  name: 石川達将
+  nameEn: ''
+  role: ''
+  description: 石川達将 Ishikawa tatsumasa 2020年3月修士
+  topic: 修士論文題目：
+  topicEn: ''
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-33
+  group: students
+  groupLabel: 学生 Students
+  name: 江光希
+  nameEn: ''
+  role: ''
+  description: 江光希 Koh Mitsuki 2020年3月修士
+  topic: 修士論文題目：Evaluation of Aerodynamics Performances of Single Rotor and Counter-rotating Rotor with Triangular
+    Airfoil in Low Reynolds Number Conditions
+  topicEn: （低レイノルズ数環境下における三角翼シングルロータ・二重反転ロータの空力特性評価）
+  image: /media/fd3a803849.webp
+- id: alumni-1-34
+  group: students
+  groupLabel: 学生 Students
+  name: 中神貴裕
+  nameEn: ''
+  role: ''
+  description: 中神貴裕 Nakagami Takahiro
+  topic: 修士論文題目：Development of a method using deep learning to predict pressure field from velocity field of incompressible
+    flow
+  topicEn: （深層学習を用いた非圧縮流体の速度場から圧力場の推定手法の構築）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-35
+  group: students
+  groupLabel: 学生 Students
+  name: 青木理紗子
+  nameEn: ''
+  role: ''
+  description: 青木理紗子 Risako Aoki 2019年3月修士
+  topic: 修士論文題目：Conceptual Design and Aerodynamic Study of Rotorcraft for Exploration of Pit Crater and Cave on
+    Mars
+  topicEn: （火星の縦孔及び地下空洞探査のための回転翼機の概念設計と空力特性の研究）
+  image: /media/076d1aee7f.webp
+- id: alumni-1-36
+  group: students
+  groupLabel: 学生 Students
+  name: 田村駿
+  nameEn: ''
+  role: ''
+  description: 田村駿 Shun Tamura 2019年3月修士
+  topic: 修士論文題目：Effects of External Rib Structure on Aerodynamic Performance of Thin Wing in Low Reynolds Number
+    Flow
+  topicEn: （低レイノルズ数流れにおいて張り出しリブ構造が薄翼の空力性能に与える影響）
+  image: /media/964b7dd53f.webp
+- id: alumni-1-37
+  group: students
+  groupLabel: 学生 Students
+  name: 渡邉誉良
+  nameEn: ''
+  role: ''
+  description: 渡邉誉良 Takara Watanabe 2019年3月修士
+  topic: 修士論文題目：Study on High-order Flux Reconstruction Schemes Using Split-form for Practical CFD
+  topicEn: （実用CFDに向けた分割型移流項を用いる高次精度流束再構築法に関する研究）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-38
+  group: students
+  groupLabel: 学生 Students
+  name: 中野宏章
+  nameEn: ''
+  role: ''
+  description: 中野宏章 Hiroaki Nakano 2018年3月修士
+  topic: 修士論文題目：
+  topicEn: （超音速ジェットの音響場の解析）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-39
+  group: students
+  groupLabel: 学生 Students
+  name: 原田拓弥
+  nameEn: ''
+  role: ''
+  description: 原田拓弥 Takuya Harada 2018年3月修士
+  topic: 修士論文題目：
+  topicEn: （無尾翼型火星飛行機の翼型設計）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-40
+  group: students
+  groupLabel: 学生 Students
+  name: 宮川雄磨
+  nameEn: ''
+  role: ''
+  description: 宮川雄磨 Yuma Miyakawa 2018年3月修士
+  topic: 修士論文題目：
+  topicEn: （PIVを用いたプラズマアクチュエータの可視化）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-41
+  group: students
+  groupLabel: 学生 Students
+  name: 李東輝
+  nameEn: ''
+  role: ''
+  description: 李東輝 DongHwi Lee 2017年3月博士(工学）
+  topic: 博士論文題目： A Study on Formation Mechanisms of Surface Pressure Distribution Around a Laminar Separation Bubble
+  topicEn: （層流剥離泡付近の表面圧力分布形成メカニズムに関する研究）
+  image: /media/4c40330cc3.webp
+- id: alumni-1-42
+  group: students
+  groupLabel: 学生 Students
+  name: 福本浩章
+  nameEn: ''
+  role: ''
+  description: 福本浩章 Hiroaki Fukumoto 2017年3月博士(工学）
+  topic: 博士論文題目：A Study on Effective Control Mechanisms for Dynamic Flowfields around a Pitching Airfoil Using a
+    DBD Plasma Actuator
+  topicEn: （ピッチング翼周り動的流れ場のDBDプラズマアクチュエータによる効果的な制御メカニズムに関する研究）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-43
+  group: students
+  groupLabel: 学生 Students
+  name: 小澤雄太
+  nameEn: ''
+  role: ''
+  description: 小澤雄太 Yuta Ozawa 2017年3月修士
+  topic: 修士論文題目：
+  topicEn: （超音速ジェットから発生する音響波に関する実験的研究）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-44
+  group: students
+  groupLabel: 学生 Students
+  name: 加藤大祐
+  nameEn: ''
+  role: ''
+  description: 加藤大祐 Daisuke Kato 2017年3月修士
+  topic: 修士論文題目：
+  topicEn: （衝突ジェットから発生する音響波の定量的評価）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-45
+  group: students
+  groupLabel: 学生 Students
+  name: 草野真吾
+  nameEn: ''
+  role: ''
+  description: 草野真吾 Singo Kusano 2017年3月学士
+  topic: 学士論文題目：
+  topicEn: （プラズマアクチュエータによる流体制御に関する研究）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-46
+  group: students
+  groupLabel: 学生 Students
+  name: 花井彰充
+  nameEn: ''
+  role: ''
+  description: 花井彰充 Akimitsu Hanai 2017年3月学士
+  topic: 学士論文題目：
+  topicEn: （プラズマアクチュエータ）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-47
+  group: students
+  groupLabel: 学生 Students
+  name: Taufik
+  nameEn: ''
+  role: ''
+  description: Taufik Sulaiman 2016年9月博士(工学） 現在は マレーシア工科大学 機械工学科 AeroLab Currently, AeroLab, the Fucluty of Mechanical
+    Engineering, Universiti Teknologi Malaysia, Malaysia
+  topic: 博士論文題目： Wind Tunnel Testing Using Multi-Objective Design Exploration and Its Application to DBD Plasma
+    Actuator
+  topicEn: （多目的設計探査を用いた風洞実験とプラズマアクチュエータへの適用）
+  image: /media/c92a1ba83d.webp
+- id: alumni-1-48
+  group: students
+  groupLabel: 学生 Students
+  name: 阿部圭晃
+  nameEn: ''
+  role: ''
+  description: 阿部圭晃 Yoshiaki Abe 2016年3月博士(工学）
+  topic: 博士論文題目： Mechanism of separated-flow control over an airfoil with synthetic jet devices in low-Reynolds-number
+    regime
+  topicEn: （低レイノルズ数域におけるシンセティックジェットを用いた翼周り剥離流れ制御のメカニズム）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-49
+  group: students
+  groupLabel: 学生 Students
+  name: 寺門大毅
+  nameEn: ''
+  role: ''
+  description: 寺門大毅 Daiki Terakado 2016年3月博士(工学） 現在はJAXA職員
+  topic: 博士論文題目：Sound Source Characteristics in Compressible Turbulent Flows
+  topicEn: （圧縮性乱流中の音源特性に関する研究）
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-50
+  group: students
+  groupLabel: 学生 Students
+  name: 浅野兼人
+  nameEn: ''
+  role: ''
+  description: 浅野兼人 Kento Asano 2016年3月修士
+  topic: 修士論文題目：
+  topicEn: ''
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-51
+  group: students
+  groupLabel: 学生 Students
+  name: 松原暁良
+  nameEn: ''
+  role: ''
+  description: 松原暁良 Akira Matsubara 2016年3月修士
+  topic: 修士論文題目：
+  topicEn: ''
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-52
+  group: students
+  groupLabel: 学生 Students
+  name: 森平光一
+  nameEn: ''
+  role: ''
+  description: 森平光一 Kouichi Morihira 2016年3月修士
+  topic: 修士論文題目：
+  topicEn: ''
+  image: /media/1a9f697b4f.webp
+- id: alumni-1-53
+  group: students
+  groupLabel: 学生 Students
+  name: 森中一誠
+  nameEn: ''
+  role: ''
+  description: 森中一誠 Issey Morinaka 2016年3月修士
+  topic: 修士論文題目：
+  topicEn: ''
+  image: /media/1a9f697b4f.webp

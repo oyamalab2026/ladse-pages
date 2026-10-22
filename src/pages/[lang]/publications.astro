@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import { languages, tr, publications, categories, type Lang } from '../../lib/site';
+export function getStaticPaths(){return languages.map(lang=>({params:{lang}}));}
+const lang=Astro.params.lang as Lang;
+const years=[...new Set(publications.map(p=>p.year).filter((x):x is number=>x!==null))].sort((a,b)=>b-a);
+const firstCategory=new Set<string>();
+---
+<Layout lang={lang} title={tr(lang,'業績','Publications')}>
+  <PageIntro eyebrow="PUBLICATIONS" title={tr(lang,'研究の積み重ね。','A record of research.')} description={tr(lang,'学術論文、学会発表、招待講演など、旧HPの業績一覧を引き継いでいます。論文題名・引用情報は原文で掲載しています。','Journal articles, conference contributions and other publications, carried over from our previous website. Titles and citation details are preserved in their original language.')} />
+  <div class="container page-content" data-publications data-lang={lang}>
+    <form class="filter-bar" role="search"><label>{tr(lang,'発表年','Year')}<select id="publication-year" name="year"><option value="">{tr(lang,'すべての年','All years')}</option>{years.map(year=><option value={year}>{year}</option>)}<option value="unknown">{tr(lang,'年の記載なし','Year not specified')}</option></select></label><label>{tr(lang,'種別','Category')}<select id="publication-category" name="category"><option value="">{tr(lang,'すべての種別','All categories')}</option>{Object.entries(categories).map(([key,label])=><option value={key}>{label[lang]}</option>)}</select></label><label class="search-field">{tr(lang,'キーワード','Keywords')}<input id="publication-search" type="search" name="q" placeholder={tr(lang,'著者・論文題名など','Author, title or keyword')} /></label></form>
+    <p class="result-count" aria-live="polite" id="publication-count">{tr(lang,`${publications.length}件`,`${publications.length} publications`)}</p>
+    <ol class="publication-list">{publications.map(publication=>{const id=firstCategory.has(publication.category)?undefined:publication.category;firstCategory.add(publication.category);return <li class="publication" id={id} data-year={publication.year??'unknown'} data-category={publication.category} data-search={publication.citation.toLocaleLowerCase()}><span class="publication-year">{publication.year??'—'}</span><div><span class="publication-category">{categories[publication.category]?.[lang]??publication.category}</span><p class="publication-citation">{publication.citation}</p>{publication.links.length>0 && <div class="publication-links">{publication.links.map((href,i)=><a href={href} rel="noopener noreferrer">{href.includes('doi.org')?'DOI':tr(lang,`資料 ${i+1}`,`Source ${i+1}`)} ↗</a>)}</div>}</div></li>;})}</ol>
+    <p class="empty-state" id="publication-empty" hidden>{tr(lang,'該当する業績がありません。条件を変更してください。','No publications match. Try changing the filters.')}</p>
+    <div class="load-more-wrap"><button id="publication-more" class="button button-outline" type="button" hidden>{tr(lang,'さらに表示','Show more')}<span aria-hidden="true">↓</span></button></div>
+  </div>
+  <script>
+    import { initPublicationFilters } from '../../scripts/publications';
+    initPublicationFilters();
+  </script>
+</Layout>

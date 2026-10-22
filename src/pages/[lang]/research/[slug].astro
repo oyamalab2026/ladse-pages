@@ -1,0 +1,16 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import PageIntro from '../../../components/PageIntro.astro';
+import JoinBand from '../../../components/JoinBand.astro';
+import { asset, tr, route, type Lang } from '../../../lib/site';
+export async function getStaticPaths(){ return (await getCollection('research')).map(entry=>({params:{lang:entry.data.lang,slug:entry.data.topicSlug},props:{entry}})); }
+const { entry } = Astro.props as {entry:CollectionEntry<'research'>};
+const lang = Astro.params.lang as Lang;
+const {Content} = await render(entry);
+---
+<Layout lang={lang} title={entry.data.title} description={entry.data.summary}>
+  <PageIntro eyebrow={`RESEARCH 0${entry.data.order} / ${entry.data.titleEn.toUpperCase()}`} title={entry.data.title} />
+  <div class="container page-content research-detail"><div class="detail-hero"><div><p class="page-description">{entry.data.summary}</p><div class="tag-list">{entry.data.tags.map(tag=><span class="tag">{tag}</span>)}</div></div><img src={asset(entry.data.image)} alt={entry.data.imageAlt} width="800" height="550" /></div><article class="prose"><Content/></article><a class="back-link" href={route(lang,'research')}>← {tr(lang,'研究紹介の一覧へ','All research themes')}</a></div>
+  <JoinBand lang={lang}/>
+</Layout>

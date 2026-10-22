@@ -1,0 +1,38 @@
+{
+  "journal": {
+    "ja": "査読付き学術論文",
+    "en": "Journal articles"
+  },
+  "international": {
+    "ja": "国際会議",
+    "en": "International conferences"
+  },
+  "domestic": {
+    "ja": "国内会議",
+    "en": "Domestic conferences"
+  },
+  "invited": {
+    "ja": "招待講演",
+    "en": "Invited talks"
+  },
+  "keynote": {
+    "ja": "基調講演",
+    "en": "Keynotes"
+  },
+  "book": {
+    "ja": "著書・分担執筆",
+    "en": "Books & chapters"
+  },
+  "commentary": {
+    "ja": "解説記事",
+    "en": "Commentaries"
+  },
+  "transration": {
+    "ja": "翻訳記事",
+    "en": "Translations"
+  },
+  "doctor": {
+    "ja": "博士論文",
+    "en": "Doctoral theses"
+  }
+}

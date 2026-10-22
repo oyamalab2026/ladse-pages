@@ -1,0 +1,636 @@
+@charset "UTF-8";
+
+/*--------------------------------------------------------
+解像度1200px以下
+--------------------------------------------------------*/
+@media
+only screen and (max-width : 1200px){
+	.site-header,
+	.global-nav,
+	.main-body,
+	.site-footer{
+		min-width: 0;
+	}
+
+	.site-header-in,
+	.global-nav-in,
+	.main-body-in,
+	.site-footer-in{
+		width: 96%;
+		margin: auto;
+	}
+	
+	.main-image-in,
+	.main-image-in-text,
+	.main-image-in-text .main-image-in-text-cont,
+	.main-image-in-text.wide .main-image-in-text-cont{
+		width: 100%;
+	}
+	
+	.col1 .section-wrap,
+	.col1 .breadcrumbs,
+	.col1 .section-wrap.wide .section-in,
+	.col1 .section-wrap.wide{
+		width: auto;
+	}
+	
+	.col1 .breadcrumbs-in,
+	.col1 .float-area{
+		width: 96%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	/*吹き出し*/
+	.bubble{
+		width: 70%;
+	}
+	
+	.talker{
+		width: 25%;
+	}
+	
+	.bubble .bubble-in:after,
+	.bubble .bubble-in:before{
+		top: 30px;
+	}
+	
+	.together .bubble,
+	.together .talker{
+		width: 100%;
+	}
+	
+	.together .talker b{
+		max-width: 25%;
+	}
+
+	.ranking-list04 .rank-box,
+	.ranking-list05 .rank-box,
+	.post-list01 .post-box,
+	.post-list02 .post-box{
+		width: 100%;
+	}
+	
+	.col1 .ranking-list05 .rank-box,
+	.col1 .post-list02 .post-box{
+		width: 320px;
+	}
+	
+}/*解像度1200px以下*/
+
+/*--------------------------------------------------------
+解像度737px以上950px以下
+--------------------------------------------------------*/
+@media (min-width: 737px) and (max-width: 950px){
+
+	/*ランキング*/
+	.col2 .sub-conts .ranking-list03 .rank-thumb,
+	.col2r .sub-conts .ranking-list03 .rank-thumb,
+	.col2 .comparative-list01 .rank-thumb,
+	.col2 .comparative-list02 .rank-thumb,
+	.col2r .comparative-list01 .rank-thumb,
+	.col2r .comparative-list02 .rank-thumb{
+		float: none;
+	}
+	
+	.col2 .comparative-list01 .rank-thumb,
+	.col2 .comparative-list02 .rank-thumb,
+	.col2r .comparative-list01 .rank-thumb,
+	.col2r .comparative-list02 .rank-thumb{
+		display: inline-block;
+	}
+
+	.col1 .ranking-list04 li,
+	.col1 .ranking-list05 li,
+	.col1 .post-list01 li,
+	.col1 .post-list02 li{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.col1 .ranking-list04 .rank-box,
+	.col1 .ranking-list05 .rank-box,
+	.col1 .post-list01 .post-box,
+	.col1 .post-list02 .post-box{
+		width: 320px;
+	}
+
+	.col1 .banner-list li{
+		display: list-item;
+		margin-left: 0;
+	}
+	
+	.btn-area .fl-r,
+	.btn-area .fl-l {
+		margin: 0 0 1em 0;
+	}
+
+}/*解像度737px以上950px以下*/
+
+/*--------------------------------------------------------
+解像度736px以下
+--------------------------------------------------------*/
+@media
+only screen and (max-width : 736px){
+
+	html,
+	body,
+	.containr{
+		min-width: 0;
+	}
+
+	html{
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+
+	html,body{
+		width: 100%;
+		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+	}
+
+	textarea,input{
+		max-width: 95%;
+	}
+	
+	input[type="submit"],input[type="image"],
+	input[type="reset"],input[type="button"],
+	input[type="file"]{
+		max-width: none;
+	}
+	
+	blockquote{
+		position: relative;
+		margin: 2em 0;
+		padding: 115px 20px 80px;
+	}
+
+	.site-header-in,
+	.global-nav-in,
+	.main-body-in{
+		width: 100%;
+	}
+	
+	.col2 .main-conts,
+	.col2 .sub-conts,
+	.col2r .main-conts,
+	.col2r .sub-conts{
+		float: none;
+		width: auto;
+	}
+	
+	/*ヘッダー*/
+	.site-header-conts,
+	.site-title,
+	.header-box{
+		display: block;
+	}
+	
+	.header-box{
+		margin-top: 15px;
+	}
+	
+	.site-header-conts{
+		padding-top: 50px;
+	}
+	
+	.no-gn .site-header-conts{
+		padding-top: 0;
+	}
+	
+	.site-header-conts{
+		padding-bottom: 10px;
+	}
+	
+	.site-title{
+		padding: 15px 15px 0;
+		font-size: 1.4em;
+	}
+
+	.normal-screen .site-title{
+		font-size: 2em;
+	}
+
+	.normal-screen .lp-catch{
+		padding: 15px 15px 0;
+		font-size: 1em;
+	}
+
+	.header-box{
+		margin-left: 0;
+		text-align: center;
+	}
+	
+	.site-header-in{
+		position: relative;
+		padding-bottom: 1em;
+	}
+
+	
+	/*グローバルナビ*/
+	.global-nav{
+		position: absolute;
+		top: 0;
+		width: 100%;
+		margin: 0;
+		border: 0;
+	}
+	
+	.global-nav ul{
+		display: none;
+		position: absolute;
+		top: 50px;
+		left: 10px;
+		z-index: 50;
+		width: 80%;
+		border: 0;
+		background: #666;
+
+	}
+	
+	.global-nav-panel{
+		display: block;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 10px;
+		background: #62481C;
+		color: #fff;
+		cursor: pointer;
+	}
+
+	.global-nav-in li{
+		display: list-item;
+		width: auto;
+		border-right: 0;
+		border-bottom: 1px solid #f7e7c8;
+		text-align: left;
+	}
+	
+	.global-nav-in li ul{
+		position: static;
+		width: auto;
+		margin-left: 1em;
+	}
+	
+	.global-nav-in li ul li{
+		width: auto;
+		border-bottom: 0;
+	}
+			
+	.global-nav-in li a,
+	.global-nav li ul li a{
+		padding: 1em;
+		padding-right: 2em;
+	}
+	.global-nav-in li a{
+		background: url(../images/icon/icon-gn-arw.png) right center no-repeat;
+	}
+	.global-nav li ul li a{
+		background: url(../images/icon/icon-gn-arw.png) right center no-repeat #d3bd92;
+	}
+	
+		/*Retina（高解像度）ディスプレイ用*/
+		@media screen and (-webkit-min-device-pixel-ratio:2),
+		(min-resolution: 2dppx){
+
+			.global-nav-in li a{
+				background: url(../images/icon/icon-gn-arw@2x.png) right center no-repeat;
+				-webkit-background-size: 27px 18px;
+				background-size: 27px 18px;
+			}
+			.global-nav li ul li a{
+				background: url(../images/icon/icon-gn-arw@2x.png) right center no-repeat #d3bd92;
+				-webkit-background-size: 27px 18px;
+				background-size: 27px 18px;
+			}
+
+		}
+		
+.global-nav-in li ul ul li a{
+	background: #fffdef;	
+}
+		
+	/*--------------------------------------------------------
+	メインビジュアル
+	--------------------------------------------------------*/
+
+	.main-image-in-text-cont{
+		padding: 1em;
+	}
+	
+	.main-copy{
+		margin-bottom: 10px;
+		font-size: 2em;
+		text-align: center;
+	}
+
+	.sub-copy{
+		font-size: 1em;
+	}
+	
+	.section-wrap,
+	.col1 .section-wrap.wide{
+		padding: 0;
+		border: 0;
+	}
+	
+	.col1 .section-wrap{
+		padding: 0;
+	}
+	
+	.section-wrap .section-in,
+	.col1 .section-wrap.wide .section-in,
+	.float-area,
+	.col1 .float-area{
+		padding: 15px;
+	}
+
+	.col1 .sub-conts .section-wrap .section-in{
+		padding: 0 20px 30px;
+	}
+
+	.section-wrap .section-in .section-title,
+	.section-wrap .article-header .section-title{
+		margin: -15px -15px 25px;
+		padding: 15px;
+		font-size: 1.75em;
+	}
+
+	.sub-conts .section-wrap .section-in .section-title,
+	.sub-conts .section-wrap .article-header .section-title,
+	.col1 .sub-conts .section-wrap .section-in .section-title,
+	.col1 .sub-conts .section-wrap .article-header .section-title{
+		margin: 0 0 30px;
+	}
+
+	.main-body h1,
+	.main-body h2,
+	.main-body h3,
+	.main-body h4,
+	.main-body h5,
+	.main-body h6{
+		margin: 35px 0 20px;
+	}
+	
+
+	.main-body h1,
+	.main-body h2{
+		font-size: 1.5em;
+	}
+	
+	/*パンくずリスト*/
+	.breadcrumbs-in{
+		margin-bottom: 1em;
+		padding: 0 1em;
+	}
+
+	.breadcrumbs-in li:last-child{
+		display: none;
+	}
+
+	.col1 .breadcrumbs-in{
+		width: auto;
+	}
+
+	/*フッターナビ*/
+	.site-footer-in h3{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	.site-footer-nav{
+		display: block;
+		text-align: left;
+	}
+
+	.site-footer-nav li,
+	.site-footer-nav li:first-child{
+		display: list-item;
+		margin-left: 20px;
+	}
+
+	/*コピーライト*/
+	.copyright{
+		padding: 15px;
+		text-align: left;
+	}
+
+	.page-top img{
+		width: 40px;
+	}
+
+	/*最新情報*/
+	.news .news-thumb{
+		float: none;
+		text-align: center;
+	}
+
+	.main-body .news-title{
+		font-size: 1.25em;
+	}
+
+	/*テーブル（左端がth、右側がtdの場合にスマホ表示で立て並びに変化）*/
+	.table-block,
+	.table-block thead,
+	.table-block tbody,
+	.table-block tfoot,
+	.table-block tr,
+	.table-block th,
+	.table-block td{
+		display: block;
+	}
+	
+	.table-block{
+		border-bottom: 1px solid #959595;
+	}
+	
+	.table-block th,
+	.table-block td{
+		float: left;
+		width: 100%!important;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.table-block:after{
+		content : '';
+		display : block;
+		clear : both;
+		height:0;
+	}
+	
+	.table-scroll:before{
+		content: "※はみ出ている場合、横にスクロールできます。"
+	}
+
+	/*バナーエリア*/
+	.banner-list li{
+		text-align: center;
+	}
+	
+	.banner-list li,
+	.col1 .banner-list li,
+	.main-conts .banner-list li{
+		display: list-item;
+		margin-left: 0;
+	}
+
+/*ボタン*/
+	.btn-area{
+		text-align: center;
+	}
+
+	.btn{
+		float: none;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.btn-area .btn {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.btn-green,
+	.btn-blue,
+	.btn-orange,
+	.btn-red{
+		padding: 25px;
+	}
+
+	.btn-form01{
+		padding: 25px 40px;
+	}
+
+	.btn-form02{
+		padding: 25px 20px;
+	}
+
+	/*ソーシャルボタン*/
+	.sns-list li{
+		margin-right: 1em;
+		margin-left: 0;
+	}
+
+	/*登場人物紹介２*/
+	.col1 .cast-box02 .cast{
+		min-height: 0;
+		padding-top: 210px;
+	}
+
+	.col1 .cast-box02 .cast-name,
+	.col1 .cast-box02 .cast-profile{
+		padding-left: 0;
+	}
+
+	.col1 .cast-box02 .cast .cast-headshot{
+		width: 100%;
+	}
+
+	/*ランキング*/
+	.rank-thumb{
+		float: none;
+	}
+	
+	.sub-conts .ranking-list03 .rank-thumb,
+	.col2 .sub-conts .ranking-list03 .rank-thumb,
+	.col2r .sub-conts .ranking-list03 .rank-thumb{
+		float: left;
+	}
+
+	.col1 .ranking-list04 li,
+	.col1 .ranking-list05 li,
+	.col1 .post-list01 li,
+	.col1 .post-list02 li{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.comparative-list01 .rank-thumb,
+	.comparative-list02 .rank-thumb{
+		display: inline-block;
+		float: none;
+	}
+
+	.ranking-list04 .rank-box,
+	.ranking-list05 .rank-box,
+	.post-list01 .post-box,
+	.post-list02 .post-box{
+		width: 320px;
+	}
+	
+	/*関連記事*/
+	.related-articles-thumbs02 li{
+		float: none;
+		width: auto;
+		margin-left: 0;
+	}
+	
+	.eye-catch{
+		float: none;
+		margin: 0 0 1em;
+		text-align: center;
+	}
+
+}/*解像度736px以下*/
+
+/*--------------------------------------------------------
+解像度480px以下
+--------------------------------------------------------*/
+@media
+only screen and (max-width : 480px){
+
+	/*段組*/
+	.col4-wrap,
+	.col3-wrap,
+	.col2-wrap{
+		margin: 0 0 1em;
+	}
+
+	.col4-wrap .col,
+	.col4-wrap .col_2of4,
+	.col4-wrap .col_3of4,
+	.col3-wrap .col,
+	.col3-wrap .col_2of3,
+	.col2-wrap .col{
+		float: none;
+		margin-left: 0;
+	}
+
+	.col4-wrap .col,
+	.col4-wrap .col_2of4,
+	.col4-wrap .col_3of4,
+	.col3-wrap .col,
+	.col3-wrap .col_2of3,
+	.col2-wrap .col{
+		width: auto;
+	}
+
+	.left,
+	.right{
+		float: none;
+		margin-right: 0;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.ranking-list04 .rank-box,
+	.ranking-list05 .rank-box,
+	.post-list01 .post-box,
+	.post-list02 .post-box,
+	.col1 .ranking-list05 .rank-box,
+	.col1 .post-list02 .post-box{
+		width: 100%;
+	}
+		
+}/*解像度480px以下*/
+
+
+
+/*---------------------------------------------------------------------
+	generated by Keni Template Maker Ver.7.0 on 2017-03-29 10:13:31
+----------------------------------------------------------------------*/

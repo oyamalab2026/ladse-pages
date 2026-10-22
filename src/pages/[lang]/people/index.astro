@@ -1,0 +1,13 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import PageIntro from '../../../components/PageIntro.astro';
+import JoinBand from '../../../components/JoinBand.astro';
+import { members, languages, groupLabels, tr, route, type Lang } from '../../../lib/site';
+export function getStaticPaths(){return languages.map(lang=>({params:{lang}}));}
+const lang=Astro.params.lang as Lang;
+---
+<Layout lang={lang} title={tr(lang,'メンバー','People')}>
+  <PageIntro eyebrow="PEOPLE" title={tr(lang,'それぞれの問いを、ともに。','Different questions. Shared curiosity.')} description={tr(lang,'さまざまな大学・専門分野の学生と研究者が、JAXA宇宙科学研究所を拠点に研究しています。','Students and researchers from different universities and backgrounds work together at JAXA’s Institute of Space and Astronautical Science.')} />
+  <div class="container page-content">{Object.entries(groupLabels).map(([group,label])=><section class="people-group"><h2>{label[lang]}</h2><div class:list={['people-grid',{'staff-grid':group==='staff'}]}>{members.filter(m=>m.group===group).map(member=><article class="person">{member.image && <div class="person-image"><img src={member.image} alt={member.name} width="400" height="400" loading="lazy"/></div>}<div><h3>{lang==='en' && member.nameEn?member.nameEn:member.name}<small>{member.role}</small></h3>{lang==='ja' && member.nameEn && <p class="person-name-en">{member.nameEn}</p>}{lang==='ja' && <p class="person-description">{member.description.replace(member.name,'').replace(/^[,，\s]+/,'')}</p>}{lang==='en' && group==='staff' && <p class="person-description">Professor, Department of Space Flight Systems, ISAS / JAXA</p>}<p class="person-topic">{lang==='en' && member.topicEn?member.topicEn:member.topic}</p></div></article>)}</div></section>)}<a class="button button-outline" href={route(lang,'people/alumni')}>{tr(lang,'過去のメンバー','Former members')}<span aria-hidden="true">→</span></a></div>
+  <JoinBand lang={lang}/>
+</Layout>

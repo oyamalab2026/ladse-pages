@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageIntro from '../components/PageIntro.astro';
+---
+<Layout lang="ja" title="ページが見つかりません / Page not found" translated={false} noindex>
+  <PageIntro eyebrow="404 / PAGE NOT FOUND" title="ページが見つかりません。" description="URLが変更されたか、ページが存在しません。The page may have moved or the address may be incorrect."/>
+  <div class="container page-content"><a class="button" href="/ja/">日本語トップへ →</a> <a class="button button-outline" href="/en/">English home →</a><p style="margin-top:28px"><a class="text-link" href="/ja/resources/">過去資料・アーカイブを探す →</a></p></div>
+</Layout>

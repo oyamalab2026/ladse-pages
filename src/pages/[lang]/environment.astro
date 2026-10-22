@@ -1,0 +1,17 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import JoinBand from '../../components/JoinBand.astro';
+import { languages, tr, asset, route, type Lang } from '../../lib/site';
+export function getStaticPaths(){return languages.map(lang=>({params:{lang}}));}
+const lang=Astro.params.lang as Lang;
+---
+<Layout lang={lang} title={tr(lang,'研究環境','Research environment')}>
+  <PageIntro eyebrow="RESEARCH ENVIRONMENT" title={tr(lang,'考える場所。確かめる場所。','A place to think. A place to test.')} description={tr(lang,'JAXA相模原キャンパスを拠点に、数値シミュレーションと実験の両方から研究に取り組む環境があります。','Based at the JAXA Sagamihara Campus, our research environment brings together numerical simulation and experimental work.')} />
+  <div class="container page-content"><div class="content-two-column"><article class="prose">
+    <h2>{tr(lang,'JAXA宇宙科学研究所で研究する','Research at JAXA / ISAS')}</h2><p>{tr(lang,'研究室は、神奈川県相模原市のJAXA宇宙科学研究所にあります。さまざまな分野の研究者が集まる環境で、宇宙科学・宇宙工学に関わる課題に取り組みます。','The laboratory is located at JAXA’s Institute of Space and Astronautical Science in Sagamihara, Kanagawa. Researchers from a range of disciplines work on questions in space science and engineering.')}</p>
+    <h2>{tr(lang,'計算で流れと設計を探る','Explore flow and design through computation')}</h2><p>{tr(lang,'数値流体解析、進化計算、多目的設計最適化などの手法を用いて研究を行います。計算結果を可視化し、現象を理解して、次の解析や実験につなげます。計算資源や利用条件は、研究テーマに応じてご相談ください。','Our computational work includes fluid dynamics, evolutionary computation and multiobjective design optimization. We visualize results to understand physical phenomena and inform subsequent simulations and experiments. Available computing resources and access conditions depend on the research project.')}</p>
+    <h2>{tr(lang,'風洞と計測設備で確かめる','Investigate through experiments')}</h2><p>{tr(lang,'風洞実験や計測を通じて、流体現象や流体制御の仕組みを調べます。研究室の低速風洞や真空チャンバのほか、研究内容に応じてJAXAの風洞設備を利用する研究も行っています。','Wind-tunnel experiments and measurements help us investigate flow physics and control mechanisms. Research uses laboratory facilities such as a low-speed wind tunnel and a vacuum chamber, as well as JAXA wind-tunnel facilities depending on the project.')}</p>
+    <h2>{tr(lang,'研究室を見てみたい方へ','Visit the laboratory')}</h2><p>{tr(lang,'設備や研究の進め方については、実際に見学しながらご説明します。配属や共同研究を検討している方は、お問い合わせください。','A laboratory visit is a chance to discuss our facilities and how research is carried out. Contact us if you are considering joining the lab or exploring a collaboration.')}</p><a class="text-link" href={route(lang,'join')}>{tr(lang,'配属・見学について','Joining and visiting the lab')} →</a>
+  </article><div class="image-stack">{[['images/1815.jpg','研究室の居室','Laboratory workspace'],['images/workstations.jpg','計算・解析のためのワークステーション','Workstations for simulation and analysis'],['images/tunnel01.jpg','研究室の風洞設備','Laboratory wind-tunnel equipment'],['images/tunnel02.jpg','実験・計測設備','Experimental and measurement equipment']].map(([img,ja,en])=><figure><img src={asset(img)} alt={tr(lang,ja,en)} width="720" height="480" loading="lazy"/><figcaption>{tr(lang,ja,en)}</figcaption></figure>)}</div></div></div><JoinBand lang={lang}/>
+</Layout>
