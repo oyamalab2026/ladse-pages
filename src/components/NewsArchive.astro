@@ -3,21 +3,23 @@ import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import PageIntro from './PageIntro.astro';
 import NewsList from './NewsList.astro';
-import { tr, route, newsOrder, newsCategories, type Lang } from '../lib/site';
-interface Props { lang: Lang; category?: keyof typeof newsCategories; }
-const { lang, category } = Astro.props;
+import { tr, route, newsOrder, newsCategories, isShowcaseNews, type Lang } from '../lib/site';
+interface Props { lang: Lang; category?: keyof typeof newsCategories; topic?: 'showcase'; }
+const { lang, category, topic } = Astro.props;
 const allNews = (await getCollection('news')).sort(newsOrder);
-const news = category ? allNews.filter(item => item.data.category === category) : allNews;
+const showcaseNews = allNews.filter(isShowcaseNews);
+const news = topic === 'showcase' ? showcaseNews : category ? allNews.filter(item => item.data.category === category) : allNews;
 const years = [...new Set(news.map(item => item.data.date?.getUTCFullYear() ?? 0))].sort((a, b) => b - a);
-const title = category ? newsCategories[category][lang] : tr(lang, 'ニュース', 'News');
+const title = topic === 'showcase' ? 'AIAA Showcase' : category ? newsCategories[category][lang] : tr(lang, 'ニュース', 'News');
 const archiveRoute = (key?: string) => route(lang, key ? `news/category/${key}` : 'news');
 ---
 <Layout lang={lang} title={title}>
-  <PageIntro eyebrow="NEWS" title={title} description={tr(lang, '学会発表、受賞・選出、研究室行事などの活動を掲載しています。', 'Conference presentations, awards, selections and laboratory activities.')} />
+  <PageIntro eyebrow="NEWS" title={title} description={topic === 'showcase' ? tr(lang, 'AIAA Showcaseへの掲載・選出と研究紹介をまとめています。', 'Laboratory publications featured and explained on the AIAA Showcase.') : tr(lang, '学会発表、受賞・選出、研究室行事などの活動を掲載しています。', 'Conference presentations, awards, selections and laboratory activities.')} />
   <div class="container page-content">
     <nav class="tag-list news-categories" aria-label={tr(lang, 'ニュースの分類', 'News categories')}>
-      <a class="tag" href={archiveRoute()} aria-current={!category ? 'page' : undefined}>{tr(lang, 'すべて', 'All')} ({allNews.length})</a>
+      <a class="tag" href={archiveRoute()} aria-current={!category && !topic ? 'page' : undefined}>{tr(lang, 'すべて', 'All')} ({allNews.length})</a>
       {Object.entries(newsCategories).map(([key, label]) => <a class="tag" href={archiveRoute(key)} aria-current={category === key ? 'page' : undefined}>{label[lang]} ({allNews.filter(item => item.data.category === key).length})</a>)}
+      <a class="tag" href={route(lang, 'news/showcase')} aria-current={topic === 'showcase' ? 'page' : undefined}>AIAA Showcase ({showcaseNews.length})</a>
     </nav>
     <p class="result-count">{tr(lang, `${news.length}件の記事`, `${news.length} articles`)}</p>
     <nav class="tag-list news-years" aria-label={tr(lang, '年別ニュース', 'News by year')}>

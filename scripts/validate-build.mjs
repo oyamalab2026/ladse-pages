@@ -15,9 +15,11 @@ for(const file of files){
 if(files.length>20000)issues.push(`Pages file count exceeded: ${files.length}`);
 const newHtml=files.filter(f=>f.endsWith('.html')&&!f.includes(`${path.sep}archive${path.sep}`));
 const redirects=await readFile(path.join(dist,'_redirects'),'utf8');
+const newsPages=[];
 for(const file of newHtml){
  const html=await readFile(file,'utf8');
  const rel=path.relative(dist,file);
+ if(html.includes('class="news-detail"')&&/^ja\/news\//.test(rel))newsPages.push(file);
  if(!html.includes('<html lang='))issues.push(`Missing document language: ${rel}`);
  const url=new URL('/'+rel.replace(/index\.html$/,''),'https://local.invalid');
  for(const match of html.matchAll(/\b(href|src|poster)="([^"]+)"/g)){
@@ -35,6 +37,5 @@ for(const file of newHtml){
  }
 }
 const report=JSON.parse(await readFile(path.join(root,'docs/migration-report.json'),'utf8'));
-const newsPages=newHtml.filter(f=>/\/ja\/news\/[^/]+\/index\.html$/.test(f));
 if(newsPages.length<report.news)issues.push(`News migration loss: ${newsPages.length}/${report.news}`);
 if(issues.length){console.error([...new Set(issues)].join('\n'));process.exitCode=1;}else console.log(`Validated ${files.length} files, ${newHtml.length} new HTML pages, ${newsPages.length} news articles; local links and Pages limits OK.`);

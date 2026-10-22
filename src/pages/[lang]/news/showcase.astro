@@ -1,0 +1,7 @@
+---
+import NewsArchive from '../../../components/NewsArchive.astro';
+import { languages, type Lang } from '../../../lib/site';
+export function getStaticPaths() { return languages.map(lang => ({ params: { lang } })); }
+const lang = Astro.params.lang as Lang;
+---
+<NewsArchive lang={lang} topic="showcase"/>

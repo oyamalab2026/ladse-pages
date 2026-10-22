@@ -2,15 +2,17 @@
 
 調査日：2026-10-23。対象は2026-10-22取得の旧LADSEトップページ、現在・過去のメンバー一覧、JAXA宇宙科学研究所の2018〜2026年度受賞一覧、および下記の学会・研究者情報です。
 
+[2023〜2026年の原本再照合とShowcaseの確認結果](news-2023-2026-review.md)も参照してください。
+
 ## 確認結果
 
 - 旧トップページはニュース記事78件、見出し78件。記事外やHTMLコメント内に別の受賞記事は見つかりませんでした。旧記事78件を`sourceOrder`で一対一対応させ、本文テキスト・写真・リンクを照合しました。
 - 旧ニュースに掲載済みの受賞・選出は18記事。このうちAIAA Showcase 3件、篠塚温志さんの学生賞、WCCI 2024の優勝の計5件を、前回は誤って別の分類にしていました。
-- 旧HPに載っていない受賞・選出5記事を補完し、現在の掲載は83記事、受賞・選出は23記事です。賞の総数ではなく記事数です。
+- 旧HPに載っていない受賞・選出6記事と研究紹介1記事を補完し、現在の掲載は85記事、受賞・選出は24記事です。賞の総数ではなく記事数です。
 - 旧本文に日付が明記されていた12記事の日付を復元しました。うち11記事は従来「日付未記載」、1記事は会議名の年だけから日付を作っていました。安養寺正之さんの宇宙科学奨励賞は2017-03-09に戻しています。
 - この照合範囲のニュースを確認した結果であり、研究室で行われた全活動・全受賞を網羅したという意味ではありません。
 
-## 補完した受賞・選出
+## 補完した受賞・選出と研究紹介
 
 | 記事 | 掲載日付の扱い | 根拠 |
 |---|---|---|
@@ -19,10 +21,12 @@
 | [飯田怜央さんが第35回ISTSでJapanese Rocket Society Awardを受賞(2025/07)](https://oyamalab2026.pages.dev/ja/news/2025-07-iida-ists-award/) | 2025-07（受賞月） | [JAXA 宇宙科学研究所 2025年度 表彰・受賞](https://www.isas.jaxa.jp/home/research-portal/awards/2025/)、[第35回ISTS 表彰について](https://ists.ne.jp/the35th/callforpapers/award/) |
 | [卒業生の金子賢人さんが第39回数値流体力学シンポジウムの若手優秀講演表彰を受賞](https://oyamalab2026.pages.dev/ja/news/2026-02-16-kaneko-cfd39-award/) | 2026-02-16（受賞者一覧公開日） | [日本流体力学会 第39回数値流体力学シンポジウム 受賞者一覧](https://www.nagare.or.jp/prize/6403/7475.html) |
 | [大山聖先生が日本機械学会 設計工学・システム部門の部門貢献表彰を受賞(2020/11)](https://oyamalab2026.pages.dev/ja/news/2020-11-oyama-jsme-contribution/) | 2020-11（受賞月） | [日本機械学会 設計工学・システム部門 歴代受賞者一覧（2020年度）](https://www.jsme.or.jp/dsd/jp/awards/index.html)、[JAXA 宇宙科学研究所 2020年度 表彰・受賞](https://www.isas.jaxa.jp/home/research-portal/awards/2020/) |
+| [飯田悠生さんのAIAA SCITECH 2026論文がShowcaseに掲載（2026年）](https://oyamalab2026.pages.dev/ja/news/2026-iida-scitech-showcase/) | 2026（論文発表年（掲載月日未確認）） | [AIAA Showcase 公開一覧](https://www.growkudos.com/showcase/publishers/aiaa)、[飯田悠生さん・佐藤允先生による研究紹介（Kudos）](https://www.growkudos.com/publications/10.2514%252F6.2026-2437/reader)、[AIAA原論文（DOI）](https://doi.org/10.2514/6.2026-2437) |
+| [遠藤桜さんのAIAA SCITECH 2024論文をAIAA Showcaseで紹介（2024年）](https://oyamalab2026.pages.dev/ja/news/2024-endo-scitech-research-story/) | 2024（論文発表年（紹介公開日未確認）） | [大山聖先生による研究紹介（Kudos／AIAA）](https://www.growkudos.com/publications/10.2514%252F6.2024-2866/reader)、[AIAA原論文（DOI）](https://doi.org/10.2514/6.2024-2866) |
 
 大西さんの2026年の受賞・選出2件は、JST J-GLOBALが掲載するresearchmap登録情報を根拠としています。年会の正式名称・発表者・題目は公式プログラムS48で別途照合しましたが、学会の公開受賞者一覧での確認とは区別しています。日付は確認できる月までに留めました。
 
-飯田さんの受賞はJAXA公式一覧に記載があります。ISTS公式サイトで賞名を確認しています。金子さんの若手優秀講演表彰は日本流体力学会の受賞者一覧、大山先生の部門貢献表彰はJAXAと日本機械学会の双方に記載があります。
+飯田怜央さんのISTS受賞はJAXA公式一覧に記載があります。ISTS公式サイトで賞名を確認しています。金子さんの若手優秀講演表彰は日本流体力学会の受賞者一覧、大山先生の部門貢献表彰はJAXAと日本機械学会の双方に記載があります。
 
 ## 名称・内容の訂正
 

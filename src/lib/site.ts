@@ -51,3 +51,5 @@ export function newsOrder(a: NewsOrderEntry, b: NewsOrderEntry): number {
   const right = b.data.date?.getTime() ?? -Infinity;
   return left === right ? a.data.sourceOrder - b.data.sourceOrder : right - left;
 }
+
+export const isShowcaseNews = (item: { data: { title: string } }) => /showcase|ショーケース/i.test(item.data.title);

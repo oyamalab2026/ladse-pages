@@ -103,6 +103,10 @@
       "dateNote": "選出月日未確認",
       "sources": [
         {
+          "title": "旧研究室HPの掲載記事（保存版）",
+          "url": "https://oyamalab2026.pages.dev/archive/index.html"
+        },
+        {
           "title": "AIAA Showcase：金子賢人さんの論文紹介（2024年7月発行）",
           "url": "https://www.growkudos.com/publications/10.2514%252F6.2024-3588/reader"
         }
@@ -150,7 +154,8 @@
         "大西龍汰郎"
       ]
     ],
-    "reason": "優勝を受賞・選出に分類。概要でチーム6名全員を表示。 受賞者一覧・メンバー表記に合わせ氏名の誤字（龍太郎→龍汰郎）を訂正。"
+    "reason": "優勝を受賞・選出に分類。概要でチーム6名全員を表示。 受賞者一覧・メンバー表記に合わせ氏名の誤字（龍太郎→龍汰郎）を訂正。",
+    "appendHtml": "<p><a href=\"/archive/images/news/Certificate1.pdf\">優勝賞状（PDF）</a></p>"
   },
   "27": {
     "metadata": {
@@ -217,5 +222,21 @@
       ]
     ],
     "reason": " 受賞者一覧・メンバー表記に合わせ氏名の誤字（龍太郎→龍汰郎）を訂正。"
+  },
+  "30": {
+    "metadata": {
+      "sources": [
+        {
+          "title": "旧研究室HPの掲載記事（保存版）",
+          "url": "https://oyamalab2026.pages.dev/archive/index.html"
+        },
+        {
+          "title": "AIAA SCITECH 2024 論文の研究紹介",
+          "url": "https://www.growkudos.com/publications/10.2514%252F6.2024-2312/reader"
+        }
+      ]
+    },
+    "bodyReplacements": [],
+    "reason": ""
   }
 }

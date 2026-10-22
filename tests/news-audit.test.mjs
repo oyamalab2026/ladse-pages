@@ -21,11 +21,11 @@ test('every legacy announcement has a distinct retained URL and source record', 
   }
 });
 
-test('award selections and wins are retained alongside the five sourced additions', () => {
+test('award selections and wins are retained alongside sourced additions', () => {
   const legacyAwards = audit.records.filter(record => record.category === 'award');
   assert.equal(legacyAwards.length, 18);
-  assert.equal(audit.additions.length, 5);
-  for (const record of [...legacyAwards, ...audit.additions]) {
+  assert.ok(audit.additions.length >= 7);
+  for (const record of [...legacyAwards, ...audit.additions.filter(record => record.category === 'award')]) {
     assert.equal(entries.get(record.id)?.category, 'award', record.id);
   }
   for (const record of audit.additions) {
@@ -58,4 +58,46 @@ test('conference title and body agree, and official award terminology is retaine
   assert.match(entries.get('2024-03-21-028').title, /学生優秀講演賞/);
   assert.match(entries.get('2025-07-02-013').title, /2名が発表/);
   assert.match(entries.get('2025-04-01-014').body, /2025年度は/);
+});
+
+const review = JSON.parse(readFileSync(new URL('docs/news-2023-2026-review.json', root), 'utf8'));
+test('the 2023–2026 review covers each original story, including embedded award documents', () => {
+  assert.equal(review.source.sha256, audit.sourceHtmlSha256);
+  assert.equal(review.source.matchesInitialSnapshot, true);
+  assert.equal(review.records.length, 45);
+  assert.deepEqual(review.records.map(record => record.sourceOrder), Array.from({length:45}, (_, i) => i));
+  for (const record of review.records) {
+    const entry = entries.get(record.id);
+    assert.ok(entry, record.sourceTitle);
+    for (const reference of record.sourceReferences) {
+      assert.ok(entry.body.includes(reference.url), `Missing ${reference.kind} in ${record.id}: ${reference.url}`);
+    }
+  }
+  assert.match(entries.get('2024-06-30-023').body, /href="\/archive\/images\/news\/Certificate1.pdf"/);
+});
+
+test('Showcase coverage includes the old announcements and both additional research stories', () => {
+  const expected = new Map([
+    ['2024-02-03-016', '金子賢人'],
+    ['2024-02-03-030', '篠塚温志'],
+    ['2026-01-onishi-scitech-showcase', '大西龍汰郎'],
+    ['2026-iida-scitech-showcase', '飯田悠生'],
+    ['2024-endo-scitech-research-story', '遠藤桜'],
+  ]);
+  for (const [id, name] of expected) {
+    assert.ok(review.showcases.some(record => record.id === id), `Missing Showcase story: ${name}`);
+    assert.ok(entries.get(id).title.includes(name));
+    assert.match(entries.get(id).title, /Showcase/i);
+  }
+  const iida = entries.get('2026-iida-scitech-showcase');
+  assert.match(iida.body, /Yuki Iida/);
+  assert.ok(!iida.body.includes('飯田怜央'));
+  assert.equal(iida.datePrecision, 'year');
+  assert.match(iida.dateNote, /掲載月日未確認/);
+  // A public research story alone does not establish an award or selection.
+  const endo = entries.get('2024-endo-scitech-research-story');
+  assert.equal(endo.category, 'notice');
+  assert.ok(!endo.body.includes('受賞しました'));
+  assert.match(entries.get('2023-04-14-042').title, /学生優秀発表賞/);
+  assert.match(entries.get('2024-03-21-028').title, /学生優秀講演賞/);
 });

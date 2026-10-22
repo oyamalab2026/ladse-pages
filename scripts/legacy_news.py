@@ -64,6 +64,11 @@ def apply_news_corrections(source_order, metadata, body):
         if old not in body and new not in body:
             raise ValueError(f'Legacy story {source_order}: correction text not found: {old}')
         body = body.replace(old, new)
+    attachment = correction.get('appendHtml')
+    if attachment and attachment not in body:
+        if '</article>' not in body:
+            raise ValueError(f'Legacy story {source_order}: article wrapper missing')
+        body = body.replace('</article>', attachment + '\n</article>')
     metadata.update(correction.get('metadata', {}))
     metadata['summary'] = correction.get('metadata', {}).get('summary', summary_from_html(body))
     return metadata, normalize_html_block(body)

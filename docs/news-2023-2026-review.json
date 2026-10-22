@@ -1,0 +1,656 @@
+{
+  "checkedOn": "2026-10-23",
+  "years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "source": {
+    "location": "flabweb:/var/www/html/ladse_dir/index.html",
+    "sha256": "0f2116691d45e3500f31e76d7f47ecd1029ab3bde9538affc2139f9866ed8671",
+    "matchesInitialSnapshot": true,
+    "method": "SSHでApacheのDocumentRootと公開ファイルを読み取り、本文・写真・リンク・埋込み資料を記事ごとに比較。"
+  },
+  "legacyCountInScope": 45,
+  "allLegacyReferencesRetained": true,
+  "records": [
+    {
+      "id": "2026-08-03-000",
+      "sourceOrder": 0,
+      "sourceTitle": "第36回アストロダイナミクスシンポジウムで1名が発表(2026/08/03~08/05)",
+      "title": "第36回アストロダイナミクスシンポジウムで1名が発表(2026/08/03~08/05)",
+      "date": "2026-08-03",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2026-07-19-001",
+      "sourceOrder": 1,
+      "sourceTitle": "WCCM-ECCOMAS 2026で2名が発表(2026/07/19~07/24)",
+      "title": "WCCM-ECCOMAS 2026で2名が発表(2026/07/19~07/24)",
+      "date": "2026-07-19",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2026-06-24-002",
+      "sourceOrder": 2,
+      "sourceTitle": "第58回流体力学講演会／第44回航空宇宙数値シミュレーション技術シンポジウムで4名が発表(2026/06/24~06/26)",
+      "title": "第58回流体力学講演会／第44回航空宇宙数値シミュレーション技術シンポジウムで4名が発表(2026/06/24~06/26)",
+      "date": "2026-06-24",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2026-06-01-003",
+      "sourceOrder": 3,
+      "sourceTitle": "28th AIAA Aerodynamic Decelerator Systems Technology Conference and Seminarで2名が発表(2026/06/01~06/05)",
+      "title": "28th AIAA Aerodynamic Decelerator Systems Technology Conference and Seminarで2名が発表(2026/06/01~06/05)",
+      "date": "2026-06-01",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2026-04-15-004",
+      "sourceOrder": 4,
+      "sourceTitle": "第57期日本航空宇宙学会で1名が発表(2026/04/15~04/17)",
+      "title": "日本航空宇宙学会 第57期 年会講演会で1名が発表(2026/04/15~04/17)",
+      "date": "2026-04-15",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2026-04-01-005",
+      "sourceOrder": 5,
+      "sourceTitle": "新年度が始まります．(2026/04/01)",
+      "title": "新年度が始まります．(2026/04/01)",
+      "date": "2026-04-01",
+      "category": "lab",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2026-01-30-006",
+      "sourceOrder": 6,
+      "sourceTitle": "令和7年度航空宇宙空力シンポジウムで1名が発表(2026/01/30~01/31)",
+      "title": "令和7年度航空宇宙空力シンポジウムで1名が発表(2026/01/30~01/31)",
+      "date": "2026-01-30",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2026-01-12-007",
+      "sourceOrder": 7,
+      "sourceTitle": "AIAA Scitech 2026 Forumで3名が発表(2026/01/12~01/16)",
+      "title": "AIAA SCITECH 2026 Forumで3名が発表(2026/01/12~01/16)",
+      "date": "2026-01-12",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2025-12-19-008",
+      "sourceOrder": 8,
+      "sourceTitle": "進化計算シンポジウム2025で1名が発表(2025/12/19~12/21)",
+      "title": "進化計算シンポジウム2025で1名が発表(2025/12/19~12/21)",
+      "date": "2025-12-19",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2025-11-25-009",
+      "sourceOrder": 9,
+      "sourceTitle": "第69回宇宙科学技術連合講演会で3名が発表(2025/11/25~11/28)",
+      "title": "第69回宇宙科学技術連合講演会で3名が発表(2025/11/25~11/28)",
+      "date": "2025-11-25",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2025-10-15-010",
+      "sourceOrder": 10,
+      "sourceTitle": "第63回飛行機シンポジウムで3名が発表(2025/10/15~10/17)",
+      "title": "第63回飛行機シンポジウムで3名が発表(2025/10/15~10/17)",
+      "date": "2025-10-15",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2025-08-26-011",
+      "sourceOrder": 11,
+      "sourceTitle": "EFDC2(The 2nd European Fluid Dynamics Conference)で1名が発表(2025/08/26~08/29)",
+      "title": "EFDC2(The 2nd European Fluid Dynamics Conference)で1名が発表(2025/08/26~08/29)",
+      "date": "2025-08-26",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2025-07-28-012",
+      "sourceOrder": 12,
+      "sourceTitle": "第35回アストロダイナミクスシンポジウムで1名が発表(2025/07/28~07/29)",
+      "title": "第35回アストロダイナミクスシンポジウムで1名が発表(2025/07/28~07/29)",
+      "date": "2025-07-28",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2025-07-02-013",
+      "sourceOrder": 13,
+      "sourceTitle": "第57回流体力学講演会/第43回ANSSで1名が発表(2025/07/02~07/04)",
+      "title": "第57回流体力学講演会／第43回航空宇宙数値シミュレーション技術シンポジウムで2名が発表(2025/07/02~07/04)",
+      "date": "2025-07-02",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2025-04-01-014",
+      "sourceOrder": 14,
+      "sourceTitle": "新年度が始まります．(2025/04/01)",
+      "title": "新年度が始まります．(2025/04/01)",
+      "date": "2025-04-01",
+      "category": "lab",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-07-01-015",
+      "sourceOrder": 15,
+      "sourceTitle": "大西龍汰郎さんが第56回流力講演会/第42回ANSSで優秀講演賞を受賞(2024/07)",
+      "title": "大西龍汰郎さんが第56回流体力学講演会／第42回ANSSで優秀講演賞（学生賞）を受賞(2024/07)",
+      "date": "2024-07-01",
+      "category": "award",
+      "sourceReferences": [
+        {
+          "kind": "a",
+          "url": "https://branch.jsass.or.jp/aerocom/ryu/ryu56/award/"
+        }
+      ],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-02-03-016",
+      "sourceOrder": 16,
+      "sourceTitle": "金子賢人さんがAIAA Aviation 2024 ForumのShowcaseに選出(2024/2/3)",
+      "title": "金子賢人さんの論文がAIAA AVIATION FORUM AND ASCEND 2024のShowcaseに選出(2024年)",
+      "date": "2024-01-01",
+      "category": "award",
+      "sourceReferences": [
+        {
+          "kind": "a",
+          "url": "https://www.growkudos.com/publications/10.2514%252F6.2024-3588/reader"
+        }
+      ],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-10-15-017",
+      "sourceOrder": 17,
+      "sourceTitle": "第62回飛行機シンポジウムで2名が発表(2024/10/15~10/17)",
+      "title": "第62回飛行機シンポジウムで2名が発表(2024/10/15~10/17)",
+      "date": "2024-10-15",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-09-16-018",
+      "sourceOrder": 18,
+      "sourceTitle": "EFDC1で3名が発表(2024/09/16~09/20)",
+      "title": "EFDC1で3名が発表(2024/09/16~09/20)",
+      "date": "2024-09-16",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-09-09-019",
+      "sourceOrder": 19,
+      "sourceTitle": "ICAS CONGRESS 2024 で1名が発表(2024/09/09~09/13)",
+      "title": "ICAS CONGRESS 2024 で1名が発表(2024/09/09~09/13)",
+      "date": "2024-09-09",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-07-29-020",
+      "sourceOrder": 20,
+      "sourceTitle": "2024 AIAA AVIATION で1名が発表(2024/07/29~08/02)",
+      "title": "AIAA AVIATION FORUM AND ASCEND 2024で1名が発表(2024/07/29~08/02)",
+      "date": "2024-07-29",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-07-03-021",
+      "sourceOrder": 21,
+      "sourceTitle": "第56回流力講演会/第42回ANSSで5名が発表(2024/07/03~07/05)",
+      "title": "第56回流体力学講演会／第42回航空宇宙数値シミュレーション技術シンポジウムで5名が発表(2024/07/03~07/05)",
+      "date": "2024-07-03",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-06-30-022",
+      "sourceOrder": 22,
+      "sourceTitle": "IEEE WCCI 2024 で大山先生が基調講演(2024/06/30~07/05)",
+      "title": "IEEE WCCI 2024 で大山先生が基調講演(2024/06/30~07/05)",
+      "date": "2024-06-30",
+      "category": "conference",
+      "sourceReferences": [
+        {
+          "kind": "img",
+          "url": "/archive/images/news/plenarytalk.jpg"
+        }
+      ],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-06-30-023",
+      "sourceOrder": 23,
+      "sourceTitle": "IEEE WCCI 2024 の最適化コンペティションで大山研究室チームが優勝(2024/06/30~07/05)",
+      "title": "IEEE WCCI 2024 の最適化コンペティションで大山研究室チームが優勝(2024/06/30~07/05)",
+      "date": "2024-06-30",
+      "category": "award",
+      "sourceReferences": [
+        {
+          "kind": "iframe",
+          "url": "/archive/images/news/Certificate1.pdf"
+        }
+      ],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-06-03-024",
+      "sourceOrder": 24,
+      "sourceTitle": "ECCOMAS CONGRESS 2024で1名が発表(2024/06/03~06/07)",
+      "title": "ECCOMAS CONGRESS 2024で1名が発表(2024/06/03~06/07)",
+      "date": "2024-06-03",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-04-01-025",
+      "sourceOrder": 25,
+      "sourceTitle": "新年度が始まります．(2024/04/01)",
+      "title": "新年度が始まります．(2024/04/01)",
+      "date": "2024-04-01",
+      "category": "lab",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-03-26-026",
+      "sourceOrder": 26,
+      "sourceTitle": "大山聖教授を代表とするグループが日本機械学会宇宙工学部門スペースフロンティア賞を受賞(2024/03/26)",
+      "title": "大山聖教授を代表とするグループが日本機械学会宇宙工学部門スペースフロンティア賞を受賞(2024/03/26)",
+      "date": "2024-03-26",
+      "category": "award",
+      "sourceReferences": [
+        {
+          "kind": "img",
+          "url": "/archive/images/news/mabe2_flight.jpg"
+        },
+        {
+          "kind": "img",
+          "url": "/archive/images/news/mabe2_award.jpg"
+        }
+      ],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-03-22-027",
+      "sourceOrder": 27,
+      "sourceTitle": "2023年度回転翼機研究会で2名が発表(2024/03/22)",
+      "title": "2023年度将来回転翼機研究会・回転翼解析技術交流会で2名が発表(2024/03/22)",
+      "date": "2024-03-22",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-03-21-028",
+      "sourceOrder": 28,
+      "sourceTitle": "篠塚温志さんが北部支部2024年講演会の学生賞に選出(2024/03/21)",
+      "title": "篠塚温志さんが日本航空宇宙学会 北部支部2024年講演会で学生優秀講演賞を受賞(2024/03/21)",
+      "date": "2024-03-21",
+      "category": "award",
+      "sourceReferences": [
+        {
+          "kind": "a",
+          "url": "https://branch.jsass.or.jp/ap63/2024/03/21/%e8%a1%a8%e5%bd%b0%e8%80%85%e6%b1%ba%e5%ae%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
+        }
+      ],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-03-13-029",
+      "sourceOrder": 29,
+      "sourceTitle": "北部支部2024年講演会で2名が発表(2024/03/13-03/15)",
+      "title": "北部支部2024年講演会で2名が発表(2024/03/13-03/15)",
+      "date": "2024-03-13",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-02-03-030",
+      "sourceOrder": 30,
+      "sourceTitle": "篠塚温志さんがAIAA SciTech 2024 ForumのShowcaseに選出(2024/2/3)",
+      "title": "篠塚温志さんがAIAA SciTech 2024 ForumのShowcaseに選出(2024/2/3)",
+      "date": "2024-02-03",
+      "category": "award",
+      "sourceReferences": [
+        {
+          "kind": "a",
+          "url": "https://www.growkudos.com/publications/10.2514%25252F6.2024-2312/reader"
+        }
+      ],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2024-01-08-031",
+      "sourceOrder": 31,
+      "sourceTitle": "AIAA SciTech Forum 2024で4名が発表(2024/01/08-01/12)",
+      "title": "AIAA SciTech Forum 2024で4名が発表(2024/01/08-01/12)",
+      "date": "2024-01-08",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-12-23-032",
+      "sourceOrder": 32,
+      "sourceTitle": "二村成彦さんが進化計算シンポジウム2023でプレゼンテーション賞とIEEE CIS YRAを受賞(2023/12/23)",
+      "title": "二村成彦さんが進化計算シンポジウム2023でプレゼンテーション賞とIEEE CIS YRAを受賞(2023/12/23)",
+      "date": "2023-12-23",
+      "category": "award",
+      "sourceReferences": [
+        {
+          "kind": "img",
+          "url": "/archive/images/news/shinkacompe2023_nimura.jpg"
+        }
+      ],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-12-21-033",
+      "sourceOrder": 33,
+      "sourceTitle": "進化計算シンポジウム2023で3名が発表(2023/12/21-12/23)",
+      "title": "進化計算シンポジウム2023で3名が発表(2023/12/21-12/23)",
+      "date": "2023-12-21",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-12-15-034",
+      "sourceOrder": 34,
+      "sourceTitle": "第37回数値流体力学シンポジウムで1名が発表(2023/12/15-12/17)",
+      "title": "第37回数値流体力学シンポジウムで1名が発表(2023/12/15-12/17)",
+      "date": "2023-12-15",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-12-11-035",
+      "sourceOrder": 35,
+      "sourceTitle": "令和5年度宇宙航行の力学シンポジウムで6名が発表(2023/12/11-12/12)",
+      "title": "令和5年度宇宙航行の力学シンポジウムで6名が発表(2023/12/11-12/12)",
+      "date": "2023-12-11",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-11-15-036",
+      "sourceOrder": 36,
+      "sourceTitle": "第61回飛行機シンポジウムで1名が発表(2023/11/15-11/17)",
+      "title": "第61回飛行機シンポジウムで1名が発表(2023/11/15-11/17)",
+      "date": "2023-11-15",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-10-23-037",
+      "sourceOrder": 37,
+      "sourceTitle": "2023年度 大気球シンポジウムで1名が発表(2023/10/23-10/24)",
+      "title": "2023年度 大気球シンポジウムで1名が発表(2023/10/23-10/24)",
+      "date": "2023-10-23",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-10-17-038",
+      "sourceOrder": 38,
+      "sourceTitle": "第67回宇宙科学技術連合講演会で5名が発表(2023/10/17-10/20)",
+      "title": "第67回宇宙科学技術連合講演会で5名が発表(2023/10/17-10/20)",
+      "date": "2023-10-17",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-07-26-039",
+      "sourceOrder": 39,
+      "sourceTitle": "火星飛行機の高高度飛行試験を実施予定です(2023/07/26)",
+      "title": "火星飛行機の高高度飛行試験を実施予定です(2023/07/26)",
+      "date": "2023-07-26",
+      "category": "notice",
+      "sourceReferences": [
+        {
+          "kind": "a",
+          "url": "/archive/mabe2/2023MABE2.html"
+        },
+        {
+          "kind": "img",
+          "url": "/archive/mabe2/fig3_2023_1.jpg"
+        }
+      ],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-07-09-040",
+      "sourceOrder": 40,
+      "sourceTitle": "EUCASS 2023で1名が発表(2023/07/09-07/13)",
+      "title": "EUCASS 2023で1名が発表(2023/07/09-07/13)",
+      "date": "2023-07-09",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-06-12-041",
+      "sourceOrder": 41,
+      "sourceTitle": "AIAA AVIATION Forum 2023で4名が発表(2023/06/12-06/16)",
+      "title": "AIAA AVIATION Forum 2023で4名が発表(2023/06/12-06/16)",
+      "date": "2023-06-12",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-04-14-042",
+      "sourceOrder": 42,
+      "sourceTitle": "二村成彦さんが日本航空宇宙学会 第54期 年会講演会で学生優秀発表賞を受賞(2023/4/14)",
+      "title": "二村成彦さんが日本航空宇宙学会 第54期 年会講演会で学生優秀発表賞を受賞(2023/4/14)",
+      "date": "2023-04-14",
+      "category": "award",
+      "sourceReferences": [
+        {
+          "kind": "img",
+          "url": "/archive/images/news/JSASS2023_nimura.jpg"
+        }
+      ],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-04-13-043",
+      "sourceOrder": 43,
+      "sourceTitle": "日本航空宇宙学会 第54期 年会講演会で5名が発表(2023/04/13-04/14)",
+      "title": "日本航空宇宙学会 第54期 年会講演会で5名が発表(2023/04/13-04/14)",
+      "date": "2023-04-13",
+      "category": "conference",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    },
+    {
+      "id": "2023-04-01-044",
+      "sourceOrder": 44,
+      "sourceTitle": "新年度が始まりました(2023/04/01)",
+      "title": "新年度が始まりました(2023/04/01)",
+      "date": "2023-04-01",
+      "category": "lab",
+      "sourceReferences": [],
+      "bodyMatchedWithRecordedCorrections": true
+    }
+  ],
+  "showcases": [
+    {
+      "id": "2024-02-03-016",
+      "title": "金子賢人さんの論文がAIAA AVIATION FORUM AND ASCEND 2024のShowcaseに選出(2024年)",
+      "year": 2024,
+      "date": "2024-01-01",
+      "datePrecision": "year",
+      "dateNote": "選出月日未確認",
+      "category": "award",
+      "sources": [
+        {
+          "title": "旧研究室HPの掲載記事（保存版）",
+          "url": "https://oyamalab2026.pages.dev/archive/index.html"
+        },
+        {
+          "title": "AIAA Showcase：金子賢人さんの論文紹介（2024年7月発行）",
+          "url": "https://www.growkudos.com/publications/10.2514%252F6.2024-3588/reader"
+        }
+      ]
+    },
+    {
+      "id": "2024-02-03-030",
+      "title": "篠塚温志さんがAIAA SciTech 2024 ForumのShowcaseに選出(2024/2/3)",
+      "year": 2024,
+      "date": "2024-02-03",
+      "datePrecision": "day",
+      "dateNote": "",
+      "category": "award",
+      "sources": [
+        {
+          "title": "旧研究室HPの掲載記事（保存版）",
+          "url": "https://oyamalab2026.pages.dev/archive/index.html"
+        },
+        {
+          "title": "AIAA SCITECH 2024 論文の研究紹介",
+          "url": "https://www.growkudos.com/publications/10.2514%252F6.2024-2312/reader"
+        }
+      ]
+    },
+    {
+      "id": "2022-06-20-046",
+      "title": "谷口翔太君がAIAA AVIATION 2022 ForumのShowcaseに選出(2022/6/20)",
+      "year": 2022,
+      "date": "2022-06-20",
+      "datePrecision": "day",
+      "dateNote": "",
+      "category": "award",
+      "sources": []
+    },
+    {
+      "id": "2026-01-onishi-scitech-showcase",
+      "title": "大西龍汰郎さんの論文がAIAA SCITECH 2026のShowcaseに選出(2026/01)",
+      "year": 2026,
+      "date": "2026-01-01",
+      "datePrecision": "month",
+      "dateNote": "選出月",
+      "category": "award",
+      "sources": [
+        {
+          "title": "JST J-GLOBAL 大西龍汰郎さんの研究者情報（researchmap登録情報に基づく）",
+          "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202601016892889400"
+        },
+        {
+          "title": "著者による論文紹介（Kudos／AIAA）",
+          "url": "https://www.growkudos.com/publications/10.2514%252F6.2026-2436/reader"
+        }
+      ]
+    },
+    {
+      "id": "2026-iida-scitech-showcase",
+      "title": "飯田悠生さんのAIAA SCITECH 2026論文がShowcaseに掲載（2026年）",
+      "year": 2026,
+      "date": "2026-01-01",
+      "datePrecision": "year",
+      "dateNote": "論文発表年（掲載月日未確認）",
+      "category": "award",
+      "sources": [
+        {
+          "title": "AIAA Showcase 公開一覧",
+          "url": "https://www.growkudos.com/showcase/publishers/aiaa"
+        },
+        {
+          "title": "飯田悠生さん・佐藤允先生による研究紹介（Kudos）",
+          "url": "https://www.growkudos.com/publications/10.2514%252F6.2026-2437/reader"
+        },
+        {
+          "title": "AIAA原論文（DOI）",
+          "url": "https://doi.org/10.2514/6.2026-2437"
+        }
+      ]
+    },
+    {
+      "id": "2024-endo-scitech-research-story",
+      "title": "遠藤桜さんのAIAA SCITECH 2024論文をAIAA Showcaseで紹介（2024年）",
+      "year": 2024,
+      "date": "2024-01-01",
+      "datePrecision": "year",
+      "dateNote": "論文発表年（紹介公開日未確認）",
+      "category": "notice",
+      "sources": [
+        {
+          "title": "大山聖先生による研究紹介（Kudos／AIAA）",
+          "url": "https://www.growkudos.com/publications/10.2514%252F6.2024-2866/reader"
+        },
+        {
+          "title": "AIAA原論文（DOI）",
+          "url": "https://doi.org/10.2514/6.2024-2866"
+        }
+      ]
+    }
+  ],
+  "unconfirmedShowcaseCandidates": [
+    {
+      "doi": "10.2514/6.2023-1089",
+      "reason": "Kudosの論文情報はあるが、研究紹介本文・Showcase選出告知は確認できない。"
+    },
+    {
+      "doi": "10.2514/6.2023-3473",
+      "reason": "Kudosの論文情報はあるが、研究紹介本文・Showcase選出告知は確認できない。"
+    },
+    {
+      "doi": "10.2514/6.2025-2036",
+      "reason": "Kudosの論文情報はあるが、研究紹介本文・Showcase選出告知は確認できない。"
+    },
+    {
+      "doi": "10.2514/6.2026-1320",
+      "reason": "澤田健さんの発表題目と一致する論文情報はあるが、Showcase選出の根拠は未確認。"
+    }
+  ]
+}

@@ -32,7 +32,7 @@ test('publication filters combine year, category and text; empty results recover
 });
 test('mobile menu is keyboard accessible and pages do not overflow',async({page})=>{
  await page.setViewportSize({width:375,height:812});
- for(const path of ['/ja/','/en/','/ja/people/','/ja/join/','/en/publications/','/ja/resources/','/ja/news/','/ja/news/category/award/','/en/news/category/award/','/ja/news/2026-08-03-000/']){
+ for(const path of ['/ja/','/en/','/ja/people/','/ja/join/','/en/publications/','/ja/resources/','/ja/news/','/ja/news/category/award/','/ja/news/showcase/','/en/news/showcase/','/en/news/category/award/','/ja/news/2026-08-03-000/']){
   await page.goto(path);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
  }
@@ -128,4 +128,30 @@ test('corrected annual meeting and presenter counts are displayed in article pro
  await page.goto('/ja/news/2025-07-02-013/');
  await expect(page.getByRole('heading',{level:1})).toContainText('2名が発表');
  await expect(page.locator('.prose')).toContainText('大西龍汰郎さん(D1),清水健二さん(M2)');
+});
+
+test('Showcase archive names every verified researcher and distinguishes Yuki Iida from Reo Iida', async ({page}) => {
+ await page.goto('/ja/news/');
+ await page.locator('.news-categories').getByRole('link',{name:/AIAA Showcase/}).click();
+ await expect(page).toHaveURL(/\/ja\/news\/showcase\/$/);
+ await expect(page.getByRole('heading',{level:1})).toHaveText('AIAA Showcase');
+ for (const [year,id,name] of [
+  ['2026','2026-01-onishi-scitech-showcase','大西龍汰郎'],
+  ['2026','2026-iida-scitech-showcase','飯田悠生'],
+  ['2024','2024-02-03-016','金子賢人'],
+  ['2024','2024-02-03-030','篠塚温志'],
+  ['2024','2024-endo-scitech-research-story','遠藤桜'],
+ ]) {
+  const story=page.locator(`#year-${year} a.news-row[href="/ja/news/${id}/"]`);
+  await expect(story.locator('h3')).toContainText(name);
+  await expect(story.locator('.news-summary')).toContainText(name);
+ }
+ const iida=page.locator('a.news-row[href="/ja/news/2026-iida-scitech-showcase/"]');
+ await expect(iida.locator('time')).toHaveAttribute('datetime','2026');
+ await expect(iida.locator('.news-date-note')).toContainText('掲載月日未確認');
+ await iida.click();
+ await expect(page.locator('.prose')).toContainText('Yuki Iida');
+ await expect(page.locator('.prose')).not.toContainText('飯田怜央');
+ await page.goto('/ja/news/2024-06-30-023/');
+ await expect(page.locator('.prose').getByRole('link',{name:'優勝賞状（PDF）'})).toHaveAttribute('href','/archive/images/news/Certificate1.pdf');
 });

@@ -5,7 +5,7 @@
   "scope": "旧トップページの78記事・全見出しと本文、2018〜2026年度のJAXA受賞一覧、関連学会の受賞者一覧、研究者登録情報を照合。研究室の全活動の網羅を保証するものではない。",
   "sourceHtmlSha256": "0f2116691d45e3500f31e76d7f47ecd1029ab3bde9538affc2139f9866ed8671",
   "legacyCount": 78,
-  "addedCount": 5,
+  "addedCount": 7,
   "legacyAwards": 18,
   "records": [
     {
@@ -403,9 +403,14 @@
         "body"
       ],
       "sourceBodyTextSha256": "1f712362b90db8165edff23263e21e5e16194fe56a25d218d9e032d95f450164",
-      "bodyTextSha256": "2e33791411d1d97aa03260be95f0e746ce7e73aa7bfca49fca49823460d867ce",
-      "linksAndImages": [],
-      "reason": "優勝を受賞・選出に分類。概要でチーム6名全員を表示。 受賞者一覧・メンバー表記に合わせ氏名の誤字（龍太郎→龍汰郎）を訂正。"
+      "bodyTextSha256": "3fcd7807d9962937f5e898164f9af00695ab95dbdc365e21d664e94b87b79973",
+      "linksAndImages": [
+        [
+          "a",
+          "/archive/images/news/Certificate1.pdf"
+        ]
+      ],
+      "reason": "優勝を受賞・選出に分類。概要でチーム6名全員を表示。 受賞者一覧・メンバー表記に合わせ氏名の誤字（龍太郎→龍汰郎）を訂正。 旧HPの埋込み賞状PDFへのリンクを復元。"
     },
     {
       "sourceOrder": 24,
@@ -1533,6 +1538,50 @@
         }
       ],
       "dateNote": "受賞月"
+    },
+    {
+      "id": "2026-iida-scitech-showcase",
+      "title": "飯田悠生さんのAIAA SCITECH 2026論文がShowcaseに掲載（2026年）",
+      "date": "2026-01-01",
+      "datePrecision": "year",
+      "dateNote": "論文発表年（掲載月日未確認）",
+      "sourceOrder": 1005,
+      "category": "award",
+      "summary": "飯田悠生さんの超小型火星飛行機の翼型最適化に関する論文が、AIAA Showcaseに掲載されています。",
+      "sources": [
+        {
+          "title": "AIAA Showcase 公開一覧",
+          "url": "https://www.growkudos.com/showcase/publishers/aiaa"
+        },
+        {
+          "title": "飯田悠生さん・佐藤允先生による研究紹介（Kudos）",
+          "url": "https://www.growkudos.com/publications/10.2514%252F6.2026-2437/reader"
+        },
+        {
+          "title": "AIAA原論文（DOI）",
+          "url": "https://doi.org/10.2514/6.2026-2437"
+        }
+      ]
+    },
+    {
+      "id": "2024-endo-scitech-research-story",
+      "title": "遠藤桜さんのAIAA SCITECH 2024論文をAIAA Showcaseで紹介（2024年）",
+      "date": "2024-01-01",
+      "datePrecision": "year",
+      "dateNote": "論文発表年（紹介公開日未確認）",
+      "sourceOrder": 1006,
+      "category": "notice",
+      "summary": "遠藤桜さんらの再突入カプセルの動的不安定性に関する論文が、AIAA Showcaseで紹介されています。",
+      "sources": [
+        {
+          "title": "大山聖先生による研究紹介（Kudos／AIAA）",
+          "url": "https://www.growkudos.com/publications/10.2514%252F6.2024-2866/reader"
+        },
+        {
+          "title": "AIAA原論文（DOI）",
+          "url": "https://doi.org/10.2514/6.2024-2866"
+        }
+      ]
     }
   ],
   "unresolved": [
@@ -1552,5 +1601,6 @@
       "id": "2026-04-onishi-jsass-award",
       "issue": "受賞事実・月はJST J-GLOBALに掲載されたresearchmap登録情報による。学会の公開受賞者一覧は未確認。日を補わない。"
     }
-  ]
+  ],
+  "followupReview": "news-2023-2026-review.md"
 }
