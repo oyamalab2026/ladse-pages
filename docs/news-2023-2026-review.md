@@ -30,11 +30,12 @@ WCCI 2024の優勝記事では、旧HPの賞状PDFの埋込みが移行時に除
 
 ## Showcase掲載・研究紹介の確認
 
-[Showcase一覧](https://oyamalab2026.pages.dev/ja/news/showcase/)に、旧記事・補完記事と研究紹介をまとめました。以下の5件が2023〜2026年の対象です。2022年の谷口さんの記事も同じ一覧に保持しています。
+[Showcase一覧](https://oyamalab2026.pages.dev/ja/news/showcase/)に、旧記事・補完記事と研究紹介をまとめました。以下の6件が2023〜2026年の対象です。2022年の谷口さんの記事も同じ一覧に保持しています。
 
 | 論文発表年 | 関係者 | 確認内容 | 記事 |
 |---|---|---|---|
 | 2026 | 大西龍汰郎 | JST登録情報にShowcase選出の記載。AIAA Showcase一覧・研究紹介も確認。 | [記事](https://oyamalab2026.pages.dev/ja/news/2026-01-onishi-scitech-showcase/) |
+| 2026 | 澤田健 | 選出情報は2026-10-23に研究室から提供。原論文の題目・著者を照合。Showcaseの個別URL・選出月日は未確認。 | [記事](https://oyamalab2026.pages.dev/ja/news/2026-sawada-scitech-showcase/) |
 | 2026 | 飯田悠生 | AIAA Showcaseの公開一覧に掲載。原論文の筆頭著者・所属・題目を照合。 | [記事](https://oyamalab2026.pages.dev/ja/news/2026-iida-scitech-showcase/) |
 | 2024 | 篠塚温志 | 旧HPにShowcase選出の記事あり。掲載先も照合。 | [記事](https://oyamalab2026.pages.dev/ja/news/2024-02-03-030/) |
 | 2024 | 遠藤桜 | 大山先生による公開研究紹介を確認。選出・受賞の告知は確認できないため「お知らせ」に分類。 | [記事](https://oyamalab2026.pages.dev/ja/news/2024-endo-scitech-research-story/) |
@@ -63,7 +64,8 @@ Kudosの検索には、研究紹介が書かれていない通常の論文情報
 | [原論文](https://doi.org/10.2514/6.2023-1089)（10.2514/6.2023-1089） | Kudosの論文情報はあるが、研究紹介本文・Showcase選出告知は確認できない。 |
 | [原論文](https://doi.org/10.2514/6.2023-3473)（10.2514/6.2023-3473） | Kudosの論文情報はあるが、研究紹介本文・Showcase選出告知は確認できない。 |
 | [原論文](https://doi.org/10.2514/6.2025-2036)（10.2514/6.2025-2036） | Kudosの論文情報はあるが、研究紹介本文・Showcase選出告知は確認できない。 |
-| [原論文](https://doi.org/10.2514/6.2026-1320)（10.2514/6.2026-1320） | 澤田健さんの発表題目と一致する論文情報はあるが、Showcase選出の根拠は未確認。 |
+
+澤田健さんの2026年SciTechのShowcase選出は、その後の2026-10-23の研究室利用者の確認を根拠に記事へ反映しました。原論文は著者5名（筆頭著者Takeshi Sawada）、DOI `10.2514/6.2026-1320` と照合しています。Kudosの論文情報ページを選出証拠にしたものではありません。Showcase個別の掲載URLと選出月日は引き続き未確認です。
 
 ## 旧45記事の対応表
 

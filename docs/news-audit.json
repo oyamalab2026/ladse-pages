@@ -5,7 +5,7 @@
   "scope": "旧トップページの78記事・全見出しと本文、2018〜2026年度のJAXA受賞一覧、日本流体力学会の第37回・第39回数値流体力学シンポジウムを含む関連学会の受賞者一覧、研究者登録情報を照合。研究室の全活動の網羅を保証するものではない。",
   "sourceHtmlSha256": "0f2116691d45e3500f31e76d7f47ecd1029ab3bde9538affc2139f9866ed8671",
   "legacyCount": 78,
-  "addedCount": 8,
+  "addedCount": 9,
   "legacyAwards": 18,
   "records": [
     {
@@ -1602,6 +1602,28 @@
         }
       ],
       "dateNote": "受賞者一覧公開日"
+    },
+    {
+      "id": "2026-sawada-scitech-showcase",
+      "title": "澤田健さんの論文がAIAA SCITECH 2026のShowcaseに選出（2026年）",
+      "date": "2026-01-01",
+      "datePrecision": "year",
+      "dateNote": "選出月日未確認",
+      "sourceOrder": 1008,
+      "category": "award",
+      "summary": "澤田健さんの火星大気圏突入用インフレータブルエアロシェルの姿勢安定性に関する論文が、AIAA SCITECH 2026のShowcaseに選ばれました。",
+      "sources": [
+        {
+          "title": "AIAA原論文（論文題目・著者情報）",
+          "url": "https://doi.org/10.2514/6.2026-1320"
+        }
+      ],
+      "selectionEvidence": {
+        "kind": "laboratory-provided",
+        "date": "2026-10-23",
+        "detail": "研究室の利用者が2026年SciTechのShowcase選出であると確認。公開論文の題目・筆頭著者はCrossrefと旧HPで照合。Showcase個別URL・選出月日は未確認。",
+        "paperDoi": "10.2514/6.2026-1320"
+      }
     }
   ],
   "unresolved": [

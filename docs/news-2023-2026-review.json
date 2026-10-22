@@ -633,6 +633,27 @@
           "url": "https://doi.org/10.2514/6.2024-2866"
         }
       ]
+    },
+    {
+      "id": "2026-sawada-scitech-showcase",
+      "title": "澤田健さんの論文がAIAA SCITECH 2026のShowcaseに選出（2026年）",
+      "date": "2026-01-01",
+      "datePrecision": "year",
+      "dateNote": "選出月日未確認",
+      "category": "award",
+      "sources": [
+        {
+          "title": "AIAA原論文（論文題目・著者情報）",
+          "url": "https://doi.org/10.2514/6.2026-1320"
+        }
+      ],
+      "year": 2026,
+      "selectionEvidence": {
+        "kind": "laboratory-provided",
+        "date": "2026-10-23",
+        "detail": "研究室の利用者が2026年SciTechのShowcase選出であると確認。公開論文の題目・筆頭著者はCrossrefと旧HPで照合。Showcase個別URL・選出月日は未確認。",
+        "paperDoi": "10.2514/6.2026-1320"
+      }
     }
   ],
   "unconfirmedShowcaseCandidates": [
@@ -647,10 +668,6 @@
     {
       "doi": "10.2514/6.2025-2036",
       "reason": "Kudosの論文情報はあるが、研究紹介本文・Showcase選出告知は確認できない。"
-    },
-    {
-      "doi": "10.2514/6.2026-1320",
-      "reason": "澤田健さんの発表題目と一致する論文情報はあるが、Showcase選出の根拠は未確認。"
     }
   ],
   "additionalAwardFollowup": [
@@ -680,6 +697,13 @@
         "jsfm-cfd37-awards.html": "924a763e3f73689a495c5f9d32e1a5f36fc1f7ea04cd77614ddd2a7952d52bd3",
         "jsfm-cfd37-awards.pdf": "daf6f9f9c68d0a5af25c809a6993cfb9ff89d05622cbff0cc05c22a668dd4758"
       }
+    }
+  ],
+  "unconfirmedShowcaseLinks": [
+    {
+      "id": "2026-sawada-scitech-showcase",
+      "doi": "10.2514/6.2026-1320",
+      "reason": "選出情報は研究室から提供。原論文は確認できたが、Showcase個別の掲載URLは未確認。"
     }
   ]
 }

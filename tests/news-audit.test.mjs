@@ -82,6 +82,7 @@ test('Showcase coverage includes the old announcements and both additional resea
     ['2024-02-03-030', '篠塚温志'],
     ['2026-01-onishi-scitech-showcase', '大西龍汰郎'],
     ['2026-iida-scitech-showcase', '飯田悠生'],
+    ['2026-sawada-scitech-showcase', '澤田健'],
     ['2024-endo-scitech-research-story', '遠藤桜'],
   ]);
   for (const [id, name] of expected) {
@@ -117,4 +118,17 @@ test('Sawada CFD37 award is retained separately from the 2023 presentation with 
   assert.ok(award.sources.some(source => source.url === 'https://www.nagare.or.jp/prize/6403/7037.html'));
   assert.match(award.body, /\/ja\/news\/2023-12-15-034\//);
   assert.equal(entries.get('2023-12-15-034').category, 'conference');
+});
+
+
+test('Sawada Showcase selection uses laboratory confirmation without treating paper metadata as a selection date', () => {
+  const id = '2026-sawada-scitech-showcase';
+  const story = entries.get(id);
+  assert.equal(story.category, 'award');
+  assert.equal(story.datePrecision, 'year');
+  assert.equal(story.dateNote, '選出月日未確認');
+  assert.match(story.body, /Takeshi Sawada/);
+  assert.match(story.body, /研究室からの提供/);
+  assert.equal(story.sources[0].url, 'https://doi.org/10.2514/6.2026-1320');
+  assert.equal(audit.additions.find(record => record.id === id).selectionEvidence.kind, 'laboratory-provided');
 });

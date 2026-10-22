@@ -148,6 +148,7 @@ test('Showcase archive names every verified researcher and distinguishes Yuki Ii
  for (const [year,id,name] of [
   ['2026','2026-01-onishi-scitech-showcase','大西龍汰郎'],
   ['2026','2026-iida-scitech-showcase','飯田悠生'],
+  ['2026','2026-sawada-scitech-showcase','澤田健'],
   ['2024','2024-02-03-016','金子賢人'],
   ['2024','2024-02-03-030','篠塚温志'],
   ['2024','2024-endo-scitech-research-story','遠藤桜'],
@@ -156,6 +157,13 @@ test('Showcase archive names every verified researcher and distinguishes Yuki Ii
   await expect(story.locator('h3')).toContainText(name);
   await expect(story.locator('.news-summary')).toContainText(name);
  }
+ const sawada=page.locator('a.news-row[href="/ja/news/2026-sawada-scitech-showcase/"]');
+ await expect(sawada.locator('time')).toHaveAttribute('datetime','2026');
+ await sawada.click();
+ await expect(page.locator('.prose')).toContainText('Takeshi Sawada');
+ await expect(page.locator('.prose')).toContainText('研究室からの提供');
+ await expect(page.locator('.news-sources a')).toHaveAttribute('href','https://doi.org/10.2514/6.2026-1320');
+ await page.goto('/ja/news/showcase/');
  const iida=page.locator('a.news-row[href="/ja/news/2026-iida-scitech-showcase/"]');
  await expect(iida.locator('time')).toHaveAttribute('datetime','2026');
  await expect(iida.locator('.news-date-note')).toContainText('掲載月日未確認');

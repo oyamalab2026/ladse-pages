@@ -8,7 +8,7 @@
 
 - 旧トップページはニュース記事78件、見出し78件。記事外やHTMLコメント内に別の受賞記事は見つかりませんでした。旧記事78件を`sourceOrder`で一対一対応させ、本文テキスト・写真・リンクを照合しました。
 - 旧ニュースに掲載済みの受賞・選出は18記事。このうちAIAA Showcase 3件、篠塚温志さんの学生賞、WCCI 2024の優勝の計5件を、前回は誤って別の分類にしていました。
-- 旧HPに載っていない受賞・選出7記事と研究紹介1記事を補完し、現在の掲載は86記事、受賞・選出は25記事です。賞の総数ではなく記事数です。
+- 旧HPに載っていない受賞・選出8記事と研究紹介1記事を補完し、現在の掲載は87記事、受賞・選出は26記事です。賞の総数ではなく記事数です。
 - 旧本文に日付が明記されていた12記事の日付を復元しました。うち11記事は従来「日付未記載」、1記事は会議名の年だけから日付を作っていました。安養寺正之さんの宇宙科学奨励賞は2017-03-09に戻しています。
 - この照合範囲のニュースを確認した結果であり、研究室で行われた全活動・全受賞を網羅したという意味ではありません。
 
@@ -24,6 +24,7 @@
 | [飯田悠生さんのAIAA SCITECH 2026論文がShowcaseに掲載（2026年）](https://oyamalab2026.pages.dev/ja/news/2026-iida-scitech-showcase/) | 2026（論文発表年（掲載月日未確認）） | [AIAA Showcase 公開一覧](https://www.growkudos.com/showcase/publishers/aiaa)、[飯田悠生さん・佐藤允先生による研究紹介（Kudos）](https://www.growkudos.com/publications/10.2514%252F6.2026-2437/reader)、[AIAA原論文（DOI）](https://doi.org/10.2514/6.2026-2437) |
 | [遠藤桜さんのAIAA SCITECH 2024論文をAIAA Showcaseで紹介（2024年）](https://oyamalab2026.pages.dev/ja/news/2024-endo-scitech-research-story/) | 2024（論文発表年（紹介公開日未確認）） | [大山聖先生による研究紹介（Kudos／AIAA）](https://www.growkudos.com/publications/10.2514%252F6.2024-2866/reader)、[AIAA原論文（DOI）](https://doi.org/10.2514/6.2024-2866) |
 | [澤田健さんが第37回数値流体力学シンポジウムの若手優秀講演表彰を受賞](https://oyamalab2026.pages.dev/ja/news/2024-01-10-sawada-cfd37-award/) | 2024-01-10（受賞者一覧公開日。講演会は2023年12月） | [日本流体力学会の公式受賞者一覧](https://www.nagare.or.jp/prize/6403/7037.html)・[会誌掲載の受賞者一覧](https://www.nagare.or.jp/download/noauth.html?d=43-2_121_wakate.pdf&dir=92) |
+| [澤田健さんの論文がAIAA SCITECH 2026のShowcaseに選出（2026年）](https://oyamalab2026.pages.dev/ja/news/2026-sawada-scitech-showcase/) | 2026（選出月日未確認） | 選出情報は研究室の利用者から2026-10-23に提供。[原論文](https://doi.org/10.2514/6.2026-1320)で題目・著者を照合。Showcase個別URLは未確認。 |
 
 澤田さんの第37回数値流体力学シンポジウムの表彰は、前回の調査で見落としていました。旧HPには2023年12月の発表記事のみがあります。氏名と発表題目を学会の受賞者一覧・会誌の両方で照合し、受賞ニュースを追加しました。2024年1月10日は一覧公開日で、授賞日とは断定していません。
 
