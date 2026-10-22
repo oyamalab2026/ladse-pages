@@ -1,10 +1,10 @@
 ---
 title: 大山准教授が日経BP社主催Simulation Dayで基調講演
-date: null
-datePrecision: unknown
+date: '2017-01-17'
+datePrecision: day
 sourceOrder: 72
 image: /media/a54c1da673.webp
-category: notice
+category: conference
 summary: (2017.1.17)大山准教授が日経BP社主催の講演会Simulation Dayで基調講演「いままでにないデザインを実現する多目的設計探査 ?JAXAでの活用事例?」を行いました．また，日経テクノロジーの記事になりました．
 ---
 

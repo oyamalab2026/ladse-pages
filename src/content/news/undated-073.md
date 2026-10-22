@@ -1,7 +1,7 @@
 ---
 title: 火星飛行機の高高度飛行試験を実施
-date: null
-datePrecision: unknown
+date: '2016-06-12'
+datePrecision: day
 sourceOrder: 73
 image: /media/7c7a3b4906.webp
 category: notice

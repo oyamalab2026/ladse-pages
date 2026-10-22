@@ -1,4 +1,6 @@
 import { test, expect } from '@playwright/test';
+import { readFileSync } from 'node:fs';
+const newsAudit = JSON.parse(readFileSync(new URL('../../docs/news-audit.json', import.meta.url), 'utf8'));
 
 test('Japanese and English home pages and research detail navigation',async({page})=>{
  await page.goto('/ja/');
@@ -30,7 +32,7 @@ test('publication filters combine year, category and text; empty results recover
 });
 test('mobile menu is keyboard accessible and pages do not overflow',async({page})=>{
  await page.setViewportSize({width:375,height:812});
- for(const path of ['/ja/','/en/','/ja/people/','/ja/join/','/en/publications/','/ja/resources/','/ja/news/','/ja/news/2026-08-03-000/']){
+ for(const path of ['/ja/','/en/','/ja/people/','/ja/join/','/en/publications/','/ja/resources/','/ja/news/','/ja/news/category/award/','/en/news/category/award/','/ja/news/2026-08-03-000/']){
   await page.goto(path);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
  }
@@ -92,4 +94,38 @@ test('news summaries name presenters and imported articles render as prose', asy
  await page.goto('/ja/news/2021-06-18-050/');
  await expect(page.locator('.news-detail .prose img')).toHaveAttribute('src','/archive/mabe2/fig3.jpg');
  await expect(page.locator('.news-detail .prose pre code')).toHaveCount(0);
+});
+
+test('award archive includes selections, wins, restored dates and sourced additions', async ({page}) => {
+ await page.goto('/ja/news/');
+ expect(await page.locator('.news-row').count()).toBeGreaterThanOrEqual(83);
+ for (const record of [...newsAudit.records, ...newsAudit.additions]) {
+  await expect(page.locator(`a.news-row[href="/ja/news/${record.id}/"]`)).toHaveCount(1);
+ }
+ await page.locator('.news-categories').getByRole('link',{name:/受賞・選出/}).click();
+ await expect(page).toHaveURL(/\/ja\/news\/category\/award\/$/);
+ await expect(page.getByRole('heading',{level:1})).toHaveText('受賞・選出');
+ expect(await page.locator('.news-row').count()).toBeGreaterThanOrEqual(23);
+ expect(await page.locator('.news-category').allTextContents()).toEqual(Array(await page.locator('.news-row').count()).fill('受賞・選出'));
+ for (const record of [...newsAudit.records, ...newsAudit.additions].filter(record => record.category === 'award')) {
+  await expect(page.locator(`a.news-row[href="/ja/news/${record.id}/"]`)).toBeVisible();
+ }
+ const restored = page.locator('#year-2017 a.news-row[href="/ja/news/undated-071/"]');
+ await expect(restored.locator('time')).toHaveText('2017.03.09');
+ const uncertain = page.locator('a.news-row[href="/ja/news/2024-02-03-016/"]');
+ await expect(uncertain.locator('time')).toHaveAttribute('datetime','2024');
+ await expect(uncertain.locator('.news-date-note')).toHaveText('選出月日未確認');
+ await page.locator('a.news-row[href="/ja/news/2026-04-onishi-jsass-award/"]').click();
+ await expect(page.locator('.news-sources a').first()).toHaveAttribute('href','https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202601016892889400');
+});
+
+test('corrected annual meeting and presenter counts are displayed in article prose', async ({page}) => {
+ await page.goto('/ja/news/2026-04-15-004/');
+ await expect(page.getByRole('heading',{level:1})).toContainText('日本航空宇宙学会 第57期 年会講演会');
+ await expect(page.locator('.news-detail .prose')).toContainText('日本航空宇宙学会 第57期 年会講演会で大西龍汰郎さん');
+ await expect(page.locator('.news-detail .prose')).not.toContainText('令和7年度航空宇宙空力シンポジウム');
+ await expect(page.locator('.news-detail .prose pre code')).toHaveCount(0);
+ await page.goto('/ja/news/2025-07-02-013/');
+ await expect(page.getByRole('heading',{level:1})).toContainText('2名が発表');
+ await expect(page.locator('.prose')).toContainText('大西龍汰郎さん(D1),清水健二さん(M2)');
 });

@@ -1,7 +1,7 @@
 ---
 title: Anna Kaalさんが研究室に加わりました
-date: null
-datePrecision: unknown
+date: '2017-10-01'
+datePrecision: day
 sourceOrder: 68
 image: null
 category: lab

@@ -1,0 +1,10 @@
+---
+import NewsArchive from '../../../../components/NewsArchive.astro';
+import { languages, newsCategories, type Lang } from '../../../../lib/site';
+export function getStaticPaths() {
+  return languages.flatMap(lang => Object.keys(newsCategories).map(category => ({ params: { lang, category } })));
+}
+const lang = Astro.params.lang as Lang;
+const category = Astro.params.category as keyof typeof newsCategories;
+---
+<NewsArchive lang={lang} category={category}/>

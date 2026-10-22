@@ -1,7 +1,7 @@
 ---
 title: 利用報告書ダウンロード数で１位を獲得
-date: null
-datePrecision: unknown
+date: '2016-02-22'
+datePrecision: day
 sourceOrder: 75
 image: /media/6c36b8f251.webp
 category: notice

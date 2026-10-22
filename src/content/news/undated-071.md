@@ -1,7 +1,7 @@
 ---
 title: 安養寺正之君が宇宙科学奨励賞を受賞
-date: null
-datePrecision: unknown
+date: '2017-03-09'
+datePrecision: day
 sourceOrder: 71
 image: /media/d0e20363e5.webp
 category: award

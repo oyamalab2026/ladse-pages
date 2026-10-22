@@ -1,7 +1,7 @@
 ---
 title: 藤田君が東北大学流体科学研究所の助教になりました
-date: null
-datePrecision: unknown
+date: '2017-10-01'
+datePrecision: day
 sourceOrder: 69
 image: null
 category: notice

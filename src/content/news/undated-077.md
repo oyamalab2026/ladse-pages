@@ -1,7 +1,7 @@
 ---
 title: ポスト「京」重点課題に選定
-date: null
-datePrecision: unknown
+date: '2014-12-25'
+datePrecision: day
 sourceOrder: 77
 image: /media/0a915186aa.webp
 category: notice

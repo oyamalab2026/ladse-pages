@@ -1,7 +1,7 @@
 ---
 title: 散布図行列可視化ソフトウェアiSPMを公開
-date: null
-datePrecision: unknown
+date: '2016-03-10'
+datePrecision: day
 sourceOrder: 74
 image: /media/e54a8b72bf.webp
 category: notice

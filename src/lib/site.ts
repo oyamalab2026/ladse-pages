@@ -34,9 +34,14 @@ export function dateLabel(date: Date | null, precision: string): string {
   const stamp = date.toISOString().slice(0, 10).replaceAll('-', '.');
   return precision === 'year' ? stamp.slice(0, 4) : precision === 'month' ? stamp.slice(0, 7) : stamp;
 }
+export function dateTimeValue(date: Date | null, precision: string): string | undefined {
+  if (!date) return undefined;
+  const stamp = date.toISOString().slice(0, 10);
+  return precision === 'year' ? stamp.slice(0, 4) : precision === 'month' ? stamp.slice(0, 7) : stamp;
+}
 export const newsCategories = {
   conference: { ja: '学会発表', en: 'Conferences' },
-  award: { ja: '受賞', en: 'Awards' },
+  award: { ja: '受賞・選出', en: 'Awards & selections' },
   lab: { ja: '研究室行事', en: 'Lab activities' },
   notice: { ja: 'お知らせ', en: 'Announcements' },
 };

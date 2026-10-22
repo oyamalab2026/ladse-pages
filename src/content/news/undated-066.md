@@ -1,7 +1,7 @@
 ---
 title: 進化計算コンペ２０１７を開催
-date: null
-datePrecision: unknown
+date: '2017-12-09'
+datePrecision: day
 sourceOrder: 66
 image: null
 category: notice

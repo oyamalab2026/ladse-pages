@@ -12,7 +12,8 @@ from urllib.parse import quote, unquote, urljoin, urlsplit
 import yaml
 from bs4 import BeautifulSoup
 from PIL import Image, ImageOps
-from legacy_news import normalize_html_block, summary_from_html
+from legacy_news import (normalize_html_block, summary_from_html, date_from_news,
+                         category_from_news, apply_news_corrections)
 
 ROOT = Path(__file__).resolve().parents[1]
 LIMIT = 25 * 1024 * 1024
@@ -267,14 +268,14 @@ def main():
     news = soup(source / 'index.html').select('article.news-item')
     newsdir = ROOT / 'src/content/news'
     newsdir.mkdir(parents=True, exist_ok=True)
+    # Retain published article URLs when correcting legacy dates.
+    existing = {yaml.safe_load(p.read_text().split('---', 2)[1]).get('sourceOrder'): p.name
+                for p in newsdir.glob('*.md')}
     for i, article in enumerate(news):
         title = plain(article.find('h3'))
         if not title:
             continue
-        m = re.search(r'(20\d{2}|19\d{2})[/.年](\d{1,2})(?:[/.月](\d{1,2}))?', title)
-        year = re.search(r'(20\d{2}|19\d{2})', title)
-        date = f'{int(m[1]):04}-{int(m[2]):02}-{int(m[3] or 1):02}' if m else (year[1]+'-01-01' if year else None)
-        precision = ('day' if m[3] else 'month') if m else ('year' if year else 'unknown')
+        date, precision = date_from_news(title, str(article))
         clone = copy.copy(article)
         h = clone.find('h3')
         if h:
@@ -282,9 +283,10 @@ def main():
         image = article.find('img')
         meta = {'title': title, 'date': date, 'datePrecision': precision, 'sourceOrder': i,
                 'image': photo(image.get('src')) if image else None}
-        filename = f'{date or "undated"}-{i:03}.md'
+        filename = existing.get(i, f'{date or "undated"}-{i:03}.md')
         body = clean_fragment(clone, 'index.html')
-        meta['summary'] = summary_from_html(body)
+        meta['category'] = category_from_news(title)
+        meta, body = apply_news_corrections(i, meta, body)
         (newsdir / filename).write_text('---\n'+yaml.safe_dump(meta, allow_unicode=True, sort_keys=False)+'---\n\n'+body+'\n')
 
     groups = [

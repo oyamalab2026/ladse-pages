@@ -1,7 +1,7 @@
 ---
 title: 新しいメンバーが加わりました
-date: null
-datePrecision: unknown
+date: '2017-04-01'
+datePrecision: day
 sourceOrder: 70
 image: null
 category: lab

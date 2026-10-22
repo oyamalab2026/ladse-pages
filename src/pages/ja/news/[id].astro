@@ -2,11 +2,12 @@
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import PageIntro from '../../../components/PageIntro.astro';
-import { dateLabel, newsCategories } from '../../../lib/site';
+import { dateLabel, dateTimeValue, newsCategories } from '../../../lib/site';
 export async function getStaticPaths(){return (await getCollection('news')).map(entry=>({params:{id:entry.id},props:{entry}}));}
 const {entry}=Astro.props as {entry:CollectionEntry<'news'>};
 const {Content}=await render(entry);
 ---
 <Layout lang="ja" title={entry.data.title} alternateHref="/en/news/" translated={false}>
-  <div class="container page-content"><article class="news-detail"><PageIntro eyebrow="NEWS" title={entry.data.title}/><p class="news-article-meta"><time datetime={entry.data.date?.toISOString().slice(0,10)}>{dateLabel(entry.data.date,entry.data.datePrecision)}</time><span class="news-category">{newsCategories[entry.data.category].ja}</span></p><div class="prose"><Content/></div><a class="back-link" href="/ja/news/">← ニュース一覧へ</a></article></div>
+  <div class="container page-content"><article class="news-detail"><PageIntro eyebrow="NEWS" title={entry.data.title}/><p class="news-article-meta"><time datetime={dateTimeValue(entry.data.date,entry.data.datePrecision)}>{dateLabel(entry.data.date,entry.data.datePrecision)}</time>{entry.data.dateNote && <span>{entry.data.dateNote}</span>}<span class="news-category">{newsCategories[entry.data.category].ja}</span></p><div class="prose"><Content/></div>
+    {entry.data.sources.length > 0 && <aside class="news-sources" aria-label="出典・関連情報"><h2>出典・関連情報</h2><ul>{entry.data.sources.map(source => <li><a href={source.url} rel="noopener noreferrer">{source.title}</a></li>)}</ul></aside>}<a class="back-link" href="/ja/news/">← ニュース一覧へ</a></article></div>
 </Layout>

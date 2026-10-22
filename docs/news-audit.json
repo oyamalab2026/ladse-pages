@@ -1,0 +1,1556 @@
+{
+  "checkedOn": "2026-10-23",
+  "sourceSnapshotDate": "2026-10-22",
+  "sourceUrl": "https://ladse.eng.isas.jaxa.jp/",
+  "scope": "旧トップページの78記事・全見出しと本文、2018〜2026年度のJAXA受賞一覧、関連学会の受賞者一覧、研究者登録情報を照合。研究室の全活動の網羅を保証するものではない。",
+  "sourceHtmlSha256": "0f2116691d45e3500f31e76d7f47ecd1029ab3bde9538affc2139f9866ed8671",
+  "legacyCount": 78,
+  "addedCount": 5,
+  "legacyAwards": 18,
+  "records": [
+    {
+      "sourceOrder": 0,
+      "id": "2026-08-03-000",
+      "sourceTitle": "第36回アストロダイナミクスシンポジウムで1名が発表(2026/08/03~08/05)",
+      "title": "第36回アストロダイナミクスシンポジウムで1名が発表(2026/08/03~08/05)",
+      "date": "2026-08-03",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "76c1adb63afeb40ff18286c6497101055ee056b06f8165d0d67be4ee4d8557ad",
+      "bodyTextSha256": "76c1adb63afeb40ff18286c6497101055ee056b06f8165d0d67be4ee4d8557ad",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 1,
+      "id": "2026-07-19-001",
+      "sourceTitle": "WCCM-ECCOMAS 2026で2名が発表(2026/07/19~07/24)",
+      "title": "WCCM-ECCOMAS 2026で2名が発表(2026/07/19~07/24)",
+      "date": "2026-07-19",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "deeaef9506ffc2154ba0762bd7ebc3c12d3d46a0815bfc362c75967f261f1e8f",
+      "bodyTextSha256": "deeaef9506ffc2154ba0762bd7ebc3c12d3d46a0815bfc362c75967f261f1e8f",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 2,
+      "id": "2026-06-24-002",
+      "sourceTitle": "第58回流体力学講演会／第44回航空宇宙数値シミュレーション技術シンポジウムで4名が発表(2026/06/24~06/26)",
+      "title": "第58回流体力学講演会／第44回航空宇宙数値シミュレーション技術シンポジウムで4名が発表(2026/06/24~06/26)",
+      "date": "2026-06-24",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "91220b077aff459c48c0abcd1f65ecba76984db39a5a12e19dc62a362ea1bdff",
+      "bodyTextSha256": "91220b077aff459c48c0abcd1f65ecba76984db39a5a12e19dc62a362ea1bdff",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 3,
+      "id": "2026-06-01-003",
+      "sourceTitle": "28th AIAA Aerodynamic Decelerator Systems Technology Conference and Seminarで2名が発表(2026/06/01~06/05)",
+      "title": "28th AIAA Aerodynamic Decelerator Systems Technology Conference and Seminarで2名が発表(2026/06/01~06/05)",
+      "date": "2026-06-01",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "summary",
+        "body"
+      ],
+      "sourceBodyTextSha256": "811ad3ae31edbe8dc895894b0a7feca7e0baeaf2cb6fab476c6339202ea01ffc",
+      "bodyTextSha256": "ada1418ce7e9b1446dd5c7ae7d620bfb0e54a14142db85c45dab0f2f29e45e8b",
+      "linksAndImages": [],
+      "reason": "現メンバー表記と2026年流体力学講演会公式プログラムで氏名を確認。"
+    },
+    {
+      "sourceOrder": 4,
+      "id": "2026-04-15-004",
+      "sourceTitle": "第57期日本航空宇宙学会で1名が発表(2026/04/15~04/17)",
+      "title": "日本航空宇宙学会 第57期 年会講演会で1名が発表(2026/04/15~04/17)",
+      "date": "2026-04-15",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "title",
+        "body"
+      ],
+      "sourceBodyTextSha256": "dd49ce490ab5f0ced1afddf0b30030c90667820ed59c007632cc72c88171c4cf",
+      "bodyTextSha256": "bc9642283cbafdc586fe240bf8c5b90f4f880db83a145e9d46d1b278e4e53dfb",
+      "linksAndImages": [],
+      "reason": "公式プログラムS48で題目・発表者を照合し、見出しと本文の学会名を訂正。"
+    },
+    {
+      "sourceOrder": 5,
+      "id": "2026-04-01-005",
+      "sourceTitle": "新年度が始まります．(2026/04/01)",
+      "title": "新年度が始まります．(2026/04/01)",
+      "date": "2026-04-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [],
+      "sourceBodyTextSha256": "6aa3cca45babf59bcbc4a6b4b34f26ac83c9ecb69bb974fb8c740cc3c21bccc4",
+      "bodyTextSha256": "6aa3cca45babf59bcbc4a6b4b34f26ac83c9ecb69bb974fb8c740cc3c21bccc4",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 6,
+      "id": "2026-01-30-006",
+      "sourceTitle": "令和7年度航空宇宙空力シンポジウムで1名が発表(2026/01/30~01/31)",
+      "title": "令和7年度航空宇宙空力シンポジウムで1名が発表(2026/01/30~01/31)",
+      "date": "2026-01-30",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "7ab3c08f7727507eeeaae1730bddc641a80f2c96466155150a47194dc21736fe",
+      "bodyTextSha256": "7ab3c08f7727507eeeaae1730bddc641a80f2c96466155150a47194dc21736fe",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 7,
+      "id": "2026-01-12-007",
+      "sourceTitle": "AIAA Scitech 2026 Forumで3名が発表(2026/01/12~01/16)",
+      "title": "AIAA SCITECH 2026 Forumで3名が発表(2026/01/12~01/16)",
+      "date": "2026-01-12",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "title",
+        "body"
+      ],
+      "sourceBodyTextSha256": "498749b7128a8aebec1c4a480eaa898bff1bed10df8ddc94b6ad5530085e4a97",
+      "bodyTextSha256": "28b0ff38dbab1112c16118428af52b0c9eba685597cf48a1c5b2caf03a542fad",
+      "linksAndImages": [],
+      "reason": "AIAAの大会名表記を統一。"
+    },
+    {
+      "sourceOrder": 8,
+      "id": "2025-12-19-008",
+      "sourceTitle": "進化計算シンポジウム2025で1名が発表(2025/12/19~12/21)",
+      "title": "進化計算シンポジウム2025で1名が発表(2025/12/19~12/21)",
+      "date": "2025-12-19",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "1cd393df1cd3caf2d09128e8650e694c663e00b4e873e6c7f96a5a3b9584eaa8",
+      "bodyTextSha256": "1cd393df1cd3caf2d09128e8650e694c663e00b4e873e6c7f96a5a3b9584eaa8",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 9,
+      "id": "2025-11-25-009",
+      "sourceTitle": "第69回宇宙科学技術連合講演会で3名が発表(2025/11/25~11/28)",
+      "title": "第69回宇宙科学技術連合講演会で3名が発表(2025/11/25~11/28)",
+      "date": "2025-11-25",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "c97009291ad76ff781e45f4085baba829890ed3c73f9056cdc0620ec282bb2ab",
+      "bodyTextSha256": "c97009291ad76ff781e45f4085baba829890ed3c73f9056cdc0620ec282bb2ab",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 10,
+      "id": "2025-10-15-010",
+      "sourceTitle": "第63回飛行機シンポジウムで3名が発表(2025/10/15~10/17)",
+      "title": "第63回飛行機シンポジウムで3名が発表(2025/10/15~10/17)",
+      "date": "2025-10-15",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "body"
+      ],
+      "sourceBodyTextSha256": "6f6d362b1e2926dad55c21d071329c8b8b4d1fe928b95c2f0bec005f70474e37",
+      "bodyTextSha256": "252e3b01a8c8a0a82938c96b8c4de9857e3702bacc11ef33cdb208e685746ba6",
+      "linksAndImages": [],
+      "reason": " 受賞者一覧・メンバー表記に合わせ氏名の誤字（龍太郎→龍汰郎）を訂正。"
+    },
+    {
+      "sourceOrder": 11,
+      "id": "2025-08-26-011",
+      "sourceTitle": "EFDC2(The 2nd European Fluid Dynamics Conference)で1名が発表(2025/08/26~08/29)",
+      "title": "EFDC2(The 2nd European Fluid Dynamics Conference)で1名が発表(2025/08/26~08/29)",
+      "date": "2025-08-26",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "18f490f5c3a189725f75af1f6aa6eb7e9ea619497bef16ed3bd419ca1d0ce767",
+      "bodyTextSha256": "18f490f5c3a189725f75af1f6aa6eb7e9ea619497bef16ed3bd419ca1d0ce767",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 12,
+      "id": "2025-07-28-012",
+      "sourceTitle": "第35回アストロダイナミクスシンポジウムで1名が発表(2025/07/28~07/29)",
+      "title": "第35回アストロダイナミクスシンポジウムで1名が発表(2025/07/28~07/29)",
+      "date": "2025-07-28",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "45c86d068a634f4d069e99c640bd21ad4e634cbbcd96d0ea1b25b4098671ac32",
+      "bodyTextSha256": "45c86d068a634f4d069e99c640bd21ad4e634cbbcd96d0ea1b25b4098671ac32",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 13,
+      "id": "2025-07-02-013",
+      "sourceTitle": "第57回流体力学講演会/第43回ANSSで1名が発表(2025/07/02~07/04)",
+      "title": "第57回流体力学講演会／第43回航空宇宙数値シミュレーション技術シンポジウムで2名が発表(2025/07/02~07/04)",
+      "date": "2025-07-02",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "title",
+        "summary",
+        "body"
+      ],
+      "sourceBodyTextSha256": "db47928fed63b2bf23e726d9f86d69b743f2e7ce077fe7aa25c05591e7a1b28f",
+      "bodyTextSha256": "87a79803f12503a4bf9e1508b5b4b13111b0211d337df74aacfabd7e1eeeaeaa",
+      "linksAndImages": [],
+      "reason": "本文に記載された発表者2名・題目2件に見出しの人数を合わせ、講演会名を展開。 受賞者一覧・メンバー表記に合わせ氏名の誤字（龍太郎→龍汰郎）を訂正。"
+    },
+    {
+      "sourceOrder": 14,
+      "id": "2025-04-01-014",
+      "sourceTitle": "新年度が始まります．(2025/04/01)",
+      "title": "新年度が始まります．(2025/04/01)",
+      "date": "2025-04-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [
+        "summary",
+        "body"
+      ],
+      "sourceBodyTextSha256": "1ab0cf2dbffc580472ccc6be6ab7278e21dceb75904b3fae9fca7a5b487a4d7c",
+      "bodyTextSha256": "38c6cf4ddc9a2d8c4236d04dc000ff299caa6ac4b3f54f366ea367e8082f908b",
+      "linksAndImages": [],
+      "reason": "2025年4月1日の見出しに対し本文の年度が2024年度だったため整合させた。人数の変更はない。"
+    },
+    {
+      "sourceOrder": 15,
+      "id": "2024-07-01-015",
+      "sourceTitle": "大西龍汰郎さんが第56回流力講演会/第42回ANSSで優秀講演賞を受賞(2024/07)",
+      "title": "大西龍汰郎さんが第56回流体力学講演会／第42回ANSSで優秀講演賞（学生賞）を受賞(2024/07)",
+      "date": "2024-07-01",
+      "datePrecision": "month",
+      "category": "award",
+      "changes": [
+        "title",
+        "summary",
+        "body"
+      ],
+      "sourceBodyTextSha256": "2433c638f6fc5f318787c13d980331fcfcec9c27ec6a5968bcdaafa45a18de65",
+      "bodyTextSha256": "085bf0d81a43acd7ea1a56f36669e8229e3bec612d0d0bdf8a81151744b51242",
+      "linksAndImages": [
+        [
+          "a",
+          "https://branch.jsass.or.jp/aerocom/ryu/ryu56/award/"
+        ]
+      ],
+      "reason": "学会の受賞者一覧で受賞者・題目と正式な賞名を確認。"
+    },
+    {
+      "sourceOrder": 16,
+      "id": "2024-02-03-016",
+      "sourceTitle": "金子賢人さんがAIAA Aviation 2024 ForumのShowcaseに選出(2024/2/3)",
+      "title": "金子賢人さんの論文がAIAA AVIATION FORUM AND ASCEND 2024のShowcaseに選出(2024年)",
+      "date": "2024-01-01",
+      "datePrecision": "year",
+      "category": "award",
+      "changes": [
+        "title",
+        "date",
+        "datePrecision",
+        "category",
+        "summary",
+        "body"
+      ],
+      "sourceBodyTextSha256": "6782a1b36def4c7d1b2f16e28a126e59770193bc8f9b39b9a361d5a22903bedb",
+      "bodyTextSha256": "d61cca078a60ff9db1dffd2900ddb6987abe6d43b73cd6f29ca83750b3ae8584",
+      "linksAndImages": [
+        [
+          "a",
+          "https://www.growkudos.com/publications/10.2514%252F6.2024-3588/reader"
+        ]
+      ],
+      "reason": "旧HPの2024/2/3は論文発行月（2024年7月）・会議開催時期より前で矛盾。年のみ記載し、選出月日は未確認として扱う。"
+    },
+    {
+      "sourceOrder": 17,
+      "id": "2024-10-15-017",
+      "sourceTitle": "第62回飛行機シンポジウムで2名が発表(2024/10/15~10/17)",
+      "title": "第62回飛行機シンポジウムで2名が発表(2024/10/15~10/17)",
+      "date": "2024-10-15",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "summary",
+        "body"
+      ],
+      "sourceBodyTextSha256": "c2215c1997d726464fb100084dc6f92f8ccc81bcff9d73f9175a73a2ea8232f6",
+      "bodyTextSha256": "8a29a0143cd538b5659b166eb2d412e7fb1b42beaabedb97cb369f897a95291f",
+      "linksAndImages": [],
+      "reason": " 受賞者一覧・メンバー表記に合わせ氏名の誤字（龍太郎→龍汰郎）を訂正。"
+    },
+    {
+      "sourceOrder": 18,
+      "id": "2024-09-16-018",
+      "sourceTitle": "EFDC1で3名が発表(2024/09/16~09/20)",
+      "title": "EFDC1で3名が発表(2024/09/16~09/20)",
+      "date": "2024-09-16",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "summary",
+        "body"
+      ],
+      "sourceBodyTextSha256": "79756841940699e3a62a1f8dac94a62c5b1fb95aa00e9ed2917eaca956718d70",
+      "bodyTextSha256": "ad0ec5cc44ab5f4c07f9d89aba9051f7f38d02e4b31881cf350da7f6af897972",
+      "linksAndImages": [],
+      "reason": " 受賞者一覧・メンバー表記に合わせ氏名の誤字（龍太郎→龍汰郎）を訂正。"
+    },
+    {
+      "sourceOrder": 19,
+      "id": "2024-09-09-019",
+      "sourceTitle": "ICAS CONGRESS 2024 で1名が発表(2024/09/09~09/13)",
+      "title": "ICAS CONGRESS 2024 で1名が発表(2024/09/09~09/13)",
+      "date": "2024-09-09",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "65a1b49a0c515ace9ceb1d67c819f45b089d62e891b6fcb9a3c9b5b21ac450ab",
+      "bodyTextSha256": "65a1b49a0c515ace9ceb1d67c819f45b089d62e891b6fcb9a3c9b5b21ac450ab",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 20,
+      "id": "2024-07-29-020",
+      "sourceTitle": "2024 AIAA AVIATION で1名が発表(2024/07/29~08/02)",
+      "title": "AIAA AVIATION FORUM AND ASCEND 2024で1名が発表(2024/07/29~08/02)",
+      "date": "2024-07-29",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "title",
+        "body"
+      ],
+      "sourceBodyTextSha256": "031bcafcd5a8c2e166c24536269de6e70f15e3fdf88c6adc16a968363fa6750f",
+      "bodyTextSha256": "92fb3d1b72a405df2bf87fb84230df12957d9b0a03d9a1329d766539aabe1002",
+      "linksAndImages": [],
+      "reason": "論文の掲載会議名に合わせた。"
+    },
+    {
+      "sourceOrder": 21,
+      "id": "2024-07-03-021",
+      "sourceTitle": "第56回流力講演会/第42回ANSSで5名が発表(2024/07/03~07/05)",
+      "title": "第56回流体力学講演会／第42回航空宇宙数値シミュレーション技術シンポジウムで5名が発表(2024/07/03~07/05)",
+      "date": "2024-07-03",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "title",
+        "summary",
+        "body"
+      ],
+      "sourceBodyTextSha256": "f8d5a433a10fc6175520b2c4c53b2de6c7c9a9bd94ada5a152187d5d0737f295",
+      "bodyTextSha256": "caec9d329a0df4f3dc435f28f895ba0dc5192bd77edbccaefb531cabb056210b",
+      "linksAndImages": [],
+      "reason": "流力・ANSSの略称を本文と同じ正式名称に展開。 受賞者一覧・メンバー表記に合わせ氏名の誤字（龍太郎→龍汰郎）を訂正。"
+    },
+    {
+      "sourceOrder": 22,
+      "id": "2024-06-30-022",
+      "sourceTitle": "IEEE WCCI 2024 で大山先生が基調講演(2024/06/30~07/05)",
+      "title": "IEEE WCCI 2024 で大山先生が基調講演(2024/06/30~07/05)",
+      "date": "2024-06-30",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "category"
+      ],
+      "sourceBodyTextSha256": "b9ee629d30b3d812cc5c66d04c4496278bbe3fcd9f84d86c1f5d6d5ac5e756df",
+      "bodyTextSha256": "b9ee629d30b3d812cc5c66d04c4496278bbe3fcd9f84d86c1f5d6d5ac5e756df",
+      "linksAndImages": [
+        [
+          "img",
+          "/archive/images/news/plenarytalk.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 23,
+      "id": "2024-06-30-023",
+      "sourceTitle": "IEEE WCCI 2024 の最適化コンペティションで大山研究室チームが優勝(2024/06/30~07/05)",
+      "title": "IEEE WCCI 2024 の最適化コンペティションで大山研究室チームが優勝(2024/06/30~07/05)",
+      "date": "2024-06-30",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [
+        "category",
+        "summary",
+        "body"
+      ],
+      "sourceBodyTextSha256": "1f712362b90db8165edff23263e21e5e16194fe56a25d218d9e032d95f450164",
+      "bodyTextSha256": "2e33791411d1d97aa03260be95f0e746ce7e73aa7bfca49fca49823460d867ce",
+      "linksAndImages": [],
+      "reason": "優勝を受賞・選出に分類。概要でチーム6名全員を表示。 受賞者一覧・メンバー表記に合わせ氏名の誤字（龍太郎→龍汰郎）を訂正。"
+    },
+    {
+      "sourceOrder": 24,
+      "id": "2024-06-03-024",
+      "sourceTitle": "ECCOMAS CONGRESS 2024で1名が発表(2024/06/03~06/07)",
+      "title": "ECCOMAS CONGRESS 2024で1名が発表(2024/06/03~06/07)",
+      "date": "2024-06-03",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "96e1fa8c5fd7bb583dddaf92a59c5e3c1b61e4de93abba776304644567bc9f64",
+      "bodyTextSha256": "96e1fa8c5fd7bb583dddaf92a59c5e3c1b61e4de93abba776304644567bc9f64",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 25,
+      "id": "2024-04-01-025",
+      "sourceTitle": "新年度が始まります．(2024/04/01)",
+      "title": "新年度が始まります．(2024/04/01)",
+      "date": "2024-04-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [],
+      "sourceBodyTextSha256": "cd3f93f14ade58725698ac97decba79d7363214cba5d1271a080e574f39a8449",
+      "bodyTextSha256": "cd3f93f14ade58725698ac97decba79d7363214cba5d1271a080e574f39a8449",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 26,
+      "id": "2024-03-26-026",
+      "sourceTitle": "大山聖教授を代表とするグループが日本機械学会宇宙工学部門スペースフロンティア賞を受賞(2024/03/26)",
+      "title": "大山聖教授を代表とするグループが日本機械学会宇宙工学部門スペースフロンティア賞を受賞(2024/03/26)",
+      "date": "2024-03-26",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [],
+      "sourceBodyTextSha256": "8e981d44a8044f183c517a698d68e0a03e53cceefc3ab35858d03b760d51a664",
+      "bodyTextSha256": "8e981d44a8044f183c517a698d68e0a03e53cceefc3ab35858d03b760d51a664",
+      "linksAndImages": [
+        [
+          "img",
+          "/archive/images/news/mabe2_flight.jpg"
+        ],
+        [
+          "img",
+          "/archive/images/news/mabe2_award.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 27,
+      "id": "2024-03-22-027",
+      "sourceTitle": "2023年度回転翼機研究会で2名が発表(2024/03/22)",
+      "title": "2023年度将来回転翼機研究会・回転翼解析技術交流会で2名が発表(2024/03/22)",
+      "date": "2024-03-22",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "title",
+        "body"
+      ],
+      "sourceBodyTextSha256": "a77dd985959d94f7e3bd1aa282473e5d9c8726efd73aad0f83a1ac4a1dc3d020",
+      "bodyTextSha256": "1401c4e9df7ec3ecb55031fde6c8e72f4ea48d92c58b32d6067bc8ec5332bc20",
+      "linksAndImages": [],
+      "reason": "主催者の開催案内で正式名称・年度・開催日を確認。"
+    },
+    {
+      "sourceOrder": 28,
+      "id": "2024-03-21-028",
+      "sourceTitle": "篠塚温志さんが北部支部2024年講演会の学生賞に選出(2024/03/21)",
+      "title": "篠塚温志さんが日本航空宇宙学会 北部支部2024年講演会で学生優秀講演賞を受賞(2024/03/21)",
+      "date": "2024-03-21",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [
+        "title",
+        "category",
+        "summary",
+        "body"
+      ],
+      "sourceBodyTextSha256": "e0ac70dfacaf85fe81fb332e4d7f095cbdda2fdc7755c2e5a620fa0aa1813793",
+      "bodyTextSha256": "e74f05159a53eefc5916560fe3dd5dc16dfe2fd7eec8734d8f006b65b0f7931c",
+      "linksAndImages": [
+        [
+          "a",
+          "https://branch.jsass.or.jp/ap63/2024/03/21/%e8%a1%a8%e5%bd%b0%e8%80%85%e6%b1%ba%e5%ae%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
+        ]
+      ],
+      "reason": "主催者が2024年5月10日に訂正した正式名称「学生優秀講演賞」を反映。"
+    },
+    {
+      "sourceOrder": 29,
+      "id": "2024-03-13-029",
+      "sourceTitle": "北部支部2024年講演会で2名が発表(2024/03/13-03/15)",
+      "title": "北部支部2024年講演会で2名が発表(2024/03/13-03/15)",
+      "date": "2024-03-13",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "20b4916743c7054634ad97686fe70ccb116c9110e26de5aa8cc688ad2fcee4d9",
+      "bodyTextSha256": "20b4916743c7054634ad97686fe70ccb116c9110e26de5aa8cc688ad2fcee4d9",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 30,
+      "id": "2024-02-03-030",
+      "sourceTitle": "篠塚温志さんがAIAA SciTech 2024 ForumのShowcaseに選出(2024/2/3)",
+      "title": "篠塚温志さんがAIAA SciTech 2024 ForumのShowcaseに選出(2024/2/3)",
+      "date": "2024-02-03",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [
+        "category"
+      ],
+      "sourceBodyTextSha256": "9daf5d5053b1c44cdd8f23d750fb76b6d55b792e4509c979e238eb5e719db16f",
+      "bodyTextSha256": "9daf5d5053b1c44cdd8f23d750fb76b6d55b792e4509c979e238eb5e719db16f",
+      "linksAndImages": [
+        [
+          "a",
+          "https://www.growkudos.com/publications/10.2514%25252F6.2024-2312/reader"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 31,
+      "id": "2024-01-08-031",
+      "sourceTitle": "AIAA SciTech Forum 2024で4名が発表(2024/01/08-01/12)",
+      "title": "AIAA SciTech Forum 2024で4名が発表(2024/01/08-01/12)",
+      "date": "2024-01-08",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "8f1fae1ad447a64324f410f40728d13a19db3f36ae367a1d3f44e6970c7be47a",
+      "bodyTextSha256": "8f1fae1ad447a64324f410f40728d13a19db3f36ae367a1d3f44e6970c7be47a",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 32,
+      "id": "2023-12-23-032",
+      "sourceTitle": "二村成彦さんが進化計算シンポジウム2023でプレゼンテーション賞とIEEE CIS YRAを受賞(2023/12/23)",
+      "title": "二村成彦さんが進化計算シンポジウム2023でプレゼンテーション賞とIEEE CIS YRAを受賞(2023/12/23)",
+      "date": "2023-12-23",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [],
+      "sourceBodyTextSha256": "943d483c8a8cdabe374dfffd72ae9a4b523725399bb09b053a8de1c38ef99df9",
+      "bodyTextSha256": "943d483c8a8cdabe374dfffd72ae9a4b523725399bb09b053a8de1c38ef99df9",
+      "linksAndImages": [
+        [
+          "img",
+          "/archive/images/news/shinkacompe2023_nimura.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 33,
+      "id": "2023-12-21-033",
+      "sourceTitle": "進化計算シンポジウム2023で3名が発表(2023/12/21-12/23)",
+      "title": "進化計算シンポジウム2023で3名が発表(2023/12/21-12/23)",
+      "date": "2023-12-21",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "a1cf13e90567333a11a4a061e3196b0990a019611e4c38967b88da0ded3193f2",
+      "bodyTextSha256": "a1cf13e90567333a11a4a061e3196b0990a019611e4c38967b88da0ded3193f2",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 34,
+      "id": "2023-12-15-034",
+      "sourceTitle": "第37回数値流体力学シンポジウムで1名が発表(2023/12/15-12/17)",
+      "title": "第37回数値流体力学シンポジウムで1名が発表(2023/12/15-12/17)",
+      "date": "2023-12-15",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "09cc3ebb329793a8407142d332ff9222ce03711076ff7863c7985d3c1c40227a",
+      "bodyTextSha256": "09cc3ebb329793a8407142d332ff9222ce03711076ff7863c7985d3c1c40227a",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 35,
+      "id": "2023-12-11-035",
+      "sourceTitle": "令和5年度宇宙航行の力学シンポジウムで6名が発表(2023/12/11-12/12)",
+      "title": "令和5年度宇宙航行の力学シンポジウムで6名が発表(2023/12/11-12/12)",
+      "date": "2023-12-11",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "960a3f0fc12178c39b144ce1bd498cf9b5d502174981a4923d9b071e44ff9a06",
+      "bodyTextSha256": "960a3f0fc12178c39b144ce1bd498cf9b5d502174981a4923d9b071e44ff9a06",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 36,
+      "id": "2023-11-15-036",
+      "sourceTitle": "第61回飛行機シンポジウムで1名が発表(2023/11/15-11/17)",
+      "title": "第61回飛行機シンポジウムで1名が発表(2023/11/15-11/17)",
+      "date": "2023-11-15",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "1ce8736c6a5d731a52f42fd655afcd2be3b971c95844b6d7e6a49cb49731aa2c",
+      "bodyTextSha256": "1ce8736c6a5d731a52f42fd655afcd2be3b971c95844b6d7e6a49cb49731aa2c",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 37,
+      "id": "2023-10-23-037",
+      "sourceTitle": "2023年度 大気球シンポジウムで1名が発表(2023/10/23-10/24)",
+      "title": "2023年度 大気球シンポジウムで1名が発表(2023/10/23-10/24)",
+      "date": "2023-10-23",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "cf5bc3a228dc91f0df56d76346f5244ad826709707f765365a6c7d06d5becf1b",
+      "bodyTextSha256": "cf5bc3a228dc91f0df56d76346f5244ad826709707f765365a6c7d06d5becf1b",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 38,
+      "id": "2023-10-17-038",
+      "sourceTitle": "第67回宇宙科学技術連合講演会で5名が発表(2023/10/17-10/20)",
+      "title": "第67回宇宙科学技術連合講演会で5名が発表(2023/10/17-10/20)",
+      "date": "2023-10-17",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "2519ad2c9c3fa18f60c31e621a439889f32193f04559eded97809b0e2eb9807c",
+      "bodyTextSha256": "2519ad2c9c3fa18f60c31e621a439889f32193f04559eded97809b0e2eb9807c",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 39,
+      "id": "2023-07-26-039",
+      "sourceTitle": "火星飛行機の高高度飛行試験を実施予定です(2023/07/26)",
+      "title": "火星飛行機の高高度飛行試験を実施予定です(2023/07/26)",
+      "date": "2023-07-26",
+      "datePrecision": "day",
+      "category": "notice",
+      "changes": [],
+      "sourceBodyTextSha256": "c330fdb895603a0eb5ab0c7c318149076060226330aa8fb81144f49b80293d47",
+      "bodyTextSha256": "c330fdb895603a0eb5ab0c7c318149076060226330aa8fb81144f49b80293d47",
+      "linksAndImages": [
+        [
+          "a",
+          "/archive/mabe2/2023MABE2.html"
+        ],
+        [
+          "img",
+          "/archive/mabe2/fig3_2023_1.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 40,
+      "id": "2023-07-09-040",
+      "sourceTitle": "EUCASS 2023で1名が発表(2023/07/09-07/13)",
+      "title": "EUCASS 2023で1名が発表(2023/07/09-07/13)",
+      "date": "2023-07-09",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "377f4aa9fef5b57f155674c26cc39b7be3f4bd921344159218f861001bbfd2ec",
+      "bodyTextSha256": "377f4aa9fef5b57f155674c26cc39b7be3f4bd921344159218f861001bbfd2ec",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 41,
+      "id": "2023-06-12-041",
+      "sourceTitle": "AIAA AVIATION Forum 2023で4名が発表(2023/06/12-06/16)",
+      "title": "AIAA AVIATION Forum 2023で4名が発表(2023/06/12-06/16)",
+      "date": "2023-06-12",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "290338f700f417004ea260014aed1aa20a363be5bc61240c5ba3a917f98241fd",
+      "bodyTextSha256": "290338f700f417004ea260014aed1aa20a363be5bc61240c5ba3a917f98241fd",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 42,
+      "id": "2023-04-14-042",
+      "sourceTitle": "二村成彦さんが日本航空宇宙学会 第54期 年会講演会で学生優秀発表賞を受賞(2023/4/14)",
+      "title": "二村成彦さんが日本航空宇宙学会 第54期 年会講演会で学生優秀発表賞を受賞(2023/4/14)",
+      "date": "2023-04-14",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [],
+      "sourceBodyTextSha256": "49b7e15464e2cdd2dcad87b82facbc62ef63fb9eb43fcd2cc41e74d7734d12a1",
+      "bodyTextSha256": "49b7e15464e2cdd2dcad87b82facbc62ef63fb9eb43fcd2cc41e74d7734d12a1",
+      "linksAndImages": [
+        [
+          "img",
+          "/archive/images/news/JSASS2023_nimura.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 43,
+      "id": "2023-04-13-043",
+      "sourceTitle": "日本航空宇宙学会 第54期 年会講演会で5名が発表(2023/04/13-04/14)",
+      "title": "日本航空宇宙学会 第54期 年会講演会で5名が発表(2023/04/13-04/14)",
+      "date": "2023-04-13",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [],
+      "sourceBodyTextSha256": "b5b6b447700ce76d67c7f7368e38b250d8acaef6750005938bf4c6a7eee4e6d1",
+      "bodyTextSha256": "b5b6b447700ce76d67c7f7368e38b250d8acaef6750005938bf4c6a7eee4e6d1",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 44,
+      "id": "2023-04-01-044",
+      "sourceTitle": "新年度が始まりました(2023/04/01)",
+      "title": "新年度が始まりました(2023/04/01)",
+      "date": "2023-04-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [],
+      "sourceBodyTextSha256": "63cf29937973d6c0962aaf9d0786fd19fafa6bd56531865cce867eaebe585504",
+      "bodyTextSha256": "63cf29937973d6c0962aaf9d0786fd19fafa6bd56531865cce867eaebe585504",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 45,
+      "id": "2022-12-17-045",
+      "sourceTitle": "進化計算コンペティション2022 多目的部門 準トップ賞&産業応用特別賞を受賞(2022/12/17)",
+      "title": "進化計算コンペティション2022 多目的部門 準トップ賞&産業応用特別賞を受賞(2022/12/17)",
+      "date": "2022-12-17",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [],
+      "sourceBodyTextSha256": "e6fbcd3703bd9da53600470f69c42f95a94177f51d728f26a877e4e3d15ccc9d",
+      "bodyTextSha256": "e6fbcd3703bd9da53600470f69c42f95a94177f51d728f26a877e4e3d15ccc9d",
+      "linksAndImages": [
+        [
+          "img",
+          "/archive/images/news/compe2022_1.jpg"
+        ],
+        [
+          "img",
+          "/archive/images/news/compe2022_2.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 46,
+      "id": "2022-06-20-046",
+      "sourceTitle": "谷口翔太君がAIAA AVIATION 2022 ForumのShowcaseに選出(2022/6/20)",
+      "title": "谷口翔太君がAIAA AVIATION 2022 ForumのShowcaseに選出(2022/6/20)",
+      "date": "2022-06-20",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [
+        "category"
+      ],
+      "sourceBodyTextSha256": "be98e38ca5f5009dab1704e920412182673cea4857a7537ccdac93ea94e92f97",
+      "bodyTextSha256": "be98e38ca5f5009dab1704e920412182673cea4857a7537ccdac93ea94e92f97",
+      "linksAndImages": [
+        [
+          "a",
+          "https://www.growkudos.com/publications/10.2514%25252F6.2022-3815/reader"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 47,
+      "id": "2022-04-01-047",
+      "sourceTitle": "新年度が始まりました(2022/04/01)",
+      "title": "新年度が始まりました(2022/04/01)",
+      "date": "2022-04-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [],
+      "sourceBodyTextSha256": "61dc1df58be9f0d368064c76ebd821cbeb85034592394c13757e74917b32528b",
+      "bodyTextSha256": "61dc1df58be9f0d368064c76ebd821cbeb85034592394c13757e74917b32528b",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 48,
+      "id": "2021-12-26-048",
+      "sourceTitle": "進化計算コンペティション2021 多目的部門 準トップ賞を受賞(2021/12/26)",
+      "title": "進化計算コンペティション2021 多目的部門 準トップ賞を受賞(2021/12/26)",
+      "date": "2021-12-26",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [],
+      "sourceBodyTextSha256": "3f1d35acd194d821f8255ecd0f5310023035eef0f284edfeb46d1c1e31e24b0f",
+      "bodyTextSha256": "3f1d35acd194d821f8255ecd0f5310023035eef0f284edfeb46d1c1e31e24b0f",
+      "linksAndImages": [
+        [
+          "img",
+          "/archive/images/news/compe2021.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 49,
+      "id": "2021-09-13-049",
+      "sourceTitle": "火星飛行機の高高度飛行試験延期(2021/09/13)",
+      "title": "火星飛行機の高高度飛行試験延期(2021/09/13)",
+      "date": "2021-09-13",
+      "datePrecision": "day",
+      "category": "notice",
+      "changes": [],
+      "sourceBodyTextSha256": "ba92c07cc9bef4002efb2ed025f9e1affed7690efffcf1521543f431a53619c3",
+      "bodyTextSha256": "ba92c07cc9bef4002efb2ed025f9e1affed7690efffcf1521543f431a53619c3",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 50,
+      "id": "2021-06-18-050",
+      "sourceTitle": "火星飛行機の高高度飛行試験を実施予定です(2021/06/18)",
+      "title": "火星飛行機の高高度飛行試験を実施予定です(2021/06/18)",
+      "date": "2021-06-18",
+      "datePrecision": "day",
+      "category": "notice",
+      "changes": [],
+      "sourceBodyTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bodyTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "linksAndImages": [
+        [
+          "img",
+          "/archive/mabe2/fig3.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 51,
+      "id": "2021-04-01-051",
+      "sourceTitle": "新年度が始まりました(2021/4/1)",
+      "title": "新年度が始まりました(2021/4/1)",
+      "date": "2021-04-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [],
+      "sourceBodyTextSha256": "bc28f026af6fff4e306b5acb82057bd8a95553d659d6deb184695d9f4589823e",
+      "bodyTextSha256": "bc28f026af6fff4e306b5acb82057bd8a95553d659d6deb184695d9f4589823e",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 52,
+      "id": "2021-03-11-052",
+      "sourceTitle": "河合成孝君が東京大学研究科長賞を受賞(2021/3/11)",
+      "title": "河合成孝君が東京大学研究科長賞を受賞(2021/3/11)",
+      "date": "2021-03-11",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [],
+      "sourceBodyTextSha256": "02276f23cbfb3855754e7896d28ad9d9de858ed6cef2d11ca0577a0853cb04fd",
+      "bodyTextSha256": "02276f23cbfb3855754e7896d28ad9d9de858ed6cef2d11ca0577a0853cb04fd",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 53,
+      "id": "2020-04-01-053",
+      "sourceTitle": "新年度が始まりました(2020/4/1)",
+      "title": "新年度が始まりました(2020/4/1)",
+      "date": "2020-04-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [],
+      "sourceBodyTextSha256": "8270a34525639d495fe05090ab3fd1e780808c9e3aab19e685f2136cce8dc885",
+      "bodyTextSha256": "8270a34525639d495fe05090ab3fd1e780808c9e3aab19e685f2136cce8dc885",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 54,
+      "id": "2019-11-07-054",
+      "sourceTitle": "大山准教授が日本機械学会 流体工学部門フロンティア表彰を受賞(2019/11/7)",
+      "title": "大山准教授が日本機械学会 流体工学部門フロンティア表彰を受賞(2019/11/7)",
+      "date": "2019-11-07",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [],
+      "sourceBodyTextSha256": "60276a9a34ae3301a02198ea9e7a6c5dd2ac915d1c48b0d2131c2677618937d2",
+      "bodyTextSha256": "60276a9a34ae3301a02198ea9e7a6c5dd2ac915d1c48b0d2131c2677618937d2",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 55,
+      "id": "2019-04-01-055",
+      "sourceTitle": "新年度が始まりました(2019/4/1)",
+      "title": "新年度が始まりました(2019/4/1)",
+      "date": "2019-04-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [],
+      "sourceBodyTextSha256": "b5980a152c95902a73b924d75935b35a3989f1f4167cadd831294a80bec41af2",
+      "bodyTextSha256": "b5980a152c95902a73b924d75935b35a3989f1f4167cadd831294a80bec41af2",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 56,
+      "id": "2018-12-09-056",
+      "sourceTitle": "大山准教授が進化計算学会論文賞を受賞(2018/12/9)",
+      "title": "大山准教授が進化計算学会論文賞を受賞(2018/12/9)",
+      "date": "2018-12-09",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [],
+      "sourceBodyTextSha256": "a9cbce9858630d4cf99df5f5a18234b1d3ed82d9efdacc13cef322125be01f22",
+      "bodyTextSha256": "a9cbce9858630d4cf99df5f5a18234b1d3ed82d9efdacc13cef322125be01f22",
+      "linksAndImages": [
+        [
+          "a",
+          "https://www.jstage.jst.go.jp/article/tjpnsec/8/1/8_11/_article/-char/ja/"
+        ],
+        [
+          "img",
+          "/archive/images/news/20181209oyama.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 57,
+      "id": "2018-12-09-057",
+      "sourceTitle": "福本浩章君が進化計算シンポジウム2018にてベストポスター発表賞を受賞(2018/12/9)",
+      "title": "福本浩章君が進化計算シンポジウム2018にてベストポスター発表賞を受賞(2018/12/9)",
+      "date": "2018-12-09",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [],
+      "sourceBodyTextSha256": "40d2bf5e19b18e5b1c3a2a9e6124766f515dc1f7b5809213882f2ae896695a7e",
+      "bodyTextSha256": "40d2bf5e19b18e5b1c3a2a9e6124766f515dc1f7b5809213882f2ae896695a7e",
+      "linksAndImages": [
+        [
+          "a",
+          "http://www.jpnsec.org/symposium201803.html"
+        ],
+        [
+          "img",
+          "/archive/images/news/20181209fukumoto.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 58,
+      "id": "2018-11-18-058",
+      "sourceTitle": "大山准教授の本が出版されました(2018/11/18)",
+      "title": "大山准教授の本が出版されました(2018/11/18)",
+      "date": "2018-11-18",
+      "datePrecision": "day",
+      "category": "notice",
+      "changes": [],
+      "sourceBodyTextSha256": "c65414e1c84732e8d88ef3a2cf48ace87f2f4a917714c8054d6c5a3ea70e3eb1",
+      "bodyTextSha256": "c65414e1c84732e8d88ef3a2cf48ace87f2f4a917714c8054d6c5a3ea70e3eb1",
+      "linksAndImages": [
+        [
+          "a",
+          "https://www.amazon.co.jp/dp/B07KNK1HXX/ref=sr_1_2?ie=UTF8&qid=1542584070&sr=8-2&keywords=%E5%A4%A7%E5%B1%B1%E8%81%96"
+        ],
+        [
+          "img",
+          "/archive/images/news/amazon0.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 59,
+      "id": "2018-11-24-059",
+      "sourceTitle": "大山准教授が日本機械学会 計算力学部門業績賞を受賞(2018/11/24)",
+      "title": "大山准教授が日本機械学会 計算力学部門業績賞を受賞(2018/11/24)",
+      "date": "2018-11-24",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [],
+      "sourceBodyTextSha256": "17bfff65eff4fb0d2eed95a8563230f785775285f7c05511ec6bb9bebcafac57",
+      "bodyTextSha256": "17bfff65eff4fb0d2eed95a8563230f785775285f7c05511ec6bb9bebcafac57",
+      "linksAndImages": [
+        [
+          "img",
+          "/archive/images/news/cmd2018.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 60,
+      "id": "2018-11-05-060",
+      "sourceTitle": "大山准教授が日本機械学会 設計工学・システム部門業績賞を受賞(2018.11.5)",
+      "title": "大山准教授が日本機械学会 設計工学・システム部門業績賞を受賞(2018.11.5)",
+      "date": "2018-11-05",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [],
+      "sourceBodyTextSha256": "a50a26ec90d70d3b2df3d0b1dc0680bfa16fa9ac826363c6108570704c5ffbb8",
+      "bodyTextSha256": "a50a26ec90d70d3b2df3d0b1dc0680bfa16fa9ac826363c6108570704c5ffbb8",
+      "linksAndImages": [
+        [
+          "img",
+          "/archive/images/news/ds2018.jpg"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 61,
+      "id": "2018-10-25-061",
+      "sourceTitle": "大山准教授が日本学術会議特任連携会員に任命されました(2018/10/25)",
+      "title": "大山准教授が日本学術会議特任連携会員に任命されました(2018/10/25)",
+      "date": "2018-10-25",
+      "datePrecision": "day",
+      "category": "notice",
+      "changes": [],
+      "sourceBodyTextSha256": "a001ca79f9a65fc771100064caa3ce983a86ab2a667bfa511888e75e71326053",
+      "bodyTextSha256": "a001ca79f9a65fc771100064caa3ce983a86ab2a667bfa511888e75e71326053",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 62,
+      "id": "2018-10-01-062",
+      "sourceTitle": "オランダからの留学生が来ました(2018/10/1)",
+      "title": "オランダからの留学生が来ました(2018/10/1)",
+      "date": "2018-10-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [
+        "category"
+      ],
+      "sourceBodyTextSha256": "20ab679392da0efaf124f81c4884da994165bed667dafb35bc45a09629e40776",
+      "bodyTextSha256": "20ab679392da0efaf124f81c4884da994165bed667dafb35bc45a09629e40776",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 63,
+      "id": "2018-06-01-063",
+      "sourceTitle": "工学院大学の中村君がメンバーに加わりました(2018/6/1)",
+      "title": "工学院大学の中村君がメンバーに加わりました(2018/6/1)",
+      "date": "2018-06-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [],
+      "sourceBodyTextSha256": "d8d875f47850e0ce6ed3e486a9b7abb00dc3ed1569e0f667600a65ca26eb8cbb",
+      "bodyTextSha256": "d8d875f47850e0ce6ed3e486a9b7abb00dc3ed1569e0f667600a65ca26eb8cbb",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 64,
+      "id": "2018-04-09-064",
+      "sourceTitle": "JSIで大山准教授が招待講演を行いました(2018/4/9)",
+      "title": "JSIで大山准教授が招待講演を行いました(2018/4/9)",
+      "date": "2018-04-09",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "category"
+      ],
+      "sourceBodyTextSha256": "84dc5de9b994230b35ca69bd2b8e07a0a8920a3b9fb77dcaa02436865440a587",
+      "bodyTextSha256": "84dc5de9b994230b35ca69bd2b8e07a0a8920a3b9fb77dcaa02436865440a587",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 65,
+      "id": "2018-04-01-065",
+      "sourceTitle": "新年度が始まりました(2018/4/1)",
+      "title": "新年度が始まりました(2018/4/1)",
+      "date": "2018-04-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [],
+      "sourceBodyTextSha256": "fd28366537c085e9e311a828296d3f0676d8fd59d3d439c1e115cfc87c9e7c25",
+      "bodyTextSha256": "fd28366537c085e9e311a828296d3f0676d8fd59d3d439c1e115cfc87c9e7c25",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 66,
+      "id": "undated-066",
+      "sourceTitle": "進化計算コンペ２０１７を開催",
+      "title": "進化計算コンペ２０１７を開催",
+      "date": "2017-12-09",
+      "datePrecision": "day",
+      "category": "notice",
+      "changes": [
+        "date",
+        "datePrecision"
+      ],
+      "sourceBodyTextSha256": "9fb8f28f31d9e620a3ced0bd607f6b8d1e6906a6fe225bac92e7a3ffaf224a21",
+      "bodyTextSha256": "9fb8f28f31d9e620a3ced0bd607f6b8d1e6906a6fe225bac92e7a3ffaf224a21",
+      "linksAndImages": [
+        [
+          "a",
+          "http://pressrelease-zero.jp/archives/121595"
+        ],
+        [
+          "a",
+          "http://is-csse-muroran.sakura.ne.jp/ec2017/EC2017compe.html"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 67,
+      "id": "undated-067",
+      "sourceTitle": "Bimo君が研究室に加わりました",
+      "title": "Bimo君が研究室に加わりました",
+      "date": "2017-10-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [
+        "date",
+        "datePrecision"
+      ],
+      "sourceBodyTextSha256": "2919a5ea853dd4a06e2367e33d8f79ef20dfd0000baedf899b9a465ec8a312cf",
+      "bodyTextSha256": "2919a5ea853dd4a06e2367e33d8f79ef20dfd0000baedf899b9a465ec8a312cf",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 68,
+      "id": "undated-068",
+      "sourceTitle": "Anna Kaalさんが研究室に加わりました",
+      "title": "Anna Kaalさんが研究室に加わりました",
+      "date": "2017-10-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [
+        "date",
+        "datePrecision"
+      ],
+      "sourceBodyTextSha256": "b4fa44614f8ea815d08d391bde8c11d15e30745216de964854b38ee8f8c63c58",
+      "bodyTextSha256": "b4fa44614f8ea815d08d391bde8c11d15e30745216de964854b38ee8f8c63c58",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 69,
+      "id": "undated-069",
+      "sourceTitle": "藤田君が東北大学流体科学研究所の助教になりました",
+      "title": "藤田君が東北大学流体科学研究所の助教になりました",
+      "date": "2017-10-01",
+      "datePrecision": "day",
+      "category": "notice",
+      "changes": [
+        "date",
+        "datePrecision"
+      ],
+      "sourceBodyTextSha256": "1177160166bd0cc839b4614f7fce899028afad66b61754d7cf2c699ab80b8937",
+      "bodyTextSha256": "1177160166bd0cc839b4614f7fce899028afad66b61754d7cf2c699ab80b8937",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 70,
+      "id": "undated-070",
+      "sourceTitle": "新しいメンバーが加わりました",
+      "title": "新しいメンバーが加わりました",
+      "date": "2017-04-01",
+      "datePrecision": "day",
+      "category": "lab",
+      "changes": [
+        "date",
+        "datePrecision"
+      ],
+      "sourceBodyTextSha256": "fae365dcd5a3cea2af5c96f0a071995f83fda9eb8dc9bd6b591b3d500529ba0d",
+      "bodyTextSha256": "fae365dcd5a3cea2af5c96f0a071995f83fda9eb8dc9bd6b591b3d500529ba0d",
+      "linksAndImages": [],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 71,
+      "id": "undated-071",
+      "sourceTitle": "安養寺正之君が宇宙科学奨励賞を受賞",
+      "title": "安養寺正之君が宇宙科学奨励賞を受賞",
+      "date": "2017-03-09",
+      "datePrecision": "day",
+      "category": "award",
+      "changes": [
+        "date",
+        "datePrecision"
+      ],
+      "sourceBodyTextSha256": "d60197d1365edc65915dd6dbc1083c00e7fb4941940a3de9a6ab61c199a6a340",
+      "bodyTextSha256": "d60197d1365edc65915dd6dbc1083c00e7fb4941940a3de9a6ab61c199a6a340",
+      "linksAndImages": [
+        [
+          "a",
+          "http://www.spss.or.jp/support/award_h28.html"
+        ],
+        [
+          "img",
+          "/archive/images/news/20170309-anyoji.png"
+        ],
+        [
+          "a",
+          "http://www.spss.or.jp/support/award_h28.html"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 72,
+      "id": "undated-072",
+      "sourceTitle": "大山准教授が日経BP社主催Simulation Dayで基調講演",
+      "title": "大山准教授が日経BP社主催Simulation Dayで基調講演",
+      "date": "2017-01-17",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "date",
+        "datePrecision",
+        "category"
+      ],
+      "sourceBodyTextSha256": "182ef8c6a1cfa5407935104b7db491ad86eed49ec3dba577bb0deb9bd5a47be7",
+      "bodyTextSha256": "182ef8c6a1cfa5407935104b7db491ad86eed49ec3dba577bb0deb9bd5a47be7",
+      "linksAndImages": [
+        [
+          "a",
+          "http://special.nikkeibp.co.jp/atcl/TEC/17/121600001/00001/index.html"
+        ],
+        [
+          "img",
+          "/archive/images/news/20161110-sd.png"
+        ],
+        [
+          "a",
+          "http://ac.nikkeibp.co.jp/nmc/sim1110/"
+        ],
+        [
+          "a",
+          "http://special.nikkeibp.co.jp/atcl/TEC/17/121600001/00001/index.html"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 73,
+      "id": "undated-073",
+      "sourceTitle": "火星飛行機の高高度飛行試験を実施",
+      "title": "火星飛行機の高高度飛行試験を実施",
+      "date": "2016-06-12",
+      "datePrecision": "day",
+      "category": "notice",
+      "changes": [
+        "date",
+        "datePrecision"
+      ],
+      "sourceBodyTextSha256": "889ea9a0df8aceb84082b43effdf9a2cccc37931946ac635011c01fa86274608",
+      "bodyTextSha256": "889ea9a0df8aceb84082b43effdf9a2cccc37931946ac635011c01fa86274608",
+      "linksAndImages": [
+        [
+          "a",
+          "http://www.isas.jaxa.jp/topics/000279.html"
+        ],
+        [
+          "img",
+          "/archive/images/news/20160612-mabe1.jpg"
+        ],
+        [
+          "a",
+          "http://www.isas.jaxa.jp/topics/000279.html"
+        ],
+        [
+          "a",
+          "http://www.asahi.com/articles/ASJ5V5FPXJ5VIIPE01T.html"
+        ],
+        [
+          "a",
+          "http://www.nikkei.com/article/DGXLASGG28H4C_Y6A520C1TJM000/"
+        ],
+        [
+          "a",
+          "https://www.nikkan.co.jp/articles/view/00389565"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 74,
+      "id": "undated-074",
+      "sourceTitle": "散布図行列可視化ソフトウェアiSPMを公開",
+      "title": "散布図行列可視化ソフトウェアiSPMを公開",
+      "date": "2016-03-10",
+      "datePrecision": "day",
+      "category": "notice",
+      "changes": [
+        "date",
+        "datePrecision"
+      ],
+      "sourceBodyTextSha256": "ee81ab4e7b1b09448eb6fc47d28448f00ad3219289a51c00dcdf24cdff48577a",
+      "bodyTextSha256": "ee81ab4e7b1b09448eb6fc47d28448f00ad3219289a51c00dcdf24cdff48577a",
+      "linksAndImages": [
+        [
+          "a",
+          "http://www.isas.jaxa.jp/topics/000279.html"
+        ],
+        [
+          "img",
+          "/archive/images/news/20160310-ispm.gif"
+        ],
+        [
+          "a",
+          "http://flab.eng.isas.jaxa.jp/monozukuri/mode/soft.html"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 75,
+      "id": "undated-075",
+      "sourceTitle": "利用報告書ダウンロード数で１位を獲得",
+      "title": "利用報告書ダウンロード数で１位を獲得",
+      "date": "2016-02-22",
+      "datePrecision": "day",
+      "category": "notice",
+      "changes": [
+        "date",
+        "datePrecision"
+      ],
+      "sourceBodyTextSha256": "058aee1bc27841f0eed4ea050d7856ed10cc47f0bfea5ec0b08bc4e06f8f63ed",
+      "bodyTextSha256": "058aee1bc27841f0eed4ea050d7856ed10cc47f0bfea5ec0b08bc4e06f8f63ed",
+      "linksAndImages": [
+        [
+          "a",
+          "http://www.hpci-office.jp/pages/user_report_ranking"
+        ],
+        [
+          "img",
+          "/archive/images/news/20160222-dl.gif"
+        ],
+        [
+          "a",
+          "http://www.hpci-office.jp/pages/user_report_ranking"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 76,
+      "id": "2016-01-01-076",
+      "sourceTitle": "大山准教授がACALCI2016で基調講演",
+      "title": "大山准教授がACALCI2016で基調講演",
+      "date": "2016-02-02",
+      "datePrecision": "day",
+      "category": "conference",
+      "changes": [
+        "date",
+        "datePrecision",
+        "category"
+      ],
+      "sourceBodyTextSha256": "f8262b8fbefee5bf5dd60aa2aa350cc3045a2f936a2f13e39f9ecc3a70523a9d",
+      "bodyTextSha256": "f8262b8fbefee5bf5dd60aa2aa350cc3045a2f936a2f13e39f9ecc3a70523a9d",
+      "linksAndImages": [
+        [
+          "a",
+          "http://www.acalci.net/2016/index.html"
+        ],
+        [
+          "img",
+          "/archive/images/news/20160202-acalci2016.png"
+        ],
+        [
+          "a",
+          "http://www.acalci.net/2016/index.html"
+        ]
+      ],
+      "reason": ""
+    },
+    {
+      "sourceOrder": 77,
+      "id": "undated-077",
+      "sourceTitle": "ポスト「京」重点課題に選定",
+      "title": "ポスト「京」重点課題に選定",
+      "date": "2014-12-25",
+      "datePrecision": "day",
+      "category": "notice",
+      "changes": [
+        "date",
+        "datePrecision"
+      ],
+      "sourceBodyTextSha256": "2493419e48c1223c3c260e912216345ce52dbfdfaaf4ce3f02fa86a85494160d",
+      "bodyTextSha256": "2493419e48c1223c3c260e912216345ce52dbfdfaaf4ce3f02fa86a85494160d",
+      "linksAndImages": [
+        [
+          "a",
+          "http://www.mext.go.jp/b_menu/houdou/26/12/1354134.htm"
+        ],
+        [
+          "img",
+          "/archive/images/news/20141225-post-k.png"
+        ],
+        [
+          "a",
+          "http://www.mext.go.jp/b_menu/houdou/26/12/1354134.htm"
+        ],
+        [
+          "a",
+          "http://www.ciss.iis.u-tokyo.ac.jp/postK/"
+        ]
+      ],
+      "reason": ""
+    }
+  ],
+  "additions": [
+    {
+      "id": "2026-04-onishi-jsass-award",
+      "title": "大西龍汰郎さんが日本航空宇宙学会 第57期 年会講演会で学生優秀講演賞を受賞(2026/04)",
+      "date": "2026-04-01",
+      "datePrecision": "month",
+      "sourceOrder": 1000,
+      "category": "award",
+      "summary": "大西龍汰郎さんが、火星着陸時のPlume–Surface Interactionに関する発表で学生優秀講演賞を受賞しました。",
+      "sources": [
+        {
+          "title": "JST J-GLOBAL 大西龍汰郎さんの研究者情報（researchmap登録情報に基づく）",
+          "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202601016892889400"
+        },
+        {
+          "title": "日本航空宇宙学会 第57期 年会講演会",
+          "url": "https://smartconf.jp/content/57nenkai/"
+        }
+      ],
+      "dateNote": "受賞月"
+    },
+    {
+      "id": "2026-01-onishi-scitech-showcase",
+      "title": "大西龍汰郎さんの論文がAIAA SCITECH 2026のShowcaseに選出(2026/01)",
+      "date": "2026-01-01",
+      "datePrecision": "month",
+      "sourceOrder": 1001,
+      "category": "award",
+      "summary": "大西龍汰郎さんの火星マルチコプタのロータ間空力干渉に関する論文が、AIAA SCITECH Showcaseに選ばれました。",
+      "sources": [
+        {
+          "title": "JST J-GLOBAL 大西龍汰郎さんの研究者情報（researchmap登録情報に基づく）",
+          "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202601016892889400"
+        },
+        {
+          "title": "著者による論文紹介（Kudos／AIAA）",
+          "url": "https://www.growkudos.com/publications/10.2514%252F6.2026-2436/reader"
+        }
+      ],
+      "dateNote": "選出月"
+    },
+    {
+      "id": "2025-07-iida-ists-award",
+      "title": "飯田怜央さんが第35回ISTSでJapanese Rocket Society Awardを受賞(2025/07)",
+      "date": "2025-07-01",
+      "datePrecision": "month",
+      "sourceOrder": 1002,
+      "category": "award",
+      "summary": "飯田怜央さんが、柔軟エアロシェル再突入機の極超音速流中の空力特性に関する発表で、日本ロケット協会の賞を受賞しました。",
+      "sources": [
+        {
+          "title": "JAXA 宇宙科学研究所 2025年度 表彰・受賞",
+          "url": "https://www.isas.jaxa.jp/home/research-portal/awards/2025/"
+        },
+        {
+          "title": "第35回ISTS 表彰について",
+          "url": "https://ists.ne.jp/the35th/callforpapers/award/"
+        }
+      ],
+      "dateNote": "受賞月"
+    },
+    {
+      "id": "2026-02-16-kaneko-cfd39-award",
+      "title": "卒業生の金子賢人さんが第39回数値流体力学シンポジウムの若手優秀講演表彰を受賞",
+      "date": "2026-02-16",
+      "datePrecision": "day",
+      "sourceOrder": 1003,
+      "category": "award",
+      "summary": "金子賢人さんが、リブレットの摩耗と抵抗低減効果に関する発表で若手優秀講演表彰を受賞しました。",
+      "sources": [
+        {
+          "title": "日本流体力学会 第39回数値流体力学シンポジウム 受賞者一覧",
+          "url": "https://www.nagare.or.jp/prize/6403/7475.html"
+        }
+      ],
+      "dateNote": "受賞者一覧公開日"
+    },
+    {
+      "id": "2020-11-oyama-jsme-contribution",
+      "title": "大山聖先生が日本機械学会 設計工学・システム部門の部門貢献表彰を受賞(2020/11)",
+      "date": "2020-11-01",
+      "datePrecision": "month",
+      "sourceOrder": 1004,
+      "category": "award",
+      "summary": "大山聖先生が、日本機械学会 設計工学・システム部門の2020年度部門貢献表彰を受賞しました。",
+      "sources": [
+        {
+          "title": "日本機械学会 設計工学・システム部門 歴代受賞者一覧（2020年度）",
+          "url": "https://www.jsme.or.jp/dsd/jp/awards/index.html"
+        },
+        {
+          "title": "JAXA 宇宙科学研究所 2020年度 表彰・受賞",
+          "url": "https://www.isas.jaxa.jp/home/research-portal/awards/2020/"
+        }
+      ],
+      "dateNote": "受賞月"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "2024-02-03-016",
+      "issue": "旧HPの2024/2/3は2024年7月発行論文より前。選出月日は確認できず、2024年と表示。"
+    },
+    {
+      "id": "2022-12-17-045",
+      "issue": "旧HPの2022/12/17とJAXA受賞一覧の2022/12/26が不一致。主催者プログラムは12/17-18。元記事の日付を保持し、受賞式の日とは断定しない。"
+    },
+    {
+      "id": "2025-07-iida-ists-award",
+      "issue": "JAXA受賞一覧は2025/7/25、会議開催は7/12-18。受賞月のみ掲載。"
+    },
+    {
+      "id": "2026-04-onishi-jsass-award",
+      "issue": "受賞事実・月はJST J-GLOBALに掲載されたresearchmap登録情報による。学会の公開受賞者一覧は未確認。日を補わない。"
+    }
+  ]
+}
