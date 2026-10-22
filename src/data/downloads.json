@@ -4,62 +4,62 @@
     "asset": "benchmark__Mazda_CdMOBP.zip",
     "bytes": 144550638,
     "sha256": "d4fbe6e4f44072a611559ea718cefb820668cc941444b49b26febfa6e24105b7",
-    "url": "https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__Mazda_CdMOBP.zip"
+    "url": "https://github.com/oyamalab2026/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__Mazda_CdMOBP.zip"
   },
   {
     "path": "benchmark/cheetah_result_20170404.zip",
     "asset": "benchmark__cheetah_result_20170404.zip",
     "bytes": 91989788,
     "sha256": "792617f3116d05ed56c9d18a7a8f8001b7bc546b547c1f9b6411c78a9e6ed0ac",
-    "url": "https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__cheetah_result_20170404.zip"
+    "url": "https://github.com/oyamalab2026/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__cheetah_result_20170404.zip"
   },
   {
     "path": "benchmark/jpn/cheetah_result_20170403.zip",
     "asset": "benchmark__jpn__cheetah_result_20170403.zip",
     "bytes": 88946478,
     "sha256": "70c4716338fe6a7ac0aaf3afbcbd40e223d120e04d0663b49dceb5b2498f2d4e",
-    "url": "https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__jpn__cheetah_result_20170403.zip"
+    "url": "https://github.com/oyamalab2026/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__jpn__cheetah_result_20170403.zip"
   },
   {
     "path": "benchmark/jpn/cheetah_result_20170404.zip",
     "asset": "benchmark__jpn__cheetah_result_20170404.zip",
     "bytes": 91210914,
     "sha256": "adebd4e60c89926604e9b29a2bdad8885119077b0f7570e67d8fbfc11f11213e",
-    "url": "https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__jpn__cheetah_result_20170404.zip"
+    "url": "https://github.com/oyamalab2026/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__jpn__cheetah_result_20170404.zip"
   },
   {
     "path": "benchmark/jpn/mazda_bench_20170403.zip",
     "asset": "benchmark__jpn__mazda_bench_20170403.zip",
     "bytes": 46145529,
     "sha256": "4e962a2f7358dce96b4b62ea3cc417ba5e05336b8988f37886374f556e02d1d3",
-    "url": "https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__jpn__mazda_bench_20170403.zip"
+    "url": "https://github.com/oyamalab2026/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__jpn__mazda_bench_20170403.zip"
   },
   {
     "path": "benchmark/mazda_bench_20170403.zip",
     "asset": "benchmark__mazda_bench_20170403.zip",
     "bytes": 46150310,
     "sha256": "41842e86613d8ce54375f771b87cc004e15b76b65a39c1eed5529a6d1e024382",
-    "url": "https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__mazda_bench_20170403.zip"
+    "url": "https://github.com/oyamalab2026/ladse-pages/releases/download/legacy-assets-2026-10-22/benchmark__mazda_bench_20170403.zip"
   },
   {
     "path": "lecture/cfd2019/materials/cfd2019_01.pdf",
     "asset": "lecture__cfd2019__materials__cfd2019_01.pdf",
     "bytes": 27304220,
     "sha256": "cf690736fd6162d33d50370f7d377d7347014073d7900cbcef39390ede84fe89",
-    "url": "https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/lecture__cfd2019__materials__cfd2019_01.pdf"
+    "url": "https://github.com/oyamalab2026/ladse-pages/releases/download/legacy-assets-2026-10-22/lecture__cfd2019__materials__cfd2019_01.pdf"
   },
   {
     "path": "lecture/special2019/materials/mars_airplane_2019.pdf",
     "asset": "lecture__special2019__materials__mars_airplane_2019.pdf",
     "bytes": 54172815,
     "sha256": "131d5c39745fd869dfb8589bf0f6015c11cd5c528b7e032de720fd6d83e23448",
-    "url": "https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/lecture__special2019__materials__mars_airplane_2019.pdf"
+    "url": "https://github.com/oyamalab2026/ladse-pages/releases/download/legacy-assets-2026-10-22/lecture__special2019__materials__mars_airplane_2019.pdf"
   },
   {
     "path": "research/marsHeli03.MOV",
     "asset": "research__marsHeli03.MOV",
     "bytes": 52558562,
     "sha256": "b4f20b6d10af3fe77488b6409e143f4b1e815040c6312eb0e0d9b296f1164a56",
-    "url": "https://github.com/flabhomepage/ladse-pages/releases/download/legacy-assets-2026-10-22/research__marsHeli03.MOV"
+    "url": "https://github.com/oyamalab2026/ladse-pages/releases/download/legacy-assets-2026-10-22/research__marsHeli03.MOV"
   }
 ]

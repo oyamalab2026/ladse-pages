@@ -18,7 +18,16 @@ try{
  const token=getToken();
  const remote=await github(`/repos/${repository}`,{token,allow404:true});
  if(!remote){
-  await github('/orgs/flabhomepage/repos',{method:'POST',token,body:{name:'ladse-pages',description:'Oyama Laboratory public website — Astro / Cloudflare Pages',private:false,auto_init:false}});
+  const [owner,name]=repository.split('/');
+  const account=await github(`/users/${owner}`,{token});
+  let endpoint;
+  if(account.type==='Organization')endpoint=`/orgs/${owner}/repos`;
+  else if(account.type==='User'){
+   const authenticated=await github('/user',{token});
+   if(authenticated.login.toLowerCase()!==owner.toLowerCase())throw new Error(`Authenticate as ${owner} before creating this repository.`);
+   endpoint='/user/repos';
+  }else throw new Error('Unsupported GitHub repository owner.');
+  await github(endpoint,{method:'POST',token,body:{name,description:'Oyama Laboratory public website — Astro / Cloudflare Pages',private:false,auto_init:false}});
  }else if(remote.size>0){
   const file=await github(`/repos/${repository}/contents/.ladse-pages-project`,{token,allow404:true});
   if(!file||Buffer.from(file.content,'base64').toString().trim()!==marker)throw new Error('The destination repository contains another project. Refusing to overwrite it.');

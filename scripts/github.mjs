@@ -1,5 +1,5 @@
 import { execFileSync } from 'node:child_process';
-export const repository='flabhomepage/ladse-pages';
+export const repository='oyamalab2026/ladse-pages';
 export const releaseTag='legacy-assets-2026-10-22';
 export function getToken(){
  let token=process.env.GH_TOKEN||process.env.GITHUB_TOKEN;

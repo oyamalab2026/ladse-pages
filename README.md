@@ -36,7 +36,7 @@ npm run test:browser
 
 ## 公開
 
-公開先リポジトリは `flabhomepage/ladse-pages` です。既存の `flabhomepage/ladse` と旧サーバーは、このプロジェクトの公開処理では変更しません。
+公開先リポジトリは `oyamalab2026/ladse-pages` です。既存の `flabhomepage/ladse` と旧サーバーは、このプロジェクトの公開処理では変更しません。
 
 1. `npm run check`、`npm test`、`npm run build`、ブラウザーテストを通します。
 2. 研究室GitHubアカウントを認証し、`npm run publish:prepare` で専用リポジトリを作成・pushします。既存の別プロジェクトは上書きしません。

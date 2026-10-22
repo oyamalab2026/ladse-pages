@@ -15,7 +15,7 @@ from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 LIMIT = 25 * 1024 * 1024
-REPO = 'flabhomepage/ladse-pages'
+REPO = 'oyamalab2026/ladse-pages'
 RELEASE = 'legacy-assets-2026-10-22'
 DENIED = {'.git', 'owncloud', 'staff_only', 'node_modules'}
 
