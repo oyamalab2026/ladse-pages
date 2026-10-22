@@ -174,6 +174,9 @@ def main():
                 if tag.name == 'a' and tag.get('target'):
                     tag['rel'] = 'noopener noreferrer'
             if s.head:
+                for encoding_meta in s.head.find_all('meta', attrs={'charset': True}):
+                    encoding_meta.decompose()
+                s.head.insert(0, s.new_tag('meta', attrs={'charset': 'utf-8'}))
                 noindex = s.new_tag('meta', attrs={'name': 'robots', 'content': 'noindex,follow'})
                 s.head.append(noindex)
             if s.body:
